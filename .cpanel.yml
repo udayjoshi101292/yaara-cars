@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/demo/yc/
+    - export DEPLOYPATH=/public_html/demo/yaara/
     - /bin/cp -R images $DEPLOYPATH
