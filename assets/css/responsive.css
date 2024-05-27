@@ -1,0 +1,94 @@
+
+
+/* ----- Tab css 1020 <    ----- */
+@media only screen and (max-width:1020px){
+    #yc_blog_card img{
+        width: 100%;
+    }
+}
+
+@media (max-width:1025px){
+    nav.align-items-center{
+        display: none;
+    }
+    header button.mobile-btn.d-lg-none{
+        display: block !important;
+    }
+    .yc-car-price-wrap{
+        width: 98%;
+        margin-inline: auto;
+    }
+    .yc-car-price-wrap .nav-pills .nav-link{
+        margin-right: 40px;
+    }
+}
+
+/* ----- Mobile css 600 <  ----- */
+@media(max-width:600px){
+    /* global css  */
+    .sm_row_gap_35{
+        row-gap: 35px;
+    }
+    .owl-carousel .owl-stage-outer{
+        padding: 0;
+    }
+    .common_blogs_wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .single_blog_item{
+        padding-inline: 0;
+    }
+    .common_blogs_wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* global css end */
+    #yc-hero{
+        padding-block: 190px 60px;
+        background-size: cover;
+        margin-top: 0;
+    }
+    #yc_blog_card {
+        
+        margin-inline: auto;
+        margin-bottom: 10px;
+    }
+    #yc_blog_card img{
+        width: 100%;
+    }
+    .yc-h3-title{
+        margin-bottom: 15px !important;
+    }
+    .car_info_wrap{
+        margin-top: 30px;
+    }
+    .yc-car-rating-wrap{
+        justify-content: space-around;
+    }
+    .images_gallery_main_wrap{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .table_wrapper{
+        overflow: scroll;
+    }
+    .table_wrapper table{
+        width: 1300px;
+    }
+    .yc-car-rating-wrap{
+        margin-top: 20px;
+    }
+    /* table scroll bar horizontal */
+    .table_wrapper::-webkit-scrollbar {
+        width: 0;
+        height: 6px;
+      }
+      .table_wrapper::-webkit-scrollbar-track {
+        background: #fff;
+    }
+    .table_wrapper::-webkit-scrollbar-thumb {
+        background: var(--theme-red);
+        border-radius: 2px;
+      }
+      .row_custom{
+        margin-top: 20px;
+      }
+}

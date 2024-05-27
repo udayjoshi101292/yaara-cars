@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --theme-color-primary:#000;
+    --theme-color-secondary:#000;
+    --theme-color-accent:#F00307;
+    --theme-font-primary:'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: var(--theme-font-primary);
+    letter-spacing: 0.2px;
+}
+
+.bg-red {
+    background-color: var(--theme-color-accent);
+}
+
+.container {
+    max-width: 1100px;
+}
+
+
+/* Nav CSS */
+.yc-nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    column-gap: 65px;
+    font-size: 12px;
+    font-weight: 600;
+
+    & li {
+        transition: .25s;
+    }
+
+    & > li > a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    & > li:hover {
+        opacity: .8;
+    }
+
+    & > li > span img {
+        filter: invert();
+    }
+}
+
+.yc-top-items-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    column-gap: 30px;
+    font-size: 12px;
+}
+
+.yc-logo {
+    max-width: 155px;
+}
+
+.yc-top-btn {
+    border: solid 1px hwb(0 0% 100% / 0.500);
+    border-radius: 100px;
+    width: max-content;
+    padding: 7.5px 14px;
+}
+
+.yc-top-items-middle {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    font-size: 12px;
+}
+
+.yc-top-search-from [type="search"] {
+    display: inline-block;
+    border: none;
+    min-width: 300px;
+    outline: none;
+}
+
+.yc-top-location > img {
+    max-width: 13px;
+    margin-right: 3px;
+}
+
+.yc-top-list-items > img {
+    margin-right: 3px;
+}
+
+.yc-top-search-from label:hover img {
+    cursor: pointer;
+}
+
+.yc-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.yc-header-bottom {
+    min-height: 43px;
+    display: grid;
+    align-content: center;
+}
+
+.yc-header-top {
+    min-height: 75px;
+    display: grid;
+    align-content: center;
+}
+
+/* Nav css End */
+
+header .mobile-btn {
+    min-height: 30px;
+    max-width: 70px;
+
+    & span {
+        height: 2.2px;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    & span:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+@media only screen and (max-width:1200px) {
+        .yc-top-items-list {
+            justify-content: end;
+        }
+
+        .yc-top-items-list li:first-child {
+            display: none;
+        }
+
+        .yc-nav-list {
+            display: block;
+        }
+
+        .yc-nav-list > li > a {
+            color: #000;
+            font-size: 18px;
+        }
+
+        .yc-nav-items {
+            padding-bottom: 10px;
+            border-bottom: solid 1px var(--theme-color-accent);
+            margin-bottom: 10px;
+            padding-inline: 1rem;
+        }
+
+        .yc-nav-list > li > span img {
+            filter: invert(0);
+        }
+
+        .yc-nav-items.yc-nav-has-children {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+       #mobile-form-nav {
+        width: 80%;
+        display: flex;
+        justify-content: end;
+        padding-right: 0;
+    
+        .yc-top-search-from {
+            position: relative;
+        }
+
+        .yc-top-search-from  {
+            opacity: 0;
+            visibility: hidden;
+            bottom: 0;
+            transition: .5s;
+            position: absolute;
+            right: 0;
+            min-height: 50px;
+            border-radius: 100px;   
+            padding-inline:1rem;
+            right: 7%;
+            width: max-content;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            z-index: -1;
+            
+        }   
+
+        .yc-top-search.active .yc-top-search-from {
+            bottom: -85px;
+            opacity: 1;
+            visibility: inherit;
+        }
+
+        .yc-top-btn {
+            border: solid 1px hwb(0deg 100% 0% / 50%);
+            color: #fff;
+        }
+
+        .yc-top-location > img {
+            filter: invert(1);
+        }
+
+        .yc-icon {
+            filter: invert(1);
+        }
+
+        .yc-top-search.yc-top-btn {
+            border: solid 1px hwb(0deg 100% 0% / 50%);
+        }
+
+        .yc-top-items-middle {
+            column-gap: 30px;
+        }
+
+        .yc-top-search-from [type="search"] {
+            min-height: 35px;
+            margin-right: 10px;
+        }
+
+        .mobile-form-label img {
+            filter: invert();
+        }
+    }
+}
