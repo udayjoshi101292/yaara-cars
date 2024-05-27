@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/beingj4c/public_html/demo/yaara/
-    - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH.
