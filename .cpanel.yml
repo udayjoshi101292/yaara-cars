@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/demo/yaara/
+    - export DEPLOYPATH=/home3/beingj4c/public_html/demo/yaara/
     - /bin/cp -R images $DEPLOYPATH
