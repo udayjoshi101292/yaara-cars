@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/public_html/demo/yc/
+    - /bin/cp -R images $DEPLOYPATH
