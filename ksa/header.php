@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> <?php //echo page_title($conn, $car_slug)  ?> <?php echo $meta_title ;?> </title>
-    <meta name="robots" content="index, follow">
+    <!-- <meta name="robots" content="index, follow"> -->
+    <meta name="robots" content="noindex, nofollow">
     <meta name="title" content="<?php echo $meta_title ;?>">
     <meta name="description" content="<?php echo $meta_desc ;?>">
     <meta property="og:title" content="<?php echo $meta_title ;?>">
