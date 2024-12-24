@@ -1,0 +1,67 @@
+/* css  */
+
+.ad_wrapper{
+    padding-block: 15px;
+    padding-inline: 10px;
+}
+.ad_wrapper .ad_link{
+    width: 100%;
+    height: 100%;
+}
+.ad_wrapper  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.padding_top_100{
+    padding-top: 100px;
+}
+
+/* Global END  */
+
+/* :horizontal  */
+.ads_horizontal_wrap{
+    max-width: 730px;
+    height: 100px;
+    margin-inline: auto;
+}
+/* Vertical  */
+.ads_vertical_wrap{
+    max-width: 160px;
+    height: 600px;
+}
+/* Boxed  */
+.ads_boxed_wrap{
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: var(--border-solid);
+    margin-top: 58px;
+    margin-bottom: 25px;
+}
+/* long  */
+.ads_long_wrap{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: var(--border-solid);
+    margin-top: 58px;
+    margin-bottom: 25px;
+    padding-inline: 80px;
+}
+.bg_ff_with_border{
+    background-color: #fff;
+    border-radius: 10px;
+    border: var(--border-solid);
+}
+@media only screen and (max-width:600px){
+    .sm_col_reverse{
+        flex-direction: column-reverse;
+    }
+    .padding_top_100{
+        padding-top: 10px;
+    }
+}

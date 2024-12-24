@@ -1,0 +1,3469 @@
+Mod_ID,Modal,Modal_Slug,Brand_ID,Body_Type,Status_Modal
+1,595,595,302,Hatchback,Draft
+2,595,595,302,Hatchback,Publish
+3,595,595,302,Hatchback,Publish
+4,695,695,302,Hatchback,Publish
+5,695,695,302,Hatchback,Publish
+6,Giulia,giulia,297,Sedan,Publish
+7,Giulia,giulia,297,Sedan,Publish
+8,Stelvio,stelvio,297,SUV,Publish
+9,Stelvio,stelvio,297,SUV,Publish
+10,Tonale,tonale,297,SUV,Publish
+11,Giulietta,giulietta,297,,Publish
+12,Giulietta,giulietta,297,,Publish
+13,DBX,dbx,276,SUV,Publish
+14,Valhalla,valhalla,276,Coupe,Publish
+15,DB11,db11,276,Coupe,Publish
+16,DB11,db11,276,Coupe,Publish
+17,DBS,dbs,276,Coupe,Publish
+18,DBS,dbs,276,Coupe,Publish
+19,"DBS Superleggera Volante",dbs-superleggera-volante,276,Convertible,Publish
+20,Vantage,vantage,276,Coupe,Publish
+21,Vantage,vantage,276,Coupe,Publish
+22,"Vantage Roadster",vantage-roadster,276,Roadster,Publish
+23,"Rapide AMR",rapide-amr,276,,Publish
+24,"RS6 Avant",rs6-avant,277,"Station Wagon",Publish
+25,"Q3 Sportback",q3-sportback,277,Sportback,Publish
+26,A6,a6,277,Sedan,Publish
+27,A6,a6,277,Sedan,Publish
+28,Q8,q8,277,SUV,Publish
+29,Q8,q8,277,SUV,Publish
+30,"A7 Sportback",a7-sportback,277,Sportback,Publish
+31,"A7 Sportback",a7-sportback,277,Sportback,Publish
+32,"A3 Sedan",a3-sedan,277,Sedan,Publish
+33,"S3 Sedan",s3-sedan,277,Sedan,Publish
+34,Q2,q2,277,SUV,Publish
+35,"S3 Sportback",s3-sportback,277,Sportback,Publish
+36,"RS 3 Sportback",rs-3-sportback,277,Sportback,Publish
+37,"S5 Sportback",s5-sportback,277,Sportback,Publish
+38,"RS Q3",rs-q3,277,SUV,Publish
+39,"RS Q8",rs-q8,277,SUV,Publish
+40,SQ8,sq8,277,SUV,Publish
+41,"e-tron Sportback",e-tron-sportback,277,Sportback,Publish
+42,"e-tron Sportback",e-tron-sportback,277,Sportback,Publish
+43,"RS3 Sedan",rs3-sedan,277,Sedan,Publish
+44,"RS5 Sportback",rs5-sportback,277,Sportback,Publish
+45,"Q5 Sportback",q5-sportback,277,Sportback,Publish
+46,"RS Q3 Sporback",rs-q3-sporback,277,Sportback,Publish
+47,"Q8 e-tron",q8-e-tron,277,SUV,Publish
+48,"A5 Sportback",a5-sportback,277,Sportback,Publish
+49,Q3,q3,277,SUV,Publish
+50,"A5 Sportback",a5-sportback,277,Sportback,Publish
+51,A4,a4,277,Sedan,Publish
+52,"A5 Coupe",a5-coupe,277,Coupe,Publish
+53,TT,tt,277,Coupe,Publish
+54,"TT Roadster",tt-roadster,277,Roadster,Publish
+55,"A5 Cabriolet",a5-cabriolet,277,Convertible,Publish
+56,TT,tt,277,Coupe,Publish
+57,Q5,q5,277,SUV,Publish
+58,Q7,q7,277,SUV,Publish
+59,Q7,q7,277,SUV,Publish
+60,S6,s6,277,Sedan,Publish
+61,S6,s6,277,Sedan,Publish
+62,A8,a8,277,Sedan,Publish
+63,"RS5 Coupe",rs5-coupe,277,Coupe,Publish
+64,A8,a8,277,Sedan,Publish
+65,RS7,rs7,277,Sedan,Publish
+66,S8,s8,277,Sedan,Publish
+67,"R8 Coupe",r8-coupe,277,Coupe,Publish
+68,"R8 Coupe",r8-coupe,277,Coupe,Publish
+69,BJ40,bj40,299,SUV,Publish
+70,X35,x35,299,SUV,Publish
+71,X35,x35,299,SUV,Publish
+72,"BJ40 Plus",bj40-plus,299,SUV,Publish
+73,"BJ40 Plus",bj40-plus,299,SUV,Publish
+74,"BJ40 Plus",bj40-plus,299,SUV,Publish
+75,BJ80,bj80,299,SUV,Publish
+76,BJ80,bj80,299,SUV,Publish
+77,X7,x7,299,SUV,Publish
+78,X7,x7,299,SUV,Publish
+79,X7,x7,299,SUV,Publish
+80,D50,d50,299,Sedan,Publish
+81,D50,d50,299,Sedan,Publish
+82,X55,x55,299,SUV,Publish
+83,"BJ40 C",bj40-c,299,SUV,Publish
+84,BJ60,bj60,299,SUV,Publish
+85,"EXP 100 GT",exp-100-gt,303,Sedan,Publish
+86,"Flying Spur",flying-spur,303,Sedan,Publish
+87,"Flying Spur",flying-spur,303,Sedan,Publish
+88,Bentayga,bentayga,303,SUV,Publish
+89,Bentayga,bentayga,303,SUV,Publish
+90,Bentayga,bentayga,303,SUV,Publish
+91,"Continental GT",continental-gt,303,Coupe,Publish
+92,"Flying Spur",flying-spur,303,Sedan,Publish
+93,"Continental GT Convertible",continental-gt-convertible,303,Convertible,Publish
+94,"Continental GT",continental-gt,303,Coupe,Publish
+95,Mulsanne,mulsanne,303,,Publish
+96,Mulsanne,mulsanne,303,,Publish
+97,Mulsanne,mulsanne,303,,Publish
+98,T33,t33,308,Crossover,Publish
+99,"T77 Pro",t77-pro,308,SUV,Publish
+100,"T77 Pro",t77-pro,308,SUV,Publish
+101,"T77 Pro",t77-pro,308,SUV,Publish
+102,T99,t99,308,SUV,Publish
+103,T99,t99,308,SUV,Publish
+104,T99,t99,308,SUV,Publish
+105,B70S,b70s,308,SUV,Publish
+106,B70S,b70s,308,SUV,Publish
+107,B70S,b70s,308,SUV,Publish
+108,B70S,b70s,308,SUV,Publish
+109,B70,b70,308,Sedan,Publish
+110,B70,b70,308,Sedan,Publish
+111,B70,b70,308,Sedan,Publish
+112,X5,x5,289,SUV,Publish
+113,X5,x5,289,SUV,Publish
+114,X5,x5,289,SUV,Publish
+115,X5,x5,289,SUV,Publish
+116,"8 Series Coupe",8-series-coupe,289,Coupe,Publish
+117,"6 Series Gran Turismo",6-series-gran-turismo,289,Sedan,Publish
+118,X2,x2,289,"Crossover SUV",Publish
+119,"8 Series Convertible",8-series-convertible,289,Convertible,Publish
+120,"M2 Competition",m2-competition,289,Sedan,Publish
+121,X7,x7,289,SUV,Publish
+122,X7,x7,289,SUV,Publish
+123,X7,x7,289,SUV,Publish
+124,X7,x7,289,SUV,Publish
+125,"8 Series Gran Coupe",8-series-gran-coupe,289,Sedan,Publish
+126,"8 Series Gran Coupe",8-series-gran-coupe,289,Sedan,Publish
+127,"M8 Gran Coupe",m8-gran-coupe,289,Coupe,Publish
+128,IX,ix,289,SUV,Publish
+129,IX,ix,289,SUV,Publish
+130,iX3,ix3,289,SUV,Publish
+131,i7,i7,289,Sedan,Publish
+132,XM,xm,289,SUV,Publish
+133,"1 Series",1-series,289,Hatchback,Publish
+134,"1 Series",1-series,289,Hatchback,Publish
+135,X1,x1,289,"Crossover SUV",Publish
+136,"2 Series Coupe",2-series-coupe,289,Coupe,Publish
+137,"2 Series Grand Coupe",2-series-grand-coupe,289,Sedan,Publish
+138,"5 Series",5-series,289,Sedan,Publish
+139,"5 Series",5-series,289,Sedan,Publish
+140,"5 Series",5-series,289,Sedan,Publish
+141,"Z4 Roadster",z4-roadster,289,Roadster,Publish
+142,"Z4 Roadster",z4-roadster,289,Roadster,Publish
+143,"2 Series Convertible",2-series-convertible,289,Convertible,Publish
+144,"4 Series Coupe",4-series-coupe,289,Coupe,Publish
+145,"4 Series Coupe",4-series-coupe,289,Coupe,Publish
+146,"4 Series Coupe",4-series-coupe,289,Coupe,Publish
+147,"4 Series Gran Coupe",4-series-gran-coupe,289,Sedan,Publish
+148,"4 Series Gran Coupe",4-series-gran-coupe,289,Sedan,Publish
+149,"3 Series",3-series,289,Sedan,Publish
+150,"3 Series",3-series,289,Sedan,Publish
+151,X4,x4,289,SUV,Publish
+152,"Z4 Roadster",z4-roadster,289,Roadster,Publish
+153,X3,x3,289,SUV,Publish
+154,X6,x6,289,SUV,Publish
+155,X6,x6,289,SUV,Publish
+156,"7 Series",7-series,289,Sedan,Publish
+157,"M3 Sedan",m3-sedan,289,Sedan,Publish
+158,"M4 Coupe",m4-coupe,289,Coupe,Publish
+159,"M4 Coupe",m4-coupe,289,Coupe,Publish
+160,"M4 Convertible",m4-convertible,289,Convertible,Publish
+161,X6,x6,289,SUV,Publish
+162,"M5 Sedan",m5-sedan,289,Sedan,Publish
+163,"7 Series",7-series,289,Sedan,Publish
+164,"7 Series",7-series,289,Sedan,Publish
+165,"7 Series",7-series,289,Sedan,Publish
+166,i8,i8,289,Coupe,Publish
+167,"i8 Roadster",i8-roadster,289,Roadster,Publish
+168,"7 Series",7-series,289,Sedan,Publish
+169,BX7,bx7,293,SUV,Publish
+170,BX7,bx7,293,SUV,Publish
+171,BX5,bx5,293,SUV,Publish
+172,BX5,bx5,293,SUV,Publish
+173,BX5,bx5,293,SUV,Publish
+174,"BX7 TS",bx7-ts,293,SUV,Publish
+175,Chiron,chiron,325,Coupe,Publish
+176,Chiron,chiron,325,Coupe,Publish
+177,"Atto 3",atto-3,249,SUV,Publish
+178,"Qin Pro",qin-pro,249,Sedan,Publish
+179,"Qin Pro",qin-pro,249,Sedan,Publish
+180,"Song Pro",song-pro,249,SUV,Publish
+181,"Song Pro",song-pro,249,SUV,Publish
+182,Tang,tang,249,SUV,Publish
+183,Tang,tang,249,SUV,Publish
+184,"Song Plus",song-plus,249,SUV,Publish
+185,F3,f3,249,Sedan,Publish
+186,F3,f3,249,Sedan,Publish
+187,"CT4-V Blackwing",ct4-v-blackwing,267,Sedan,Publish
+188,XT4,xt4,267,SUV,Publish
+189,XT4,xt4,267,SUV,Publish
+190,XT4,xt4,267,SUV,Publish
+191,"CTS-V Sedan",cts-v-sedan,267,,Publish
+192,"CTS-V Sedan",cts-v-sedan,267,,Publish
+193,XT6,xt6,267,SUV,Publish
+194,XT6,xt6,267,SUV,Publish
+195,CT5,ct5,267,Sedan,Publish
+196,CT5,ct5,267,Sedan,Publish
+197,CT5,ct5,267,Sedan,Publish
+198,CT5,ct5,267,Sedan,Publish
+199,CT4,ct4,267,Sedan,Publish
+200,CT4,ct4,267,Sedan,Publish
+201,CT4,ct4,267,Sedan,Publish
+202,"CT5-V Blackwing",ct5-v-blackwing,267,Sedan,Publish
+203,XT5,xt5,267,SUV,Publish
+204,XT5,xt5,267,SUV,Publish
+205,XT5,xt5,267,SUV,Publish
+206,XT5,xt5,267,SUV,Publish
+207,CTS,cts,267,Sedan,Publish
+208,CTS,cts,267,Sedan,Publish
+209,CTS,cts,267,Sedan,Publish
+210,"ATS Coupe",ats-coupe,267,,Publish
+211,"ATS-V Coupe",ats-v-coupe,267,,Publish
+212,"ATS-V Coupe",ats-v-coupe,267,,Publish
+213,"ATS Coupe",ats-coupe,267,,Publish
+214,CTS,cts,267,Sedan,Publish
+215,CTS,cts,267,Sedan,Publish
+216,CTS,cts,267,Sedan,Publish
+217,XTS,xts,267,,Publish
+218,"ATS-V Sedan",ats-v-sedan,267,,Publish
+219,"ATS-V Sedan",ats-v-sedan,267,,Publish
+220,XTS,xts,267,,Publish
+221,Escalade,escalade,267,SUV,Publish
+222,Escalade,escalade,267,SUV,Publish
+223,Escalade,escalade,267,SUV,Publish
+224,UNI-T,uni-t,252,SUV,Publish
+225,UNI-T,uni-t,252,SUV,Publish
+226,UNI-K,uni-k,252,SUV,Publish
+227,"CS75 Plus",cs75-plus,252,SUV,Publish
+228,"CS75 Plus",cs75-plus,252,SUV,Publish
+229,CS85,cs85,252,SUV,Publish
+230,CS95,cs95,252,SUV,Publish
+231,CS95,cs95,252,SUV,Publish
+232,CS95,cs95,252,SUV,Publish
+233,"Eado Plus",eado-plus,252,Sedan,Publish
+234,"Eado Plus",eado-plus,252,Sedan,Publish
+235,"Eado Plus",eado-plus,252,Sedan,Publish
+236,Hunter,hunter,252,"Pick up Truck",Publish
+237,Hunter,hunter,252,"Pick up Truck",Publish
+238,Hunter,hunter,252,"Pick up Truck",Publish
+239,Hunter,hunter,252,"Pick up Truck",Publish
+240,Alsvin,alsvin,252,Sedan,Publish
+241,Alsvin,alsvin,252,Sedan,Publish
+242,UNI-V,uni-v,252,Sedan,Publish
+243,"CS35 Plus",cs35-plus,252,SUV,Publish
+244,"CS35 Plus",cs35-plus,252,SUV,Publish
+245,"CS35 Plus",cs35-plus,252,SUV,Publish
+246,"Tiggo2 Pro Max",tiggo2-pro-max,251,"Crossover SUV",Publish
+247,Arrizo6,arrizo6,251,Sedan,Publish
+248,Arrizo6,arrizo6,251,Sedan,Publish
+249,Tiggo8,tiggo8,251,SUV,Publish
+250,Tiggo8,tiggo8,251,SUV,Publish
+251,"Tiggo 2",tiggo-2,251,"Crossover SUV",Publish
+252,"Tiggo 2",tiggo-2,251,"Crossover SUV",Publish
+253,"Tiggo 2",tiggo-2,251,"Crossover SUV",Publish
+254,"Tiggo 2",tiggo-2,251,"Crossover SUV",Publish
+255,"Arrizo 3",arrizo-3,251,Sedan,Publish
+256,"Arrizo 3",arrizo-3,251,Sedan,Publish
+257,Tiggo7,tiggo7,251,SUV,Publish
+258,"Tiggo7 Pro",tiggo7-pro,251,SUV,Publish
+259,"Tiggo7 Pro",tiggo7-pro,251,SUV,Publish
+260,"Tiggo7 Pro",tiggo7-pro,251,SUV,Publish
+261,"Tiggo7 Pro",tiggo7-pro,251,SUV,Publish
+262,"Tiggo7 Pro",tiggo7-pro,251,SUV,Publish
+263,"Tiggo8 Pro",tiggo8-pro,251,SUV,Publish
+264,"Tiggo8 Pro",tiggo8-pro,251,SUV,Publish
+265,"Tiggo8 Pro",tiggo8-pro,251,SUV,Publish
+266,"Tiggo8 Pro",tiggo8-pro,251,SUV,Publish
+267,"Tiggo4 Pro",tiggo4-pro,251,"Crossover SUV",Publish
+268,"Tiggo4 Pro",tiggo4-pro,251,"Crossover SUV",Publish
+269,"Tiggo4 Pro",tiggo4-pro,251,"Crossover SUV",Publish
+270,"Tiggo2 Pro",tiggo2-pro,251,"Crossover SUV",Publish
+271,"Tiggo2 Pro",tiggo2-pro,251,"Crossover SUV",Publish
+272,"Tiggo2 Pro",tiggo2-pro,251,"Crossover SUV",Publish
+273,"Arrizo 6 Pro",arrizo-6-pro,251,Sedan,Publish
+274,"Arrizo 6 Pro",arrizo-6-pro,251,Sedan,Publish
+275,"Arrizo 6 Pro",arrizo-6-pro,251,Sedan,Publish
+276,"Arrizo 6 Pro",arrizo-6-pro,251,Sedan,Publish
+277,"Tiggo 8 Pro Max",tiggo-8-pro-max,251,SUV,Publish
+278,"Arrizo 8",arrizo-8,251,Sedan,Publish
+279,"Arrizo 5",arrizo-5,251,Sedan,Publish
+280,"Arrizo 5",arrizo-5,251,Sedan,Publish
+281,Corvette,corvette,279,Coupe,Publish
+282,Corvette,corvette,279,Coupe,Publish
+283,Corvette,corvette,279,Coupe,Publish
+284,Blazer,blazer,279,"Crossover SUV",Publish
+285,Blazer,blazer,279,"Crossover SUV",Publish
+286,Blazer,blazer,279,"Crossover SUV",Publish
+287,Blazer,blazer,279,"Crossover SUV",Publish
+288,"Bolt EV",bolt-ev,279,Hatchback,Publish
+289,Onix,onix,279,Sedan,Publish
+290,Onix,onix,279,Sedan,Publish
+291,Onix,onix,279,Sedan,Publish
+292,Groove,groove,279,"Crossover SUV",Publish
+293,Groove,groove,279,"Crossover SUV",Publish
+294,Spark,spark,279,Hatchback,Publish
+295,Spark,spark,279,Hatchback,Publish
+296,Trax,trax,279,"Compact SUV",Publish
+297,Trax,trax,279,"Compact SUV",Publish
+298,Equinox,equinox,279,Crossover,Publish
+299,Malibu,malibu,279,Sedan,Publish
+300,Impala,impala,279,,Publish
+301,Equinox,equinox,279,Crossover,Publish
+302,Captiva,captiva,279,SUV,Publish
+303,Captiva,captiva,279,SUV,Publish
+304,Captiva,captiva,279,SUV,Publish
+305,Captiva,captiva,279,SUV,Publish
+306,Traverse,traverse,279,SUV,Publish
+307,Equinox,equinox,279,Crossover,Publish
+308,Impala,impala,279,,Publish
+309,Traverse,traverse,279,SUV,Publish
+310,"Camaro Coupe",camaro-coupe,279,Coupe,Publish
+311,Silverado,silverado,279,"Pick up Truck",Publish
+312,Traverse,traverse,279,SUV,Publish
+313,Traverse,traverse,279,SUV,Publish
+314,Traverse,traverse,279,SUV,Publish
+315,Traverse,traverse,279,SUV,Publish
+316,Impala,impala,279,,Publish
+317,Tahoe,tahoe,279,SUV,Publish
+318,"Camaro Coupe",camaro-coupe,279,Coupe,Publish
+319,Silverado,silverado,279,"Pick up Truck",Publish
+320,Silverado,silverado,279,"Pick up Truck",Publish
+321,Tahoe,tahoe,279,SUV,Publish
+322,Suburban,suburban,279,SUV,Publish
+323,"Camaro Convertible",camaro-convertible,279,Convertible,Publish
+324,Suburban,suburban,279,SUV,Publish
+325,Tahoe,tahoe,279,SUV,Publish
+326,Tahoe,tahoe,279,SUV,Publish
+327,"Camaro Coupe",camaro-coupe,279,Coupe,Publish
+328,Suburban,suburban,279,SUV,Publish
+329,Suburban,suburban,279,SUV,Publish
+330,"Camaro Convertible",camaro-convertible,279,Convertible,Publish
+331,Tahoe,tahoe,279,SUV,Publish
+332,Suburban,suburban,279,SUV,Publish
+333,Suburban,suburban,279,SUV,Publish
+334,Suburban,suburban,279,SUV,Publish
+335,Tahoe,tahoe,279,SUV,Publish
+336,Tahoe,tahoe,279,SUV,Publish
+337,Silverado,silverado,279,"Pick up Truck",Publish
+338,Suburban,suburban,279,SUV,Publish
+339,"Camaro Coupe",camaro-coupe,279,Coupe,Publish
+340,Pacifica,pacifica,290,MPV,Publish
+341,Pacifica,pacifica,290,MPV,Publish
+342,300,300,290,SUV,Publish
+343,300C,300c,290,Sedan,Publish
+344,300,300,290,SUV,Publish
+345,300,300,290,SUV,Publish
+346,300,300,290,SUV,Publish
+347,Challenger,challenger,324,Coupe,Publish
+348,Challenger,challenger,324,Coupe,Publish
+349,Durango,durango,324,SUV,Publish
+350,Charger,charger,324,Sedan,Publish
+351,Durango,durango,324,SUV,Publish
+352,Charger,charger,324,Sedan,Publish
+353,Durango,durango,324,SUV,Publish
+354,Charger,charger,324,Sedan,Publish
+355,Challenger,challenger,324,Coupe,Publish
+356,Challenger,challenger,324,Coupe,Publish
+357,Charger,charger,324,Sedan,Publish
+358,Challenger,challenger,324,Coupe,Publish
+359,A30,a30,301,Sedan,Publish
+360,A30,a30,301,Sedan,Publish
+361,AX7,ax7,301,SUV,Publish
+362,AX4,ax4,301,"Crossover SUV",Publish
+363,"AX7 Mache",ax7-mache,301,SUV,Publish
+364,"AX7 Mache",ax7-mache,301,SUV,Publish
+365,"A60 Max",a60-max,301,Sedan,Publish
+366,"A60 Max",a60-max,301,Sedan,Publish
+367,"A60 Max",a60-max,301,Sedan,Publish
+368,G60s,g60s,286,"Compact SUV",Publish
+369,G70s,g70s,286,SUV,Publish
+370,VX,vx,311,SUV,Publish
+371,VX,vx,311,SUV,Publish
+372,VX,vx,311,SUV,Publish
+373,TXL,txl,311,SUV,Publish
+374,TXL,txl,311,SUV,Publish
+375,TXL,txl,311,SUV,Publish
+376,TXL,txl,311,SUV,Publish
+377,RX,rx,311,SUV,Publish
+378,LX,lx,311,SUV,Publish
+379,LX,lx,311,SUV,Publish
+380,"812 GTS",812-gts,305,Convertible,Publish
+381,"SF90 Stradale",sf90-stradale,305,Coupe,Publish
+382,"F8 Tributo",f8-tributo,305,Coupe,Publish
+383,Roma,roma,305,Coupe,Publish
+384,"F8 Spider",f8-spider,305,Convertible,Publish
+385,"296 GTB",296-gtb,305,Coupe,Publish
+386,"296 GTS",296-gts,305,Convertible,Publish
+387,Purosangue,purosangue,305,SUV,Publish
+388,"SF90 Spider",sf90-spider,305,Coupe,Publish
+389,"Portofino M",portofino-m,305,Convertible,Publish
+390,GTC4Lusso,gtc4lusso,305,,Publish
+391,GTC4Lusso,gtc4lusso,305,,Publish
+392,"812 Superfast",812-superfast,305,Coupe,Publish
+393,500e,500e,268,Hatchback,Publish
+394,500X,500x,268,Hatchback,Publish
+395,500,500,268,Hatchback,Publish
+396,500,500,268,Hatchback,Publish
+397,Bronco,bronco,271,SUV,Publish
+398,Bronco,bronco,271,SUV,Publish
+399,Bronco,bronco,271,SUV,Publish
+400,Bronco,bronco,271,SUV,Publish
+401,Bronco,bronco,271,SUV,Publish
+402,Bronco,bronco,271,SUV,Publish
+403,"Figo Sedan",figo-sedan,271,Sedan,Publish
+404,Transit,transit,271,,Publish
+405,Transit,transit,271,,Publish
+406,Transit,transit,271,,Publish
+407,Escort,escort,271,,Publish
+408,F-150,f-150,271,"Pick up Truck",Publish
+409,F-150,f-150,271,"Pick up Truck",Publish
+410,F-150,f-150,271,"Pick up Truck",Publish
+411,F-150,f-150,271,"Pick up Truck",Publish
+412,F-150,f-150,271,"Pick up Truck",Publish
+413,F-150,f-150,271,"Pick up Truck",Publish
+414,"Bronco 2-door",bronco-2-door,271,SUV,Publish
+415,"Bronco 2-door",bronco-2-door,271,SUV,Publish
+416,"Bronco 2-door",bronco-2-door,271,SUV,Publish
+417,Territory,territory,271,SUV,Publish
+418,Territory,territory,271,SUV,Publish
+419,Territory,territory,271,SUV,Publish
+420,"Ranger Raptor",ranger-raptor,271,"Pick up Truck",Publish
+421,"Bronco Raptor",bronco-raptor,271,SUV,Publish
+422,Everest,everest,271,SUV,Publish
+423,Everest,everest,271,SUV,Publish
+424,Everest,everest,271,SUV,Publish
+425,Figo,figo,271,Hatchback,Publish
+426,Figo,figo,271,Hatchback,Publish
+427,EcoSport,ecosport,271,,Publish
+428,EcoSport,ecosport,271,,Publish
+429,Taurus,taurus,271,Sedan,Publish
+430,Taurus,taurus,271,Sedan,Publish
+431,Taurus,taurus,271,Sedan,Publish
+432,EcoSport,ecosport,271,,Publish
+433,Escape,escape,271,"Compact SUV",Publish
+434,Edge,edge,271,suv,Publish
+435,Escape,escape,271,"Compact SUV",Publish
+436,Ranger,ranger,271,"Pick up Truck",Publish
+437,Ranger,ranger,271,"Pick up Truck",Publish
+438,Ranger,ranger,271,"Pick up Truck",Publish
+439,Explorer,explorer,271,SUV,Publish
+440,Explorer,explorer,271,SUV,Publish
+441,Explorer,explorer,271,SUV,Publish
+442,Explorer,explorer,271,SUV,Publish
+443,Explorer,explorer,271,SUV,Publish
+444,Explorer,explorer,271,SUV,Publish
+445,Expedition,expedition,271,SUV,Publish
+446,Expedition,expedition,271,SUV,Publish
+447,Escape,escape,271,"Compact SUV",Publish
+448,Edge,edge,271,suv,Publish
+449,Expedition,expedition,271,SUV,Publish
+450,Expedition,expedition,271,SUV,Publish
+451,Expedition,expedition,271,SUV,Publish
+452,Expedition,expedition,271,SUV,Publish
+453,Expedition,expedition,271,SUV,Publish
+454,"Expedition EL",expedition-el,271,SUV,Publish
+455,Mustang,mustang,271,Coupe,Publish
+456,"F-150 Raptor",f-150-raptor,271,"Pick up Truck",Publish
+457,"F-150 Raptor",f-150-raptor,271,"Pick up Truck",Publish
+458,Mustang,mustang,271,Coupe,Publish
+459,Mustang,mustang,271,Coupe,Publish
+460,"Expedition EL",expedition-el,271,SUV,Publish
+461,"Expedition EL",expedition-el,271,SUV,Publish
+462,"F-150 Raptor",f-150-raptor,271,"Pick up Truck",Publish
+463,Mustang,mustang,271,Coupe,Publish
+464,"T5 Evo",t5-evo,313,SUV,Publish
+465,U-Tour,u-tour,313,MPV,Publish
+466,View,view,321,,Publish
+467,Tunland,tunland,321,"Pick up Truck",Publish
+468,Tunland,tunland,321,"Pick up Truck",Publish
+469,View,view,321,,Publish
+470,GS8,gs8,253,SUV,Publish
+471,GS8,gs8,253,SUV,Publish
+472,GS8,gs8,253,SUV,Publish
+473,GS8,gs8,253,SUV,Publish
+474,GS8,gs8,253,SUV,Publish
+475,GS3,gs3,253,SUV,Publish
+476,GS4,gs4,253,Crossover,Publish
+477,GS4,gs4,253,Crossover,Publish
+478,GN8,gn8,253,MPV,Publish
+479,GN8,gn8,253,MPV,Publish
+480,GA6,ga6,253,Sedan,Publish
+481,GA6,ga6,253,Sedan,Publish
+482,GA6,ga6,253,Sedan,Publish
+483,GA8,ga8,253,Sedan,Publish
+484,GA4,ga4,253,Sedan,Publish
+485,GN6,gn6,253,MPV,Publish
+486,EMPOW,empow,253,Sedan,Publish
+487,EMPOW,empow,253,Sedan,Publish
+488,EMPOW,empow,253,Sedan,Publish
+489,EMKOO,emkoo,253,SUV,Publish
+490,EMKOO,emkoo,253,SUV,Publish
+491,EMZOOM,emzoom,253,SUV,Publish
+492,EMZOOM,emzoom,253,SUV,Publish
+493,GS5,gs5,253,"Compact SUV",Publish
+494,GS5,gs5,253,"Compact SUV",Publish
+495,Coolray,coolray,248,"Crossover SUV",Publish
+496,Coolray,coolray,248,"Crossover SUV",Publish
+497,Coolray,coolray,248,"Crossover SUV",Publish
+498,Coolray,coolray,248,"Crossover SUV",Publish
+499,Starray,starray,248,SUV,Publish
+500,Monjaro,monjaro,248,SUV,Publish
+501,Monjaro,monjaro,248,SUV,Publish
+502,Monjaro,monjaro,248,SUV,Publish
+503,Azkarra,azkarra,248,SUV,Publish
+504,Azkarra,azkarra,248,SUV,Publish
+505,Azkarra,azkarra,248,SUV,Publish
+506,Azkarra,azkarra,248,SUV,Publish
+507,Okavango,okavango,248,SUV,Publish
+508,Okavango,okavango,248,SUV,Publish
+509,Okavango,okavango,248,SUV,Publish
+510,Tugella,tugella,248,"Crossover SUV",Publish
+511,Tugella,tugella,248,"Crossover SUV",Publish
+512,Tugella,tugella,248,"Crossover SUV",Publish
+513,Binray,binray,248,Sedan,Publish
+514,Binray,binray,248,Sedan,Publish
+515,"Geometry C",geometry-c,248,SUV,Publish
+516,"Geometry C",geometry-c,248,SUV,Publish
+517,Starray,starray,248,SUV,Publish
+518,Emegrand,emegrand,248,Sedan,Publish
+519,Emegrand,emegrand,248,Sedan,Publish
+520,GV80,gv80,275,SUV,Publish
+521,GV80,gv80,275,SUV,Publish
+522,GV80,gv80,275,SUV,Publish
+523,GV80,gv80,275,SUV,Publish
+524,G80,g80,275,Sedan,Publish
+525,G80,g80,275,Sedan,Publish
+526,G80,g80,275,Sedan,Publish
+527,G80,g80,275,Sedan,Publish
+528,G80,g80,275,Sedan,Publish
+529,G70,g70,275,Sedan,Publish
+530,G70,g70,275,Sedan,Publish
+531,G70,g70,275,Sedan,Publish
+532,GV70,gv70,275,SUV,Publish
+533,GV70,gv70,275,SUV,Publish
+534,GV70,gv70,275,SUV,Publish
+535,GV70,gv70,275,SUV,Publish
+536,G90,g90,275,Sedan,Publish
+537,G90,g90,275,Sedan,Publish
+538,G90,g90,275,Sedan,Publish
+539,G90,g90,275,Sedan,Publish
+540,G90,g90,275,Sedan,Publish
+541,"Sierra HD",sierra-hd,256,"Pick up Truck",Publish
+542,"Sierra HD Denali",sierra-hd-denali,256,"Pick up Truck",Publish
+543,Yukon,yukon,256,SUV,Publish
+544,Yukon,yukon,256,SUV,Publish
+545,"Yukon XL",yukon-xl,256,SUV,Publish
+546,"Yukon XL",yukon-xl,256,SUV,Publish
+547,"Sierra Denali",sierra-denali,256,"Pick up Truck",Publish
+548,Sierra,sierra,256,"Pick up Truck",Publish
+549,Sierra,sierra,256,"Pick up Truck",Publish
+550,Sierra,sierra,256,"Pick up Truck",Publish
+551,Sierra,sierra,256,"Pick up Truck",Publish
+552,"Hummer EV SUV",hummer-ev-suv,256,SUV,Publish
+553,"Hummer EV SUV",hummer-ev-suv,256,SUV,Publish
+554,"Hummer EV SUV",hummer-ev-suv,256,SUV,Publish
+555,"Hummer EV SUV",hummer-ev-suv,256,SUV,Publish
+556,"Hummer EV Pickup",hummer-ev-pickup,256,"Pick up Truck",Publish
+557,"Hummer EV Pickup",hummer-ev-pickup,256,"Pick up Truck",Publish
+558,"Hummer EV Pickup",hummer-ev-pickup,256,"Pick up Truck",Publish
+559,"Hummer EV Pickup",hummer-ev-pickup,256,"Pick up Truck",Publish
+560,Terrain,terrain,256,SUV,Publish
+561,Acadia,acadia,256,SUV,Publish
+562,"Terrain Denali",terrain-denali,256,SUV,Publish
+563,Acadia,acadia,256,SUV,Publish
+564,Acadia,acadia,256,SUV,Publish
+565,"Acadia Denali",acadia-denali,256,SUV,Publish
+566,"Wingle 5",wingle-5,258,"Pick up Truck",Publish
+567,POER,poer,258,"Pick up Truck",Publish
+568,POER,poer,258,"Pick up Truck",Publish
+569,POER,poer,258,"Pick up Truck",Publish
+570,POER,poer,258,"Pick up Truck",Publish
+571,POER,poer,258,"Pick up Truck",Publish
+572,"Wingle 7",wingle-7,258,"Pick up Truck",Publish
+573,"Wingle 7",wingle-7,258,"Pick up Truck",Publish
+574,"King Kong",king-kong,258,"Pick up Truck",Publish
+575,"King Kong",king-kong,258,"Pick up Truck",Publish
+576,"King Kong",king-kong,258,"Pick up Truck",Publish
+577,"King Kong",king-kong,258,"Pick up Truck",Publish
+578,"King Kong",king-kong,258,"Pick up Truck",Publish
+579,"King Kong",king-kong,258,"Pick up Truck",Publish
+580,"King Kong",king-kong,258,"Pick up Truck",Publish
+581,"King Kong",king-kong,258,"Pick up Truck",Publish
+582,"H6 GT",h6-gt,257,SUV,Publish
+583,Jolion,jolion,257,SUV,Publish
+584,Jolion,jolion,257,SUV,Publish
+585,Jolion,jolion,257,SUV,Publish
+586,Dargo,dargo,257,Crossover,Publish
+587,Dargo,dargo,257,Crossover,Publish
+588,H2,h2,257,,Publish
+589,H2,h2,257,,Publish
+590,H6,h6,257,SUV,Publish
+591,H6,h6,257,SUV,Publish
+592,H6,h6,257,SUV,Publish
+593,H6,h6,257,SUV,Publish
+594,H6,h6,257,SUV,Publish
+595,"H6 HEV",h6-hev,257,SUV,Publish
+596,H9,h9,257,Sedan,Publish
+597,H9,h9,257,Sedan,Publish
+598,HR-V,hr-v,274,"Crossover SUV",Publish
+599,HR-V,hr-v,274,"Crossover SUV",Publish
+600,HR-V,hr-v,274,"Crossover SUV",Publish
+601,ZR-V,zr-v,274,"crossover SUV",Publish
+602,ZR-V,zr-v,274,"crossover SUV",Publish
+603,"Civic Type R",civic-type-r,274,Sedan,Publish
+604,City,city,274,Sedan,Publish
+605,City,city,274,Sedan,Publish
+606,City,city,274,Sedan,Publish
+607,Civic,civic,274,Sedan,Publish
+608,CR-V,cr-v,274,"Crossover SUV",Publish
+609,CR-V,cr-v,274,"Crossover SUV",Publish
+610,Accord,accord,274,Sedan,Publish
+611,Civic,civic,274,Sedan,Publish
+612,"Odyssey J",odyssey-j,274,MPV,Publish
+613,Civic,civic,274,Sedan,Publish
+614,Accord,accord,274,Sedan,Publish
+615,Accord,accord,274,Sedan,Publish
+616,Pilot,pilot,274,SUV,Publish
+617,CR-V,cr-v,274,"Crossover SUV",Publish
+618,"Odyssey J",odyssey-j,274,MPV,Publish
+619,Accord,accord,274,Sedan,Publish
+620,Accord,accord,274,Sedan,Publish
+621,Odyssey,odyssey,274,MPV,Publish
+622,Odyssey,odyssey,274,MPV,Publish
+623,Pilot,pilot,274,SUV,Publish
+624,Pilot,pilot,274,SUV,Publish
+625,Pilot,pilot,274,SUV,Publish
+626,Odyssey,odyssey,274,MPV,Publish
+627,CR-V,cr-v,274,"Crossover SUV",Publish
+628,H5,h5,255,SUV,Publish
+629,H5,h5,255,SUV,Publish
+630,H9,h9,255,Sedan,Publish
+631,H9,h9,255,Sedan,Publish
+632,H9,h9,255,Sedan,Publish
+633,H9,h9,255,Sedan,Publish
+634,H9,h9,255,Sedan,Publish
+635,H9,h9,255,Sedan,Publish
+636,HS5,hs5,255,SUV,Publish
+637,HS5,hs5,255,SUV,Publish
+638,HS5,hs5,255,SUV,Publish
+639,HS5,hs5,255,SUV,Publish
+640,L5,l5,255,Sedan,Publish
+641,E-HS3,e-hs3,255,SUV,Publish
+642,E-HS3,e-hs3,255,SUV,Publish
+643,H7,h7,255,Sedan,Publish
+644,HS7,hs7,255,SUV,Publish
+645,HS7,hs7,255,SUV,Publish
+646,E-QM5,e-qm5,255,Sedan,Publish
+647,E-HS9,e-hs9,255,SUV,Publish
+648,E-HS9,e-hs9,255,SUV,Publish
+649,E-HS9,e-hs9,255,SUV,Publish
+650,Ousado,ousado,255,Sedan,Publish
+651,Ousado,ousado,255,Sedan,Publish
+652,HS3,hs3,255,SUV,Publish
+653,"Ioniq 5",ioniq-5,260,Hatchback,Publish
+654,"Ioniq 5",ioniq-5,260,Hatchback,Publish
+655,Sonata,sonata,260,Sedan,Publish
+656,Sonata,sonata,260,Sedan,Publish
+657,Sonata,sonata,260,Sedan,Publish
+658,Sonata,sonata,260,Sedan,Publish
+659,Palisade,palisade,260,SUV,Publish
+660,Palisade,palisade,260,SUV,Publish
+661,Palisade,palisade,260,SUV,Publish
+662,"Santa Fe",santa-fe,260,SUV,Publish
+663,"Santa Fe",santa-fe,260,SUV,Publish
+664,"Santa Fe",santa-fe,260,SUV,Publish
+665,"Santa Fe",santa-fe,260,SUV,Publish
+666,"Santa Fe",santa-fe,260,SUV,Publish
+667,"Veloster N",veloster-n,260,Hatchback,Publish
+668,"Veloster N",veloster-n,260,Hatchback,Publish
+669,Staria,staria,260,MPV,Publish
+670,Staria,staria,260,MPV,Publish
+671,Staria,staria,260,MPV,Publish
+672,Staria,staria,260,MPV,Publish
+673,Venue,venue,260,"Compact SUV",Publish
+674,Venue,venue,260,"Compact SUV",Publish
+675,Venue,venue,260,"Compact SUV",Publish
+676,Accent,accent,260,Sedan,Publish
+677,Accent,accent,260,Sedan,Publish
+678,i10,i10,260,Hatchback,Publish
+679,i10,i10,260,Hatchback,Publish
+680,"Grand i10",grand-i10,260,Hatchback,Publish
+681,Elantra,elantra,260,Sedan,Publish
+682,Elantra,elantra,260,Sedan,Publish
+683,Elantra,elantra,260,Sedan,Publish
+684,Elantra,elantra,260,Sedan,Publish
+685,Elantra,elantra,260,Sedan,Publish
+686,Elantra,elantra,260,Sedan,Publish
+687,Elantra,elantra,260,Sedan,Publish
+688,Creta,creta,260,SUV,Publish
+689,Creta,creta,260,SUV,Publish
+690,Creta,creta,260,SUV,Publish
+691,Creta,creta,260,SUV,Publish
+692,Tucson,tucson,260,SUV,Publish
+693,Tucson,tucson,260,SUV,Publish
+694,Elantra,elantra,260,Sedan,Publish
+695,Elantra,elantra,260,Sedan,Publish
+696,Tucson,tucson,260,SUV,Publish
+697,Tucson,tucson,260,SUV,Publish
+698,Kona,kona,260,"Crossover SUV",Publish
+699,Kona,kona,260,"Crossover SUV",Publish
+700,H1,h1,260,minivan,Publish
+701,Veloster,veloster,260,Hatchback,Publish
+702,Veloster,veloster,260,Hatchback,Publish
+703,Tucson,tucson,260,SUV,Publish
+704,Tucson,tucson,260,SUV,Publish
+705,Tucson,tucson,260,SUV,Publish
+706,H1,h1,260,minivan,Publish
+707,H1,h1,260,minivan,Publish
+708,Azera,azera,260,Sedan,Publish
+709,Azera,azera,260,Sedan,Publish
+710,Azera,azera,260,Sedan,Publish
+711,"Grenadier Station Wagen",grenadier-station-wagen,316,SUV,Publish
+712,"Grenadier Station Wagen",grenadier-station-wagen,316,SUV,Publish
+713,"Grenadier Station Wagen",grenadier-station-wagen,316,SUV,Publish
+714,"Grenadier QuarterMaster",grenadier-quartermaster,316,"Pick up Truck",Publish
+715,"Grenadier QuarterMaster",grenadier-quartermaster,316,"Pick up Truck",Publish
+716,"Grenadier QuarterMaster",grenadier-quartermaster,316,"Pick up Truck",Publish
+717,QX55,qx55,263,Crossover,Publish
+718,QX55,qx55,263,Crossover,Publish
+719,QX55,qx55,263,Crossover,Publish
+720,QX50,qx50,263,SUV,Publish
+721,QX50,qx50,263,SUV,Publish
+722,QX50,qx50,263,SUV,Publish
+723,QX50,qx50,263,SUV,Publish
+724,"Q60 Coupe",q60-coupe,263,Coupe,Publish
+725,"Q60 Coupe",q60-coupe,263,Coupe,Publish
+726,Q50,q50,263,Sedan,Publish
+727,Q50,q50,263,Sedan,Publish
+728,Q50,q50,263,Sedan,Publish
+729,Q50,q50,263,Sedan,Publish
+730,Q30,q30,263,SUV,Publish
+731,Q30,q30,263,SUV,Publish
+732,Q30,q30,263,SUV,Publish
+733,Q70,q70,263,Sedan,Publish
+734,QX60,qx60,263,SUV,Publish
+735,QX70,qx70,263,,Publish
+736,QX60,qx60,263,SUV,Publish
+737,QX60,qx60,263,SUV,Publish
+738,Q70,q70,263,Sedan,Publish
+739,QX80,qx80,263,SUV,Publish
+740,QX80,qx80,263,SUV,Publish
+741,QX80,qx80,263,SUV,Publish
+742,QX80,qx80,263,SUV,Publish
+743,D-MAX,d-max,322,"Pick up Truck",Publish
+744,D-MAX,d-max,322,"Pick up Truck",Publish
+745,D-MAX,d-max,322,"Pick up Truck",Publish
+746,D-MAX,d-max,322,"Pick up Truck",Publish
+747,D-MAX,d-max,322,"Pick up Truck",Publish
+748,D-MAX,d-max,322,"Pick up Truck",Publish
+749,MU-X,mu-x,322,SUV,Publish
+750,M4,m4,272,MPV,Publish
+751,M4,m4,272,MPV,Publish
+752,T8,t8,272,"Pick up Truck",Publish
+753,T8,t8,272,"Pick up Truck",Publish
+754,T8,t8,272,"Pick up Truck",Publish
+755,T8,t8,272,"Pick up Truck",Publish
+756,S3,s3,272,SUV,Publish
+757,"J7 Sportback",j7-sportback,272,Sedan,Publish
+758,JS4,js4,272,SUV,Publish
+759,JS4,js4,272,SUV,Publish
+760,Sunray,sunray,272,,Publish
+761,Sunray,sunray,272,,Publish
+762,"S7 Pro",s7-pro,272,SUV,Publish
+763,N-Series,n-series,272,"Pick up Truck",Publish
+764,N-Series,n-series,272,"Pick up Truck",Publish
+765,N-Series,n-series,272,"Pick up Truck",Publish
+766,JS6,js6,272,SUV,Publish
+767,E-Pace,e-pace,292,SUV,Publish
+768,E-Pace,e-pace,292,SUV,Publish
+769,E-Pace,e-pace,292,SUV,Publish
+770,I-Pace,i-pace,292,SUV,Publish
+771,I-Pace,i-pace,292,SUV,Publish
+772,I-Pace,i-pace,292,SUV,Publish
+773,XE,xe,292,Sedan,Publish
+774,XE,xe,292,Sedan,Publish
+775,XE,xe,292,Sedan,Publish
+776,XF,xf,292,Sedan,Publish
+777,XF,xf,292,Sedan,Publish
+778,XF,xf,292,Sedan,Publish
+779,F-Pace,f-pace,292,SUV,Publish
+780,F-Pace,f-pace,292,SUV,Publish
+781,F-Pace,f-pace,292,SUV,Publish
+782,F-Pace,f-pace,292,SUV,Publish
+783,"F-Type Coupe",f-type-coupe,292,Coupe,Publish
+784,"F-Type Coupe",f-type-coupe,292,Coupe,Publish
+785,"F-Type Convertible",f-type-convertible,292,Convertible,Publish
+786,"F-Type Convertible",f-type-convertible,292,Convertible,Publish
+787,"F-Type Convertible",f-type-convertible,292,Convertible,Publish
+788,"F-Type Convertible",f-type-convertible,292,Convertible,Publish
+789,XJ,xj,292,Sedan,Publish
+790,XJ,xj,292,Sedan,Publish
+791,Renegade,renegade,294,SUV,Publish
+792,Gladiator,gladiator,294,"Pick up Truck",Publish
+793,Gladiator,gladiator,294,"Pick up Truck",Publish
+794,"Grand Wagoneer",grand-wagoneer,294,SUV,Publish
+795,Renegade,renegade,294,SUV,Publish
+796,Compass,compass,294,SUV,Publish
+797,Wrangler,wrangler,294,SUV,Publish
+798,Compass,compass,294,SUV,Publish
+799,Compass,compass,294,SUV,Publish
+800,Cherokee,cherokee,294,SUV,Publish
+801,Wrangler,wrangler,294,SUV,Publish
+802,Cherokee,cherokee,294,SUV,Publish
+803,"Wrangler Unlimited",wrangler-unlimited,294,SUV,Publish
+804,Cherokee,cherokee,294,SUV,Publish
+805,Wrangler,wrangler,294,SUV,Publish
+806,"Wrangler Unlimited",wrangler-unlimited,294,SUV,Publish
+807,"Wrangler Unlimited",wrangler-unlimited,294,SUV,Publish
+808,"Grand Cherokee",grand-cherokee,294,SUV,Publish
+809,"Grand Cherokee",grand-cherokee,294,SUV,Publish
+810,X70,x70,307,SUV,Publish
+811,X70,x70,307,SUV,Publish
+812,X90,x90,307,SUV,Publish
+813,X90,x90,307,SUV,Publish
+814,X70s,x70s,307,SUV,Publish
+815,"X70 Plus",x70-plus,307,SUV,Publish
+816,"X70 Plus",x70-plus,307,SUV,Publish
+817,"X70 Plus",x70-plus,307,SUV,Publish
+818,"X90 Plus",x90-plus,307,SUV,Publish
+819,"X90 Plus",x90-plus,307,SUV,Publish
+820,Dashing,dashing,307,SUV,Publish
+821,Dashing,dashing,307,SUV,Publish
+822,T2,t2,307,SUV,Publish
+823,Sportage,sportage,259,SUV,Publish
+824,Sportage,sportage,259,SUV,Publish
+825,Sportage,sportage,259,SUV,Publish
+826,Sportage,sportage,259,SUV,Publish
+827,Sportage,sportage,259,SUV,Publish
+828,Sportage,sportage,259,SUV,Publish
+829,Sportage,sportage,259,SUV,Publish
+830,Cerato,cerato,259,Sedan,Publish
+831,Cerato,cerato,259,Sedan,Publish
+832,Cerato,cerato,259,Sedan,Publish
+833,Telluride,telluride,259,SUV,Publish
+834,Telluride,telluride,259,SUV,Publish
+835,Telluride,telluride,259,SUV,Publish
+836,Telluride,telluride,259,SUV,Publish
+837,Telluride,telluride,259,SUV,Publish
+838,Telluride,telluride,259,SUV,Publish
+839,Soul,soul,259,SUV,Publish
+840,Soul,soul,259,SUV,Publish
+841,Pegas,pegas,259,Sedan,Publish
+842,Pegas,pegas,259,Sedan,Publish
+843,Niro,niro,259,SUV,Publish
+844,"Rio Hatchback",rio-hatchback,259,Hatchback,Publish
+845,Carens,carens,259,MPV,Publish
+846,Carens,carens,259,MPV,Publish
+847,Carens,carens,259,MPV,Publish
+848,Carens,carens,259,MPV,Publish
+849,Stinger,stinger,259,Sedan,Publish
+850,Stinger,stinger,259,Sedan,Publish
+851,Seltos,seltos,259,SUV,Publish
+852,Seltos,seltos,259,SUV,Publish
+853,Seltos,seltos,259,SUV,Publish
+854,Sonet,sonet,259,"Compact SUV",Publish
+855,Sonet,sonet,259,"Compact SUV",Publish
+856,Sonet,sonet,259,"Compact SUV",Publish
+857,Sonet,sonet,259,"Compact SUV",Publish
+858,K8,k8,259,Sedan,Publish
+859,K8,k8,259,Sedan,Publish
+860,K8,k8,259,Sedan,Publish
+861,K8,k8,259,Sedan,Publish
+862,EV9,ev9,259,SUV,Publish
+863,EV9,ev9,259,SUV,Publish
+864,EV9,ev9,259,SUV,Publish
+865,EV5,ev5,259,SUV,Publish
+866,Picanto,picanto,259,Hatchback,Publish
+867,"Rio Sedan",rio-sedan,259,Sedan,Publish
+868,"Cerato Hatchback",cerato-hatchback,259,Hatchback,Publish
+869,K5,k5,259,Sedan,Publish
+870,K5,k5,259,Sedan,Publish
+871,K5,k5,259,Sedan,Publish
+872,K5,k5,259,Sedan,Publish
+873,K5,k5,259,Sedan,Publish
+874,K5,k5,259,Sedan,Publish
+875,Cadenza,cadenza,259,,Publish
+876,Cadenza,cadenza,259,,Publish
+877,Mohave,mohave,259,SUV,Publish
+878,Carnival,carnival,259,MPV,Publish
+879,Carnival,carnival,259,MPV,Publish
+880,Carnival,carnival,259,MPV,Publish
+881,Mohave,mohave,259,SUV,Publish
+882,Sorento,sorento,259,SUV,Publish
+883,Sorento,sorento,259,SUV,Publish
+884,Sorento,sorento,259,SUV,Publish
+885,Sorento,sorento,259,SUV,Publish
+886,Sorento,sorento,259,SUV,Publish
+887,Sorento,sorento,259,SUV,Publish
+888,"Aventador SVJ 63 Roadster",aventador-svj-63-roadster,282,Roadster,Publish
+889,"Aventador S",aventador-s,282,Coupe,Publish
+890,Urus,urus,282,SUV,Publish
+891,Urus,urus,282,SUV,Publish
+892,"Aventador S Roadster",aventador-s-roadster,282,Roadster,Publish
+893,Huracan,huracan,282,Coupe,Publish
+894,Huracan,huracan,282,Coupe,Publish
+895,Huracan,huracan,282,Coupe,Publish
+896,Huracan,huracan,282,Coupe,Publish
+897,Huracan,huracan,282,Coupe,Publish
+898,Huracan,huracan,282,Coupe,Publish
+899,"Aventador Ultimae",aventador-ultimae,282,Coupe,Publish
+900,"Aventador SVJ",aventador-svj,282,Coupe,Publish
+901,"Aventador SVJ",aventador-svj,282,Coupe,Publish
+902,"Range Rover Evoque",range-rover-evoque,280,SUV,Publish
+903,"Range Rover Evoque",range-rover-evoque,280,SUV,Publish
+904,"Range Rover Velar",range-rover-velar,280,SUV,Publish
+905,"Range Rover Velar",range-rover-velar,280,SUV,Publish
+906,Defender,defender,280,SUV,Publish
+907,Defender,defender,280,SUV,Publish
+908,Defender,defender,280,SUV,Publish
+909,Defender,defender,280,SUV,Publish
+910,Defender,defender,280,SUV,Publish
+911,"Discovery Sport",discovery-sport,280,SUV,Publish
+912,Defender,defender,280,SUV,Publish
+913,Defender,defender,280,SUV,Publish
+914,Defender,defender,280,SUV,Publish
+915,Defender,defender,280,SUV,Publish
+916,Discovery,discovery,280,SUV,Publish
+917,"Range Rover Sport",range-rover-sport,280,SUV,Publish
+918,"Range Rover Sport",range-rover-sport,280,SUV,Publish
+919,"Range Rover Sport",range-rover-sport,280,SUV,Publish
+920,"Range Rover Sport",range-rover-sport,280,SUV,Publish
+921,"Range Rover",range-rover,280,SUV,Publish
+922,"Range Rover",range-rover,280,SUV,Publish
+923,"Range Rover",range-rover,280,SUV,Publish
+924,"Range Rover",range-rover,280,SUV,Publish
+925,"Range Rover",range-rover,280,SUV,Publish
+926,"LC 500",lc-500,300,Coupe,Publish
+927,"LC 500",lc-500,300,Coupe,Publish
+928,"UX 200",ux-200,300,SUV,Publish
+929,"UX 200",ux-200,300,SUV,Publish
+930,"UX 200",ux-200,300,SUV,Publish
+931,"LC 500 Convertible",lc-500-convertible,300,Convertible,Publish
+932,"LC 500 Convertible",lc-500-convertible,300,Convertible,Publish
+933,"LC 500 Convertible",lc-500-convertible,300,Convertible,Publish
+934,ES,es,300,Sedan,Publish
+935,ES,es,300,Sedan,Publish
+936,ES,es,300,Sedan,Publish
+937,ES,es,300,Sedan,Publish
+938,ES,es,300,Sedan,Publish
+939,ES,es,300,Sedan,Publish
+940,NX,nx,300,SUV,Publish
+941,NX,nx,300,SUV,Publish
+942,NX,nx,300,SUV,Publish
+943,NX,nx,300,SUV,Publish
+944,ES,es,300,Sedan,Publish
+945,NX,nx,300,SUV,Publish
+946,IS,is,300,Sedan,Publish
+947,IS,is,300,Sedan,Publish
+948,NX,nx,300,SUV,Publish
+949,RX,rx,300,SUV,Publish
+950,IS,is,300,Sedan,Publish
+951,IS,is,300,Sedan,Publish
+952,RC,rc,300,Coupe,Publish
+953,RC,rc,300,Coupe,Publish
+954,RX,rx,300,SUV,Publish
+955,GX,gx,300,SUV,Publish
+956,GX,gx,300,SUV,Publish
+957,RX,rx,300,SUV,Publish
+958,RX,rx,300,SUV,Publish
+959,RC,rc,300,Coupe,Publish
+960,RX,rx,300,SUV,Publish
+961,RX,rx,300,SUV,Publish
+962,RX,rx,300,SUV,Publish
+963,"RC F",rc-f,300,Coupe,Publish
+964,LS,ls,300,Sedan,Publish
+965,LS,ls,300,Sedan,Publish
+966,LS,ls,300,Sedan,Publish
+967,LS,ls,300,Sedan,Publish
+968,LS,ls,300,Sedan,Publish
+969,LX,lx,300,SUV,Publish
+970,LX,lx,300,SUV,Publish
+971,LX,lx,300,SUV,Publish
+972,LX,lx,300,SUV,Publish
+973,LX,lx,300,SUV,Publish
+974,LX,lx,300,SUV,Publish
+975,LX,lx,300,SUV,Publish
+976,Aviator,aviator,278,SUV,Publish
+977,Continental,continental,278,,Publish
+978,Continental,continental,278,,Publish
+979,Nautilus,nautilus,278,SUV,Publish
+980,Corsair,corsair,278,SUV,Publish
+981,MKZ,mkz,278,,Publish
+982,MKZ,mkz,278,,Publish
+983,MKZ,mkz,278,,Publish
+984,MKC,mkc,278,,Publish
+985,MKC,mkc,278,,Publish
+986,MKC,mkc,278,,Publish
+987,MKC,mkc,278,,Publish
+988,Navigator,navigator,278,SUV,Publish
+989,Emira,emira,265,Coupe,Publish
+990,Emira,emira,265,Coupe,Publish
+991,Evija,evija,265,Coupe,Publish
+992,Exige,exige,265,Coupe,Publish
+993,Evora,evora,265,Coupe,Publish
+994,Evora,evora,265,Coupe,Publish
+995,Evora,evora,265,Coupe,Publish
+996,Air,air,312,Sedan,Publish
+997,Air,air,312,Sedan,Publish
+998,Air,air,312,Sedan,Publish
+999,Air,air,312,Sedan,Publish
+1000,Air,air,312,Sedan,Publish
+1001,Air,air,312,Sedan,Publish
+1002,Air,air,312,Sedan,Publish
+1003,03+,03-plus,250,Sedan,Publish
+1004,9,9,250,SUV,Publish
+1005,9,9,250,SUV,Publish
+1006,9,9,250,SUV,Publish
+1007,3,3,250,Hatchback,Publish
+1008,3,3,250,Hatchback,Publish
+1009,1,1,250,SUV,Publish
+1010,1,1,250,SUV,Publish
+1011,1,1,250,SUV,Publish
+1012,5,5,250,SUV,Publish
+1013,5,5,250,SUV,Publish
+1014,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1015,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1016,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1017,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1018,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1019,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1020,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1021,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1022,"Scorpio Pickup",scorpio-pickup,309,"Pick up Truck",Publish
+1023,MC20,mc20,310,Coupe,Publish
+1024,Grecale,grecale,310,suv,Publish
+1025,Grecale,grecale,310,suv,Publish
+1026,Grecale,grecale,310,suv,Publish
+1027,Grecale,grecale,310,suv,Publish
+1028,"MC20 Cielo",mc20-cielo,310,Convertible,Publish
+1029,Ghibli,ghibli,310,Sedan,Publish
+1030,Ghibli,ghibli,310,Sedan,Publish
+1031,Ghibli,ghibli,310,Sedan,Publish
+1032,Levante,levante,310,SUV,Publish
+1033,Levante,levante,310,SUV,Publish
+1034,Ghibli,ghibli,310,Sedan,Publish
+1035,Ghibli,ghibli,310,Sedan,Publish
+1036,Levante,levante,310,SUV,Publish
+1037,Levante,levante,310,SUV,Publish
+1038,Quattroporte,quattroporte,310,Sedan,Publish
+1039,Quattroporte,quattroporte,310,Sedan,Publish
+1040,Quattroporte,quattroporte,310,Sedan,Publish
+1041,GranTurismo,granturismo,310,,Publish
+1042,GranTurismo,granturismo,310,,Publish
+1043,Quattroporte,quattroporte,310,Sedan,Publish
+1044,GranCabrio,grancabrio,310,,Publish
+1045,GranCabrio,grancabrio,310,,Publish
+1046,D90,d90,306,SUV,Publish
+1047,D90,d90,306,SUV,Publish
+1048,D90,d90,306,SUV,Publish
+1049,G50,g50,306,MPV,Publish
+1050,G50,g50,306,MPV,Publish
+1051,G50,g50,306,MPV,Publish
+1052,D60,d60,306,suv,Publish
+1053,D60,d60,306,suv,Publish
+1054,D60,d60,306,suv,Publish
+1055,T90,t90,306,"Pick up Truck",Publish
+1056,T90,t90,306,"Pick up Truck",Publish
+1057,T90,t90,306,"Pick up Truck",Publish
+1058,T70,t70,306,"Pick up Truck",Publish
+1059,T70,t70,306,"Pick up Truck",Publish
+1060,T70,t70,306,"Pick up Truck",Publish
+1061,T70,t70,306,"Pick up Truck",Publish
+1062,V90,v90,306,,Publish
+1063,V90,v90,306,,Publish
+1064,"D90 Pro",d90-pro,306,SUV,Publish
+1065,"D90 Pro",d90-pro,306,SUV,Publish
+1066,"D90 Pro",d90-pro,306,SUV,Publish
+1067,"D90 Pro",d90-pro,306,SUV,Publish
+1068,G90,g90,306,Sedan,Publish
+1069,"G10 Cargo",g10-cargo,306,,Publish
+1070,"G10 7-Seater",g10-7-seater,306,MPV,Publish
+1071,"G10 7-Seater",g10-7-seater,306,MPV,Publish
+1072,"G10 9-Seater",g10-9-seater,306,Minivan,Publish
+1073,"V80 15-Seater",v80-15-seater,306,,Publish
+1074,"V80 Cargo Van",v80-cargo-van,306,,Publish
+1075,"V80 18-Seater",v80-18-seater,306,,Publish
+1076,CX-9,cx-9,291,SUV,Publish
+1077,CX-9,cx-9,291,SUV,Publish
+1078,CX-30,cx-30,291,SUV,Publish
+1079,CX-30,cx-30,291,SUV,Publish
+1080,CX-60,cx-60,291,SUV,Publish
+1081,"CX 3",cx-3,291,SUV,Publish
+1082,6,6,291,Sedan,Publish
+1083,6,6,291,Sedan,Publish
+1084,6,6,291,Sedan,Publish
+1085,6,6,291,Sedan,Publish
+1086,CX-5,cx-5,291,SUV,Publish
+1087,CX-9,cx-9,291,SUV,Publish
+1088,CX-5,cx-5,291,SUV,Publish
+1089,6,6,291,Sedan,Publish
+1090,CX-5,cx-5,291,SUV,Publish
+1091,CX-9,cx-9,291,SUV,Publish
+1092,CX-5,cx-5,291,SUV,Publish
+1093,Artura,artura,261,Coupe,Publish
+1094,"570 GT",570-gt,261,,Publish
+1095,720S,720s,261,Coupe,Publish
+1096,720S,720s,261,Coupe,Publish
+1097,"570S Spider",570s-spider,261,,Publish
+1098,600LT,600lt,261,,Publish
+1099,Senna,senna,261,Coupe,Publish
+1100,765LT,765lt,261,Coupe,Publish
+1101,GT,gt,261,Sedan,Publish
+1102,540C,540c,261,,Publish
+1103,570S,570s,261,,Publish
+1104,EQV,eqv,281,MPV,Publish
+1105,GLB,glb,281,SUV,Publish
+1106,GLB,glb,281,SUV,Publish
+1107,GLB,glb,281,SUV,Publish
+1108,G-Class,g-class,281,SUV,Publish
+1109,G-Class,g-class,281,SUV,Publish
+1110,"AMG GT 4-Door Coupe",amg-gt-4-door-coupe,281,Coupe,Publish
+1111,"AMG GT 4-Door Coupe",amg-gt-4-door-coupe,281,Coupe,Publish
+1112,"AMG GT 4-Door Coupe",amg-gt-4-door-coupe,281,Coupe,Publish
+1113,"GLC Coupe",glc-coupe,281,Coupe,Publish
+1114,"GLC Coupe",glc-coupe,281,Coupe,Publish
+1115,"GLC Coupe",glc-coupe,281,Coupe,Publish
+1116,"GLC Coupe",glc-coupe,281,Coupe,Publish
+1117,"S Class Cabriolet",s-class-cabriolet,281,Convertible,Publish
+1118,"S Class Cabriolet",s-class-cabriolet,281,Convertible,Publish
+1119,"C Class Cabriolet",c-class-cabriolet,281,Convertible,Publish
+1120,"C Class Cabriolet",c-class-cabriolet,281,Convertible,Publish
+1121,"C Class Cabriolet",c-class-cabriolet,281,Convertible,Publish
+1122,"AMG GT Roadster",amg-gt-roadster,281,Roadster,Publish
+1123,"AMG GT Roadster",amg-gt-roadster,281,Roadster,Publish
+1124,EQC,eqc,281,SUV,Publish
+1125,"A-class Sedan",a-class-sedan,281,Sedan,Publish
+1126,"EQS Sedan",eqs-sedan,281,Sedan,Publish
+1127,"EQS Sedan",eqs-sedan,281,Sedan,Publish
+1128,"EQS Sedan",eqs-sedan,281,Sedan,Publish
+1129,"EQS SUV",eqs-suv,281,SUV,Publish
+1130,EQE,eqe,281,Sedan,Publish
+1131,EQE,eqe,281,Sedan,Publish
+1132,EQA,eqa,281,SUV,Publish
+1133,EQB,eqb,281,SUV,Publish
+1134,CLE,cle,281,Sedan,Publish
+1135,A-Class,a-class,281,Hatchback,Publish
+1136,A-Class,a-class,281,Hatchback,Publish
+1137,A-Class,a-class,281,Hatchback,Publish
+1138,CLA-Class,cla-class,281,Sedan,Publish
+1139,GLA,gla,281,SUV,Publish
+1140,GLA,gla,281,SUV,Publish
+1141,C-Class,c-class,281,Sedan,Publish
+1142,C-Class,c-class,281,Sedan,Publish
+1143,C-Class,c-class,281,Sedan,Publish
+1144,C-Class,c-class,281,Sedan,Publish
+1145,C-Class,c-class,281,Sedan,Publish
+1146,C-Class,c-class,281,Sedan,Publish
+1147,SLC,slc,281,Roadster,Publish
+1148,"V Class",v-class,281,MPV,Publish
+1149,GLC-Class,glc-class,281,SUV,Publish
+1150,"E-Class Saloon",e-class-saloon,281,Sedan,Publish
+1151,"C-Class Coupe",c-class-coupe,281,Coupe,Publish
+1152,"C-Class Coupe",c-class-coupe,281,Coupe,Publish
+1153,"C-Class Coupe",c-class-coupe,281,Coupe,Publish
+1154,"C-Class Coupe",c-class-coupe,281,Coupe,Publish
+1155,SLC,slc,281,Roadster,Publish
+1156,"E-Class Coupe",e-class-coupe,281,Coupe,Publish
+1157,"E-Class Coupe",e-class-coupe,281,Coupe,Publish
+1158,"E-Class Cabriolet",e-class-cabriolet,281,Convertible,Publish
+1159,"E-Class Cabriolet",e-class-cabriolet,281,Convertible,Publish
+1160,"A 45 AMG",a-45-amg,281,Hatchback,Publish
+1161,"V Class",v-class,281,MPV,Publish
+1162,GLC-Class,glc-class,281,SUV,Publish
+1163,GLC-Class,glc-class,281,SUV,Publish
+1164,GLC-Class,glc-class,281,SUV,Publish
+1165,"E-Class Saloon",e-class-saloon,281,Sedan,Publish
+1166,GLA,gla,281,SUV,Publish
+1167,CLA-Class,cla-class,281,Sedan,Publish
+1168,CLA-Class,cla-class,281,Sedan,Publish
+1169,SLC,slc,281,Roadster,Publish
+1170,"E-Class Saloon",e-class-saloon,281,Sedan,Publish
+1171,"E-Class Saloon",e-class-saloon,281,Sedan,Publish
+1172,"V Class",v-class,281,MPV,Publish
+1173,"E-Class Coupe",e-class-coupe,281,Coupe,Publish
+1174,"E-Class Saloon",e-class-saloon,281,Sedan,Publish
+1175,"E-Class Cabriolet",e-class-cabriolet,281,Convertible,Publish
+1176,CLS-Class,cls-class,281,Sedan,Publish
+1177,GLE-Class,gle-class,281,SUV,Publish
+1178,GLE-Class,gle-class,281,SUV,Publish
+1179,GLE-Class,gle-class,281,SUV,Publish
+1180,SL-Class,sl-class,281,Roadster,Publish
+1181,GLS,gls,281,SUV,Publish
+1182,GLS,gls,281,SUV,Publish
+1183,"Maybach GLS",maybach-gls,281,SUV,Publish
+1184,CLS-Class,cls-class,281,Sedan,Publish
+1185,"E 63 AMG",e-63-amg,281,Sedan,Publish
+1186,S-Class,s-class,281,Sedan,Publish
+1187,S-Class,s-class,281,Sedan,Publish
+1188,S-Class,s-class,281,Sedan,Publish
+1189,S-Class,s-class,281,Sedan,Publish
+1190,Maybach,maybach,281,Sedan,Publish
+1191,SL-Class,sl-class,281,Roadster,Publish
+1192,"GLE Coupe",gle-coupe,281,Coupe,Publish
+1193,"GLE Coupe",gle-coupe,281,Coupe,Publish
+1194,"GLE Coupe",gle-coupe,281,Coupe,Publish
+1195,"GLE Coupe",gle-coupe,281,Coupe,Publish
+1196,"SL 63 AMG",sl-63-amg,281,Roadster,Publish
+1197,"AMG GT",amg-gt,281,Coupe,Publish
+1198,"AMG GT",amg-gt,281,Coupe,Publish
+1199,"AMG GT",amg-gt,281,Coupe,Publish
+1200,"AMG GT",amg-gt,281,Coupe,Publish
+1201,"S-Class Coupe",s-class-coupe,281,Coupe,Publish
+1202,"S-Class Coupe",s-class-coupe,281,Coupe,Publish
+1203,"S 63 AMG",s-63-amg,281,Sedan,Publish
+1204,"S 63 AMG Coupe",s-63-amg-coupe,281,Coupe,Publish
+1205,Maybach,maybach,281,Sedan,Publish
+1206,"SL 65 AMG",sl-65-amg,281,Roadster,Publish
+1207,"S 65 AMG",s-65-amg,281,Sedan,Publish
+1208,"S 65 AMG Coupe",s-65-amg-coupe,281,Coupe,Publish
+1209,GT,gt,266,Sedan,Publish
+1210,GT,gt,266,Sedan,Publish
+1211,GT,gt,266,Sedan,Publish
+1212,RX8,rx8,266,SUV,Publish
+1213,RX8,rx8,266,SUV,Publish
+1214,RX8,rx8,266,SUV,Publish
+1215,RX8,rx8,266,SUV,Publish
+1216,5,5,266,SUV,Publish
+1217,5,5,266,SUV,Publish
+1218,5,5,266,SUV,Publish
+1219,HS,hs,266,SUV,Publish
+1220,HS,hs,266,SUV,Publish
+1221,HS,hs,266,SUV,Publish
+1222,"ZS EV",zs-ev,266,SUV,Publish
+1223,T60,t60,266,"Pick up Truck",Publish
+1224,T60,t60,266,"Pick up Truck",Publish
+1225,One,one,266,SUV,Publish
+1226,One,one,266,SUV,Publish
+1227,"4 EV",4-ev,266,SUV,Publish
+1228,"Marvel R",marvel-r,266,SUV,Publish
+1229,6,6,266,Sedan,Publish
+1230,6,6,266,Sedan,Publish
+1231,6,6,266,Sedan,Publish
+1232,Whale,whale,266,SUV,Publish
+1233,Whale,whale,266,SUV,Publish
+1234,"ZS EV",zs-ev,266,SUV,Publish
+1235,One,one,266,SUV,Publish
+1236,One,one,266,SUV,Publish
+1237,HS,hs,266,SUV,Publish
+1238,T60,t60,266,"Pick up Truck",Publish
+1239,T60,t60,266,"Pick up Truck",Publish
+1240,T60,t60,266,"Pick up Truck",Publish
+1241,T60,t60,266,"Pick up Truck",Publish
+1242,ZS,zs,266,SUV,Publish
+1243,3,3,266,Hatchback,Publish
+1244,ZS,zs,266,SUV,Publish
+1245,ZS,zs,266,SUV,Publish
+1246,RX5,rx5,266,Crossover,Publish
+1247,RX5,rx5,266,Crossover,Publish
+1248,RX5,rx5,266,Crossover,Publish
+1249,RX5,rx5,266,Crossover,Publish
+1250,RX5,rx5,266,Crossover,Publish
+1251,3,3,266,Hatchback,Publish
+1252,3,3,266,Hatchback,Publish
+1253,"SE EV",se-ev,284,Hatchback,Publish
+1254,Clubman,clubman,284,Hatchback,Publish
+1255,Clubman,clubman,284,Hatchback,Publish
+1256,Clubman,clubman,284,Hatchback,Publish
+1257,Hatch,hatch,284,Hatchback,Publish
+1258,Convertible,convertible,284,Convertible,Publish
+1259,Hatch,hatch,284,Hatchback,Publish
+1260,Countryman,countryman,284,"Crossover SUV",Publish
+1261,Countryman,countryman,284,"Crossover SUV",Publish
+1262,Spacestar,spacestar,304,Hatchback,Publish
+1263,Spacestar,spacestar,304,Hatchback,Publish
+1264,Xpander,xpander,304,SUV,Publish
+1265,"Xpander Cross",xpander-cross,304,MPV,Publish
+1266,L200,l200,304,"Pick up Truck",Publish
+1267,ASX,asx,304,SUV,Publish
+1268,Attrage,attrage,304,Sedan,Publish
+1269,Attrage,attrage,304,Sedan,Publish
+1270,"Eclipse Cross",eclipse-cross,304,SUV,Publish
+1271,"Eclipse Cross",eclipse-cross,304,SUV,Publish
+1272,"Eclipse Cross",eclipse-cross,304,SUV,Publish
+1273,"Eclipse Cross",eclipse-cross,304,SUV,Publish
+1274,"Eclipse Cross",eclipse-cross,304,SUV,Publish
+1275,Outlander,outlander,304,SUV,Publish
+1276,Outlander,outlander,304,SUV,Publish
+1277,Outlander,outlander,304,SUV,Publish
+1278,L200,l200,304,"Pick up Truck",Publish
+1279,L200,l200,304,"Pick up Truck",Publish
+1280,L200,l200,304,"Pick up Truck",Publish
+1281,L200,l200,304,"Pick up Truck",Publish
+1282,L200,l200,304,"Pick up Truck",Publish
+1283,ASX,asx,304,SUV,Publish
+1284,Pajero,pajero,304,SUV,Publish
+1285,"Montero Sport",montero-sport,304,SUV,Publish
+1286,"Montero Sport",montero-sport,304,SUV,Publish
+1287,"Montero Sport",montero-sport,304,SUV,Publish
+1288,Pajero,pajero,304,SUV,Publish
+1289,ET7,et7,319,Sedan,Publish
+1290,ET7,et7,319,Sedan,Publish
+1291,ET7,et7,319,Sedan,Publish
+1292,Z,z,264,Coupe,Publish
+1293,Z,z,264,Coupe,Publish
+1294,X-Trail,x-trail,264,SUV,Publish
+1295,X-Trail,x-trail,264,SUV,Publish
+1296,X-Trail,x-trail,264,SUV,Publish
+1297,GT-R,gt-r,264,Coupe,Publish
+1298,GT-R,gt-r,264,Coupe,Publish
+1299,Kicks,kicks,264,SUV,Publish
+1300,Sunny,sunny,264,Sedan,Publish
+1301,Sunny,sunny,264,Sedan,Publish
+1302,Sunny,sunny,264,Sedan,Publish
+1303,Civilian,civilian,264,,Publish
+1304,"Patrol Pick Up",patrol-pick-up,264,,Publish
+1305,Leaf,leaf,264,Hatchback,Publish
+1306,Kicks,kicks,264,SUV,Publish
+1307,Micra,micra,264,Hatchback,Publish
+1308,Kicks,kicks,264,SUV,Publish
+1309,X-Trail,x-trail,264,SUV,Publish
+1310,X-Trail,x-trail,264,SUV,Publish
+1311,X-Trail,x-trail,264,SUV,Publish
+1312,X-Trail,x-trail,264,SUV,Publish
+1313,Sentra,sentra,264,Sedan,Publish
+1314,Sentra,sentra,264,Sedan,Publish
+1315,X-Trail,x-trail,264,SUV,Publish
+1316,Juke,juke,264,"Compact SUV",Publish
+1317,Navara,navara,264,"Pick up Truck",Publish
+1318,Navara,navara,264,"Pick up Truck",Publish
+1319,Navara,navara,264,"Pick up Truck",Publish
+1320,Altima,altima,264,Sedan,Publish
+1321,Altima,altima,264,Sedan,Publish
+1322,Urvan,urvan,264,,Publish
+1323,Urvan,urvan,264,,Publish
+1324,Urvan,urvan,264,,Publish
+1325,Urvan,urvan,264,,Publish
+1326,Urvan,urvan,264,,Publish
+1327,Urvan,urvan,264,,Publish
+1328,Altima,altima,264,Sedan,Publish
+1329,Urvan,urvan,264,,Publish
+1330,Urvan,urvan,264,,Publish
+1331,Urvan,urvan,264,,Publish
+1332,Urvan,urvan,264,,Publish
+1333,Pathfinder,pathfinder,264,SUV,Publish
+1334,Pathfinder,pathfinder,264,SUV,Publish
+1335,Pathfinder,pathfinder,264,SUV,Publish
+1336,Altima,altima,264,Sedan,Publish
+1337,Urvan,urvan,264,,Publish
+1338,Maxima,maxima,264,Sedan,Publish
+1339,Maxima,maxima,264,Sedan,Publish
+1340,Xterra,xterra,264,SUV,Publish
+1341,Xterra,xterra,264,SUV,Publish
+1342,Xterra,xterra,264,SUV,Publish
+1343,Maxima,maxima,264,Sedan,Publish
+1344,Pathfinder,pathfinder,264,SUV,Publish
+1345,Pathfinder,pathfinder,264,SUV,Publish
+1346,"Patrol Safari",patrol-safari,264,SUV,Publish
+1347,"Patrol Safari",patrol-safari,264,SUV,Publish
+1348,"Patrol Safari",patrol-safari,264,SUV,Publish
+1349,Patrol,patrol,264,SUV,Publish
+1350,Patrol,patrol,264,SUV,Publish
+1351,Patrol,patrol,264,SUV,Publish
+1352,Patrol,patrol,264,SUV,Publish
+1353,Patrol,patrol,264,SUV,Publish
+1354,GT-R,gt-r,264,Coupe,Publish
+1355,GT-R,gt-r,264,Coupe,Publish
+1356,GT-R,gt-r,264,Coupe,Publish
+1357,2008,2008,254,"Crossover SUV",Publish
+1358,2008,2008,254,"Crossover SUV",Publish
+1359,2008,2008,254,"Crossover SUV",Publish
+1360,2008,2008,254,"Crossover SUV",Publish
+1361,Expert,expert,254,,Publish
+1362,Expert,expert,254,,Publish
+1363,Traveller,traveller,254,,Publish
+1364,508,508,254,Sedan,Publish
+1365,508,508,254,Sedan,Publish
+1366,Landtrek,landtrek,254,"Pick up Truck",Publish
+1367,Landtrek,landtrek,254,"Pick up Truck",Publish
+1368,Landtrek,landtrek,254,"Pick up Truck",Publish
+1369,Landtrek,landtrek,254,"Pick up Truck",Publish
+1370,Landtrek,landtrek,254,"Pick up Truck",Publish
+1371,Landtrek,landtrek,254,"Pick up Truck",Publish
+1372,301,301,254,Sedan,Publish
+1373,208,208,254,Hatchback,Publish
+1374,208,208,254,Hatchback,Publish
+1375,308,308,254,Hatchback,Publish
+1376,3008,3008,254,SUV,Publish
+1377,3008,3008,254,SUV,Publish
+1378,Boxer,boxer,254,Van,Publish
+1379,408,408,254,SUV,Publish
+1380,408,408,254,SUV,Publish
+1381,5008,5008,254,"Crossover SUV",Publish
+1382,3008,3008,254,SUV,Publish
+1383,5008,5008,254,"Crossover SUV",Publish
+1384,2,2,317,Sedan,Publish
+1385,2,2,317,Sedan,Publish
+1386,2,2,317,Sedan,Publish
+1387,2,2,317,Sedan,Publish
+1388,Taycan,taycan,283,Coupe,Publish
+1389,Taycan,taycan,283,Coupe,Publish
+1390,Taycan,taycan,283,Coupe,Publish
+1391,Taycan,taycan,283,Coupe,Publish
+1392,Taycan,taycan,283,Coupe,Publish
+1393,911,911,283,Coupe,Publish
+1394,911,911,283,Coupe,Publish
+1395,911,911,283,Coupe,Publish
+1396,911,911,283,Coupe,Publish
+1397,911,911,283,Coupe,Publish
+1398,911,911,283,Coupe,Publish
+1399,Macan,macan,283,SUV,Publish
+1400,Macan,macan,283,SUV,Publish
+1401,Macan,macan,283,SUV,Publish
+1402,Macan,macan,283,SUV,Publish
+1403,"Panamera Sport Turismo",panamera-sport-turismo,283,"Station Wagon",Publish
+1404,"Panamera Sport Turismo",panamera-sport-turismo,283,"Station Wagon",Publish
+1405,"Panamera Sport Turismo",panamera-sport-turismo,283,"Station Wagon",Publish
+1406,"Panamera Sport Turismo",panamera-sport-turismo,283,"Station Wagon",Publish
+1407,"Panamera Sport Turismo",panamera-sport-turismo,283,"Station Wagon",Publish
+1408,718,718,283,Coupe,Publish
+1409,718,718,283,Coupe,Publish
+1410,718,718,283,Coupe,Publish
+1411,718,718,283,Coupe,Publish
+1412,718,718,283,Coupe,Publish
+1413,718,718,283,Coupe,Publish
+1414,718,718,283,Coupe,Publish
+1415,718,718,283,Coupe,Publish
+1416,718,718,283,Coupe,Publish
+1417,718,718,283,Coupe,Publish
+1418,718,718,283,Coupe,Publish
+1419,718,718,283,Coupe,Publish
+1420,Cayenne,cayenne,283,SUV,Publish
+1421,"Cayenne Coupe",cayenne-coupe,283,Coupe,Publish
+1422,"Cayenne Coupe",cayenne-coupe,283,Coupe,Publish
+1423,Cayenne,cayenne,283,SUV,Publish
+1424,"Cayenne Coupe",cayenne-coupe,283,Coupe,Publish
+1425,Cayenne,cayenne,283,SUV,Publish
+1426,"Cayenne Coupe",cayenne-coupe,283,Coupe,Publish
+1427,911,911,283,Coupe,Publish
+1428,911,911,283,Coupe,Publish
+1429,Cayenne,cayenne,283,SUV,Publish
+1430,"Cayenne Coupe",cayenne-coupe,283,Coupe,Publish
+1431,911,911,283,Coupe,Publish
+1432,911,911,283,Coupe,Publish
+1433,911,911,283,Coupe,Publish
+1434,911,911,283,Coupe,Publish
+1435,911,911,283,Coupe,Publish
+1436,911,911,283,Coupe,Publish
+1437,Panamera,panamera,283,Coupe,Publish
+1438,911,911,283,Coupe,Publish
+1439,911,911,283,Coupe,Publish
+1440,911,911,283,Coupe,Publish
+1441,Panamera,panamera,283,Coupe,Publish
+1442,Panamera,panamera,283,Coupe,Publish
+1443,Panamera,panamera,283,Coupe,Publish
+1444,Panamera,panamera,283,Coupe,Publish
+1445,Panamera,panamera,283,Coupe,Publish
+1446,Panamera,panamera,283,Coupe,Publish
+1447,Panamera,panamera,283,Coupe,Publish
+1448,Panamera,panamera,283,Coupe,Publish
+1449,Cayenne,cayenne,283,SUV,Publish
+1450,Cayenne,cayenne,283,SUV,Publish
+1451,"Cayenne Coupe",cayenne-coupe,283,Coupe,Publish
+1452,"Cayenne Coupe",cayenne-coupe,283,Coupe,Publish
+1453,911,911,283,Coupe,Publish
+1454,911,911,283,Coupe,Publish
+1455,911,911,283,Coupe,Publish
+1456,911,911,283,Coupe,Publish
+1457,911,911,283,Coupe,Publish
+1458,911,911,283,Coupe,Publish
+1459,911,911,283,Coupe,Publish
+1460,Panamera,panamera,283,Coupe,Publish
+1461,Panamera,panamera,283,Coupe,Publish
+1462,911,911,283,Coupe,Publish
+1463,911,911,283,Coupe,Publish
+1464,2500,2500,287,"Pick up Truck",Publish
+1465,1500,1500,287,"Pick up Truck",Publish
+1466,1500,1500,287,"Pick up Truck",Publish
+1467,1500,1500,287,"Pick up Truck",Publish
+1468,1500,1500,287,"Pick up Truck",Publish
+1469,"1500 TRX",1500-trx,287,"Pick up Truck",Publish
+1470,"1500 Classic",1500-classic,287,"Pick up Truck",Publish
+1471,Koleos,koleos,270,SUV,Publish
+1472,Zoe,zoe,270,Hatchback,Publish
+1473,Megane,megane,270,Sedan,Publish
+1474,Talisman,talisman,270,Sedan,Publish
+1475,Talisman,talisman,270,Sedan,Publish
+1476,Master,master,270,,Publish
+1477,Master,master,270,,Publish
+1478,Master,master,270,,Publish
+1479,Master,master,270,,Publish
+1480,"Express Van",express-van,270,,Publish
+1481,Symbol,symbol,270,Sedan,Publish
+1482,"Dokker Van",dokker-van,270,,Publish
+1483,Duster,duster,270,SUV,Publish
+1484,Megane,megane,270,Sedan,Publish
+1485,Captur,captur,270,SUV,Publish
+1486,Captur,captur,270,SUV,Publish
+1487,Captur,captur,270,SUV,Publish
+1488,Twizy,twizy,270,Hatchback,Publish
+1489,Twizy,twizy,270,Hatchback,Publish
+1490,"Megane Hatchback",megane-hatchback,270,Hatchback,Publish
+1491,"Megane Hatchback",megane-hatchback,270,Hatchback,Publish
+1492,Cullinan,cullinan,288,SUV,Publish
+1493,Spectre,spectre,288,Coupe,Publish
+1494,Ghost,ghost,288,Sedan,Publish
+1495,Wraith,wraith,288,Coupe,Publish
+1496,Wraith,wraith,288,Coupe,Publish
+1497,Dawn,dawn,288,Convertible,Publish
+1498,Dawn,dawn,288,Convertible,Publish
+1499,Phantom,phantom,288,Sedan,Publish
+1500,Phantom,phantom,288,Sedan,Publish
+1501,5,5,318,SUV,Publish
+1502,5,5,266,SUV,Publish
+1503,Rapid,rapid,298,Sedan,Publish
+1504,Rapid,rapid,298,Sedan,Publish
+1505,Kodiaq,kodiaq,298,SUV,Publish
+1506,Fabia,fabia,298,Hatchback,Publish
+1507,Octavia,octavia,298,Sedan,Publish
+1508,Octavia,octavia,298,Sedan,Publish
+1509,Superb,superb,298,Sedan,Publish
+1510,Superb,superb,298,Sedan,Publish
+1511,Tivoli,tivoli,296,SUV,Publish
+1512,Tivoli,tivoli,296,SUV,Publish
+1513,XLV,xlv,296,SUV,Publish
+1514,XLV,xlv,296,SUV,Publish
+1515,Rexton,rexton,296,SUV,Publish
+1516,Rexton,rexton,296,SUV,Publish
+1517,Korando,korando,296,SUV,Publish
+1518,Korando,korando,296,SUV,Publish
+1519,XV,xv,323,SUV,Publish
+1520,Impreza,impreza,323,Sedan,Publish
+1521,Impreza,impreza,323,Sedan,Publish
+1522,Legacy,legacy,323,Sedan,Publish
+1523,XV,xv,323,SUV,Publish
+1524,BRZ,brz,323,Coupe,Publish
+1525,Outback,outback,323,SUV,Publish
+1526,Forester,forester,323,SUV,Publish
+1527,BRZ,brz,323,Coupe,Publish
+1528,WRX,wrx,323,Sedan,Publish
+1529,WRX,wrx,323,Sedan,Publish
+1530,WRX,wrx,323,Sedan,Publish
+1531,Jimny,jimny,273,"Compact SUV",Publish
+1532,Jimny,jimny,273,"Compact SUV",Publish
+1533,"Swift Sport",swift-sport,273,Hatchback,Publish
+1534,Swift,swift,273,Hatchback,Publish
+1535,Swift,swift,273,Hatchback,Publish
+1536,Ciaz,ciaz,273,Sedan,Publish
+1537,Ciaz,ciaz,273,Sedan,Publish
+1538,Carry,carry,273,,Publish
+1539,"Carry Microbus",carry-microbus,273,,Publish
+1540,Dzire,dzire,273,Sedan,Publish
+1541,Dzire,dzire,273,Sedan,Publish
+1542,Ertiga,ertiga,273,MPV,Publish
+1543,Baleno,baleno,273,Hatchback,Publish
+1544,Ertiga,ertiga,273,MPV,Publish
+1545,Baleno,baleno,273,Hatchback,Publish
+1546,SX4,sx4,273,,Publish
+1547,Vitara,vitara,273,SUV,Publish
+1548,"Grand Vitara",grand-vitara,273,SUV,Publish
+1549,"Grand Vitara",grand-vitara,273,SUV,Publish
+1550,"Grand Vitara",grand-vitara,273,SUV,Publish
+1551,Vitara,vitara,273,SUV,Publish
+1552,300,300,315,SUV,Publish
+1553,300,300,315,SUV,Publish
+1554,500,500,315,Hatchback,Publish
+1555,500,500,315,Hatchback,Publish
+1556,500,500,315,Hatchback,Publish
+1557,500,500,315,Hatchback,Publish
+1558,Xenon,xenon,320,"Pick up Truck",Publish
+1559,Xenon,xenon,320,"Pick up Truck",Publish
+1560,"Model X",model-x,295,SUV,Publish
+1561,"Model X",model-x,295,SUV,Publish
+1562,"Model 3",model-3,295,Sedan,Publish
+1563,"Model 3",model-3,295,Sedan,Publish
+1564,"Model 3",model-3,295,Sedan,Publish
+1565,"Model S",model-s,295,Sedan,Publish
+1566,"Model S",model-s,295,Sedan,Publish
+1567,"Model Y",model-y,295,SUV,Publish
+1568,"Model Y",model-y,295,SUV,Publish
+1569,"Model Y",model-y,295,SUV,Publish
+1570,"Land Cruiser",land-cruiser,262,SUV,Publish
+1571,"Land Cruiser",land-cruiser,262,SUV,Publish
+1572,"Land Cruiser",land-cruiser,262,SUV,Publish
+1573,"Land Cruiser",land-cruiser,262,SUV,Publish
+1574,"Land Cruiser",land-cruiser,262,SUV,Publish
+1575,"Land Cruiser",land-cruiser,262,SUV,Publish
+1576,"Land Cruiser",land-cruiser,262,SUV,Publish
+1577,"Land Cruiser",land-cruiser,262,SUV,Publish
+1578,"Land Cruiser",land-cruiser,262,SUV,Publish
+1579,"Land Cruiser",land-cruiser,262,SUV,Publish
+1580,"Land Cruiser",land-cruiser,262,SUV,Publish
+1581,"Land Cruiser",land-cruiser,262,SUV,Publish
+1582,"Land Cruiser",land-cruiser,262,SUV,Publish
+1583,Highlander,highlander,262,SUV,Publish
+1584,Highlander,highlander,262,SUV,Publish
+1585,Highlander,highlander,262,SUV,Publish
+1586,Corolla,corolla,262,Sedan,Publish
+1587,Corolla,corolla,262,Sedan,Publish
+1588,Corolla,corolla,262,Sedan,Publish
+1589,Corolla,corolla,262,Sedan,Publish
+1590,Corolla,corolla,262,Sedan,Publish
+1591,Corolla,corolla,262,Sedan,Publish
+1592,Corolla,corolla,262,Sedan,Publish
+1593,Corolla,corolla,262,Sedan,Publish
+1594,Corolla,corolla,262,Sedan,Publish
+1595,Supra,supra,262,Coupe,Publish
+1596,Supra,supra,262,Coupe,Publish
+1597,Granvia,granvia,262,Minivan,Publish
+1598,Granvia,granvia,262,Minivan,Publish
+1599,Granvia,granvia,262,Minivan,Publish
+1600,Rush,rush,262,SUV,Publish
+1601,Avalon,avalon,262,Sedan,Publish
+1602,Avalon,avalon,262,Sedan,Publish
+1603,Avalon,avalon,262,Sedan,Publish
+1604,Avalon,avalon,262,Sedan,Publish
+1605,Hiace,hiace,262,,Publish
+1606,Hiace,hiace,262,,Publish
+1607,Hiace,hiace,262,,Publish
+1608,Hiace,hiace,262,,Publish
+1609,Hiace,hiace,262,,Publish
+1610,Hiace,hiace,262,,Publish
+1611,Hiace,hiace,262,,Publish
+1612,Hiace,hiace,262,,Publish
+1613,Hiace,hiace,262,,Publish
+1614,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1615,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1616,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1617,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1618,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1619,"C HR",c-hr,262,SUV,Publish
+1620,"Corolla Cross",corolla-cross,262,Crossover,Publish
+1621,"Corolla Cross",corolla-cross,262,Crossover,Publish
+1622,"Corolla Cross",corolla-cross,262,Crossover,Publish
+1623,Raize,raize,262,"Compact SUV",Publish
+1624,Raize,raize,262,"Compact SUV",Publish
+1625,Liteace,liteace,262,,Publish
+1626,Liteace,liteace,262,,Publish
+1627,Veloz,veloz,262,MPV,Publish
+1628,"Urban Cruiser",urban-cruiser,262,SUV,Publish
+1629,"Urban Cruiser",urban-cruiser,262,SUV,Publish
+1630,Crown,crown,262,Sedan,Publish
+1631,Crown,crown,262,Sedan,Publish
+1632,"Yaris Sedan",yaris-sedan,262,Sedan,Publish
+1633,"Yaris Sedan",yaris-sedan,262,Sedan,Publish
+1634,"Yaris Sedan",yaris-sedan,262,Sedan,Publish
+1635,Yaris,yaris,262,Hatchback,Publish
+1636,Rush,rush,262,SUV,Publish
+1637,Hilux,hilux,262,"Pick up Truck",Publish
+1638,Hilux,hilux,262,"Pick up Truck",Publish
+1639,Hilux,hilux,262,"Pick up Truck",Publish
+1640,Hilux,hilux,262,"Pick up Truck",Publish
+1641,Camry,camry,262,Sedan,Publish
+1642,Rav4,rav4,262,"Crossover SUV",Publish
+1643,Rav4,rav4,262,"Crossover SUV",Publish
+1644,Rav4,rav4,262,"Crossover SUV",Publish
+1645,Rav4,rav4,262,"Crossover SUV",Publish
+1646,Avanza,avanza,262,MPV,Publish
+1647,Hilux,hilux,262,"Pick up Truck",Publish
+1648,Innova,innova,262,MPV,Publish
+1649,Innova,innova,262,MPV,Publish
+1650,Camry,camry,262,Sedan,Publish
+1651,Innova,innova,262,MPV,Publish
+1652,Innova,innova,262,MPV,Publish
+1653,Hilux,hilux,262,"Pick up Truck",Publish
+1654,Hilux,hilux,262,"Pick up Truck",Publish
+1655,Hilux,hilux,262,"Pick up Truck",Publish
+1656,Camry,camry,262,Sedan,Publish
+1657,Camry,camry,262,Sedan,Publish
+1658,Camry,camry,262,Sedan,Publish
+1659,Camry,camry,262,Sedan,Publish
+1660,Hilux,hilux,262,"Pick up Truck",Publish
+1661,Fortuner,fortuner,262,SUV,Publish
+1662,Camry,camry,262,Sedan,Publish
+1663,Fortuner,fortuner,262,SUV,Publish
+1664,Fortuner,fortuner,262,SUV,Publish
+1665,Fortuner,fortuner,262,SUV,Publish
+1666,Fortuner,fortuner,262,SUV,Publish
+1667,Hilux,hilux,262,"Pick up Truck",Publish
+1668,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1669,Hilux,hilux,262,"Pick up Truck",Publish
+1670,Camry,camry,262,Sedan,Publish
+1671,Camry,camry,262,Sedan,Publish
+1672,Camry,camry,262,Sedan,Publish
+1673,Rav4,rav4,262,"Crossover SUV",Publish
+1674,Rav4,rav4,262,"Crossover SUV",Publish
+1675,Rav4,rav4,262,"Crossover SUV",Publish
+1676,Rav4,rav4,262,"Crossover SUV",Publish
+1677,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1678,Hilux,hilux,262,"Pick up Truck",Publish
+1679,Hilux,hilux,262,"Pick up Truck",Publish
+1680,Hilux,hilux,262,"Pick up Truck",Publish
+1681,Hilux,hilux,262,"Pick up Truck",Publish
+1682,Hilux,hilux,262,"Pick up Truck",Publish
+1683,Hilux,hilux,262,"Pick up Truck",Publish
+1684,Camry,camry,262,Sedan,Publish
+1685,Camry,camry,262,Sedan,Publish
+1686,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1687,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1688,Hilux,hilux,262,"Pick up Truck",Publish
+1689,Hilux,hilux,262,"Pick up Truck",Publish
+1690,Hilux,hilux,262,"Pick up Truck",Publish
+1691,Hilux,hilux,262,"Pick up Truck",Publish
+1692,Hilux,hilux,262,"Pick up Truck",Publish
+1693,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1694,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1695,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1696,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1697,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1698,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1699,"Land Cruiser Prado",land-cruiser-prado,262,SUV,Publish
+1700,Fortuner,fortuner,262,SUV,Publish
+1701,"Land Cruiser Pick Up",land-cruiser-pick-up,262,,Publish
+1702,Hilux,hilux,262,"Pick up Truck",Publish
+1703,"Land Cruiser Prado",land-cruiser-prado,262,SUV,Publish
+1704,"Land Cruiser Prado",land-cruiser-prado,262,SUV,Publish
+1705,Fortuner,fortuner,262,SUV,Publish
+1706,"Land Cruiser Prado",land-cruiser-prado,262,SUV,Publish
+1707,"Land Cruiser Prado",land-cruiser-prado,262,SUV,Publish
+1708,"Land Cruiser Prado",land-cruiser-prado,262,SUV,Publish
+1709,Coaster,coaster,262,,Draft
+1710,"FJ Cruiser",fj-cruiser,262,SUV,Publish
+1711,"FJ Cruiser",fj-cruiser,262,SUV,Publish
+1712,"FJ Cruiser",fj-cruiser,262,SUV,Publish
+1713,"FJ Cruiser",fj-cruiser,262,SUV,Publish
+1714,"FJ Cruiser",fj-cruiser,262,SUV,Publish
+1715,Coaster,coaster,262,,Draft
+1716,Sequoia,sequoia,262,suv,Publish
+1717,Sequoia,sequoia,262,suv,Publish
+1718,"Golf GTI",golf-gti,269,Hatchback,Publish
+1719,Passat,passat,269,Sedan,Publish
+1720,Passat,passat,269,Sedan,Publish
+1721,Touareg,touareg,269,SUV,Publish
+1722,Touareg,touareg,269,SUV,Publish
+1723,Touareg,touareg,269,SUV,Publish
+1724,Teramont,teramont,269,SUV,Publish
+1725,Teramont,teramont,269,SUV,Publish
+1726,Teramont,teramont,269,SUV,Publish
+1727,T-Roc,t-roc,269,SUV,Publish
+1728,T-Roc,t-roc,269,SUV,Publish
+1729,T-Roc,t-roc,269,SUV,Publish
+1730,"Golf R",golf-r,269,Hatchback,Publish
+1731,Golf,golf,269,Hatchback,Publish
+1732,Golf,golf,269,Hatchback,Publish
+1733,Tiguan,tiguan,269,SUV,Publish
+1734,Tiguan,tiguan,269,SUV,Publish
+1735,Golf,golf,269,Hatchback,Publish
+1736,Arteon,arteon,269,Sedan,Publish
+1737,Arteon,arteon,269,Sedan,Publish
+1738,Tiguan,tiguan,269,SUV,Publish
+1739,Tiguan,tiguan,269,SUV,Publish
+1740,Tiguan,tiguan,269,SUV,Publish
+1741,Scirocco,scirocco,269,,Publish
+1742,Scirocco,scirocco,269,,Publish
+1743,Arteon,arteon,269,Sedan,Publish
+1744,Scirocco,scirocco,269,,Publish
+1745,S60,s60,285,Sedan,Publish
+1746,S60,s60,285,Sedan,Publish
+1747,S90,s90,285,Sedan,Publish
+1748,S90,s90,285,Sedan,Publish
+1749,S90,s90,285,Sedan,Publish
+1750,S90,s90,285,Sedan,Publish
+1751,XC60,xc60,285,SUV,Publish
+1752,XC60,xc60,285,SUV,Publish
+1753,XC60,xc60,285,SUV,Publish
+1754,XC60,xc60,285,SUV,Publish
+1755,XC60,xc60,285,SUV,Publish
+1756,"XC40 Recharge",xc40-recharge,285,SUV,Publish
+1757,XC40,xc40,285,SUV,Publish
+1758,XC40,xc40,285,SUV,Publish
+1759,XC40,xc40,285,SUV,Publish
+1760,XC40,xc40,285,SUV,Publish
+1761,Terralord,terralord,314,"Pick up Truck",Publish
+1762,Terralord,terralord,314,"Pick up Truck",Publish
+1763,Terralord,terralord,314,"Pick up Truck",Publish
+1764,Terralord,terralord,314,"Pick up Truck",Publish
+1765,Terralord,terralord,314,"Pick up Truck",Publish
+1766,Terralord,terralord,314,"Pick up Truck",Publish
+1767,Terralord,terralord,314,"Pick up Truck",Publish
+1768,"124 Spider",124-spider,52,,Publish
+1769,595,595,52,Hatchback,Publish
+1770,595,595,52,Hatchback,Publish
+1771,595,595,52,Hatchback,Publish
+1772,695,695,52,Hatchback,Publish
+1773,695,695,52,Hatchback,Publish
+1774,695,695,52,Hatchback,Publish
+1775,"DMV 300",dmv-300,60,SUV,Publish
+1776,Tonale,tonale,69,SUV,Publish
+1777,Giulietta,giulietta,69,,Publish
+1778,Giulietta,giulietta,69,,Publish
+1779,Stelvio,stelvio,69,SUV,Publish
+1780,Giulia,giulia,69,Sedan,Publish
+1781,Stelvio,stelvio,69,SUV,Publish
+1782,4C,4c,69,Coupe,Publish
+1783,4C,4c,69,Coupe,Publish
+1784,Giulia,giulia,69,Sedan,Publish
+1785,Stelvio,stelvio,69,SUV,Publish
+1786,Falcon,falcon,86,,Publish
+1787,Oyster,oyster,86,,Publish
+1788,Falcon,falcon,86,,Publish
+1789,Falcon,falcon,86,,Publish
+1790,Valhalla,valhalla,28,Coupe,Publish
+1791,DB11,db11,28,Coupe,Publish
+1792,"Vantage Roadster",vantage-roadster,28,Roadster,Publish
+1793,Vantage,vantage,28,Coupe,Publish
+1794,Vantage,vantage,28,Coupe,Publish
+1795,"Vantage Roadster",vantage-roadster,28,Roadster,Publish
+1796,DBX,dbx,28,SUV,Publish
+1797,DB11,db11,28,Coupe,Publish
+1798,DB11,db11,28,Coupe,Publish
+1799,DBS,dbs,28,Coupe,Publish
+1800,DBS,dbs,28,Coupe,Publish
+1801,"DBS Superleggera Volante",dbs-superleggera-volante,28,Convertible,Publish
+1802,"RS6 Avant",rs6-avant,29,"Station Wagon",Publish
+1803,"A5 Coupe",a5-coupe,29,Coupe,Publish
+1804,"R8 Coupe",r8-coupe,29,Coupe,Publish
+1805,"R8 Coupe",r8-coupe,29,Coupe,Publish
+1806,TT,tt,29,Coupe,Publish
+1807,TT,tt,29,Coupe,Publish
+1808,"A3 Sedan",a3-sedan,29,Sedan,Publish
+1809,Q7,q7,29,SUV,Publish
+1810,"A5 Sportback",a5-sportback,29,Sportback,Publish
+1811,"S3 Sportback",s3-sportback,29,Sportback,Publish
+1812,"RS Q3",rs-q3,29,SUV,Publish
+1813,SQ5,sq5,29,SUV,Publish
+1814,"e-tron Sportback",e-tron-sportback,29,Sportback,Publish
+1815,"e-tron Sportback",e-tron-sportback,29,Sportback,Publish
+1816,"RS3 Sedan",rs3-sedan,29,Sedan,Publish
+1817,"RS5 Sportback",rs5-sportback,29,Sportback,Publish
+1818,"Q5 Sportback",q5-sportback,29,Sportback,Publish
+1819,"RS Q3 Sporback",rs-q3-sporback,29,Sportback,Publish
+1820,"SQ5 Sportback",sq5-sportback,29,Sportback,Publish
+1821,"Q8 e-tron",q8-e-tron,29,SUV,Publish
+1822,"A3 Sedan",a3-sedan,29,Sedan,Publish
+1823,"A3 Sedan",a3-sedan,29,Sedan,Publish
+1824,"A3 Sedan",a3-sedan,29,Sedan,Publish
+1825,"A3 Sedan",a3-sedan,29,Sedan,Publish
+1826,Q3,q3,29,SUV,Publish
+1827,Q3,q3,29,SUV,Publish
+1828,A4,a4,29,Sedan,Publish
+1829,"Q3 Sportback",q3-sportback,29,Sportback,Publish
+1830,A4,a4,29,Sedan,Publish
+1831,A4,a4,29,Sedan,Publish
+1832,"S3 Sedan",s3-sedan,29,Sedan,Publish
+1833,A4,a4,29,Sedan,Publish
+1834,"Q3 Sportback",q3-sportback,29,Sportback,Publish
+1835,A6,a6,29,Sedan,Publish
+1836,A4,a4,29,Sedan,Publish
+1837,"A5 Coupe",a5-coupe,29,Coupe,Publish
+1838,Q5,q5,29,SUV,Publish
+1839,"A5 Sportback",a5-sportback,29,Sportback,Publish
+1840,"A5 Coupe",a5-coupe,29,Coupe,Publish
+1841,A6,a6,29,Sedan,Publish
+1842,A4,a4,29,Sedan,Publish
+1843,A6,a6,29,Sedan,Publish
+1844,"A7 Sportback",a7-sportback,29,Sportback,Publish
+1845,Q7,q7,29,SUV,Publish
+1846,"S5 Sportback",s5-sportback,29,Sportback,Publish
+1847,"S5 Coupe",s5-coupe,29,Coupe,Publish
+1848,Q8,q8,29,SUV,Publish
+1849,SQ8,sq8,29,SUV,Publish
+1850,"A7 Sportback",a7-sportback,29,Sportback,Publish
+1851,A8,a8,29,Sedan,Publish
+1852,A8,a8,29,Sedan,Publish
+1853,"A7 Sportback",a7-sportback,29,Sportback,Publish
+1854,A8,a8,29,Sedan,Publish
+1855,"RS Q8",rs-q8,29,SUV,Publish
+1856,S8,s8,29,Sedan,Publish
+1857,BJ40,bj40,50,SUV,Publish
+1858,X35,x35,50,SUV,Publish
+1859,X35,x35,50,SUV,Publish
+1860,"BJ40 Plus",bj40-plus,50,SUV,Publish
+1861,"BJ40 Plus",bj40-plus,50,SUV,Publish
+1862,"BJ40 Plus",bj40-plus,50,SUV,Publish
+1863,BJ80,bj80,50,SUV,Publish
+1864,X7,x7,50,SUV,Publish
+1865,F40,f40,50,"Pick up Truck",Publish
+1866,X55,x55,50,SUV,Publish
+1867,X55,x55,50,SUV,Publish
+1868,"BJ40 C",bj40-c,50,SUV,Publish
+1869,"BJ40 C",bj40-c,50,SUV,Publish
+1870,BJ60,bj60,50,SUV,Publish
+1871,"Flying Spur",flying-spur,45,Sedan,Publish
+1872,"EXP 100 GT",exp-100-gt,45,Sedan,Publish
+1873,"Flying Spur",flying-spur,45,Sedan,Publish
+1874,Bentayga,bentayga,45,SUV,Publish
+1875,Bentayga,bentayga,45,SUV,Publish
+1876,"Continental GT",continental-gt,45,Coupe,Publish
+1877,"Continental GT Convertible",continental-gt-convertible,45,Convertible,Publish
+1878,Bentayga,bentayga,45,SUV,Publish
+1879,"Continental GT",continental-gt,45,Coupe,Publish
+1880,"Continental GT Convertible",continental-gt-convertible,45,Convertible,Publish
+1881,"Flying Spur",flying-spur,45,Sedan,Publish
+1882,Mulsanne,mulsanne,45,,Publish
+1883,Mulsanne,mulsanne,45,,Publish
+1884,Mulsanne,mulsanne,45,,Publish
+1885,B70S,b70s,66,SUV,Publish
+1886,T33,t33,66,Crossover,Publish
+1887,T33,t33,66,Crossover,Publish
+1888,T55,t55,66,SUV,Publish
+1889,T55,t55,66,SUV,Publish
+1890,T77,t77,66,SUV,Publish
+1891,"T77 Pro",t77-pro,66,SUV,Publish
+1892,T55,t55,66,SUV,Publish
+1893,B70,b70,66,Sedan,Publish
+1894,"T77 Pro",t77-pro,66,SUV,Publish
+1895,B70,b70,66,Sedan,Publish
+1896,"T77 Pro",t77-pro,66,SUV,Publish
+1897,T55,t55,66,SUV,Publish
+1898,B70,b70,66,Sedan,Publish
+1899,"T77 Pro",t77-pro,66,SUV,Publish
+1900,B70,b70,66,Sedan,Publish
+1901,T99,t99,66,SUV,Publish
+1902,T99,t99,66,SUV,Publish
+1903,T99,t99,66,SUV,Publish
+1904,T99,t99,66,SUV,Publish
+1905,T99,t99,66,SUV,Publish
+1906,T99,t99,66,SUV,Publish
+1907,"7 Series",7-series,12,Sedan,Publish
+1908,"X5 M",x5-m,12,SUV,Publish
+1909,X5,x5,12,SUV,Publish
+1910,"6 Series Gran Turismo",6-series-gran-turismo,12,Sedan,Publish
+1911,X4,x4,12,SUV,Publish
+1912,X3,x3,12,SUV,Publish
+1913,"4 Series Convertible",4-series-convertible,12,Convertible,Publish
+1914,"4 Series Convertible",4-series-convertible,12,Convertible,Publish
+1915,"2 Series Coupe",2-series-coupe,12,Coupe,Publish
+1916,"2 Series Coupe",2-series-coupe,12,Coupe,Publish
+1917,"3 Series",3-series,12,Sedan,Publish
+1918,"M4 Coupe",m4-coupe,12,Coupe,Publish
+1919,"M4 Convertible",m4-convertible,12,Convertible,Publish
+1920,"4 Series Gran Coupe",4-series-gran-coupe,12,Sedan,Publish
+1921,"4 Series Gran Coupe",4-series-gran-coupe,12,Sedan,Publish
+1922,X7,x7,12,SUV,Publish
+1923,"X4 M",x4-m,12,SUV,Publish
+1924,"8 Series Gran Coupe",8-series-gran-coupe,12,Sedan,Publish
+1925,"8 Series Gran Coupe",8-series-gran-coupe,12,Sedan,Publish
+1926,"8 Series Gran Coupe",8-series-gran-coupe,12,Sedan,Publish
+1927,"2 Series Grand Coupe",2-series-grand-coupe,12,Sedan,Publish
+1928,IX,ix,12,SUV,Publish
+1929,IX,ix,12,SUV,Publish
+1930,iX3,ix3,12,SUV,Publish
+1931,i7,i7,12,Sedan,Publish
+1932,XM,xm,12,SUV,Publish
+1933,X2,x2,12,"Crossover SUV",Publish
+1934,X1,x1,12,"Crossover SUV",Publish
+1935,"1 Series",1-series,12,Hatchback,Publish
+1936,"2 Series Grand Coupe",2-series-grand-coupe,12,Sedan,Publish
+1937,"2 Series Grand Coupe",2-series-grand-coupe,12,Sedan,Publish
+1938,i3,i3,12,Hatchback,Publish
+1939,"4 Series Coupe",4-series-coupe,12,Coupe,Publish
+1940,"5 Series",5-series,12,Sedan,Publish
+1941,"3 Series",3-series,12,Sedan,Publish
+1942,"Z4 Roadster",z4-roadster,12,Roadster,Publish
+1943,X4,x4,12,SUV,Publish
+1944,"4 Series Coupe",4-series-coupe,12,Coupe,Publish
+1945,"5 Series",5-series,12,Sedan,Publish
+1946,X3,x3,12,SUV,Publish
+1947,X3,x3,12,SUV,Publish
+1948,"Z4 Roadster",z4-roadster,12,Roadster,Publish
+1949,"5 Series",5-series,12,Sedan,Publish
+1950,"3 Series",3-series,12,Sedan,Publish
+1951,"Z4 Roadster",z4-roadster,12,Roadster,Publish
+1952,"4 Series Convertible",4-series-convertible,12,Convertible,Publish
+1953,"7 Series",7-series,12,Sedan,Publish
+1954,X5,x5,12,SUV,Publish
+1955,X5,x5,12,SUV,Publish
+1956,X6,x6,12,SUV,Publish
+1957,X6,x6,12,SUV,Publish
+1958,"X3 M",x3-m,12,SUV,Publish
+1959,"M2 Competition",m2-competition,12,Sedan,Publish
+1960,"7 Series",7-series,12,Sedan,Publish
+1961,"8 Series Coupe",8-series-coupe,12,Coupe,Publish
+1962,X6,x6,12,SUV,Publish
+1963,"8 Series Convertible",8-series-convertible,12,Convertible,Publish
+1964,"M3 Sedan",m3-sedan,12,Sedan,Publish
+1965,X7,x7,12,SUV,Publish
+1966,X7,x7,12,SUV,Publish
+1967,"M5 Sedan",m5-sedan,12,Sedan,Publish
+1968,X7,x7,12,SUV,Publish
+1969,i8,i8,12,,Publish
+1970,"i8 Roadster",i8-roadster,12,,Publish
+1971,"M8 Coupe",m8-coupe,12,Coupe,Publish
+1972,"M8 Gran Coupe",m8-gran-coupe,12,Coupe,Publish
+1973,"M8 Convertible",m8-convertible,12,Convertible,Publish
+1974,BX7,bx7,83,SUV,Publish
+1975,BX7,bx7,83,SUV,Publish
+1976,BX5,bx5,83,SUV,Publish
+1977,BX5,bx5,83,SUV,Publish
+1978,BX7,bx7,83,SUV,Publish
+1979,BX7,bx7,83,SUV,Publish
+1980,BX7,bx7,83,SUV,Publish
+1981,BX7,bx7,83,SUV,Publish
+1982,BX7,bx7,83,SUV,Publish
+1983,"BX7 TS",bx7-ts,83,SUV,Publish
+1984,"BX7 TS",bx7-ts,83,SUV,Publish
+1985,Chiron,chiron,91,Coupe,Publish
+1986,Chiron,chiron,91,Coupe,Publish
+1987,"Atto 3",atto-3,2,SUV,Publish
+1988,"Song Plus",song-plus,2,SUV,Publish
+1989,"Song Plus",song-plus,2,SUV,Publish
+1990,"CT6 Sedan",ct6-sedan,42,,Publish
+1991,"CT6 Sedan",ct6-sedan,42,,Publish
+1992,"CT6 Sedan",ct6-sedan,42,,Publish
+1993,CT5,ct5,42,Sedan,Publish
+1994,"CT5-V Blackwing",ct5-v-blackwing,42,Sedan,Publish
+1995,CT4,ct4,42,Sedan,Publish
+1996,CT5,ct5,42,Sedan,Publish
+1997,ATS,ats,42,,Publish
+1998,XT4,xt4,42,SUV,Publish
+1999,CT4,ct4,42,Sedan,Publish
+2000,XT4,xt4,42,SUV,Publish
+2001,XT4,xt4,42,SUV,Publish
+2002,ATS,ats,42,,Publish
+2003,XT5,xt5,42,SUV,Publish
+2004,CTS,cts,42,,Publish
+2005,"CT4-V Blackwing",ct4-v-blackwing,42,Sedan,Publish
+2006,CT4,ct4,42,Sedan,Publish
+2007,CTS,cts,42,,Publish
+2008,XT5,xt5,42,SUV,Publish
+2009,XT6,xt6,42,SUV,Publish
+2010,"ATS Coupe",ats-coupe,42,,Publish
+2011,XT5,xt5,42,SUV,Publish
+2012,XTS,xts,42,,Publish
+2013,"ATS Coupe",ats-coupe,42,,Publish
+2014,CTS,cts,42,,Publish
+2015,CT5,ct5,42,Sedan,Publish
+2016,XT6,xt6,42,SUV,Publish
+2017,CTS,cts,42,,Publish
+2018,XTS,xts,42,,Publish
+2019,"ATS-V Coupe",ats-v-coupe,42,,Publish
+2020,"ATS-V Sedan",ats-v-sedan,42,Sedan,Publish
+2021,"CTS-V Sedan",cts-v-sedan,42,,Publish
+2022,"ATS-V Coupe",ats-v-coupe,42,,Publish
+2023,Escalade,escalade,42,SUV,Publish
+2024,"ATS-V Sedan",ats-v-sedan,42,Sedan,Publish
+2025,"CTS-V Sedan",cts-v-sedan,42,,Publish
+2026,Escalade,escalade,42,SUV,Publish
+2027,Escalade,escalade,42,SUV,Publish
+2028,Escalade,escalade,42,SUV,Publish
+2029,Escalade,escalade,42,SUV,Publish
+2030,Escalade,escalade,42,SUV,Publish
+2031,UNI-T,uni-t,6,SUV,Publish
+2032,UNI-T,uni-t,6,SUV,Publish
+2033,UNI-K,uni-k,6,SUV,Publish
+2034,"CS75 Plus",cs75-plus,6,SUV,Publish
+2035,CS85,cs85,6,SUV,Publish
+2036,"Eado Plus",eado-plus,6,Sedan,Publish
+2037,"Eado Plus",eado-plus,6,Sedan,Publish
+2038,"Eado Plus",eado-plus,6,Sedan,Publish
+2039,"Eado Plus",eado-plus,6,Sedan,Publish
+2040,Alsvin,alsvin,6,Sedan,Publish
+2041,UNI-V,uni-v,6,Sedan,Publish
+2042,Alsvin,alsvin,6,Sedan,Publish
+2043,"CS35 Plus",cs35-plus,6,SUV,Publish
+2044,CS95,cs95,6,SUV,Publish
+2045,"Tiggo2 Pro Max",tiggo2-pro-max,4,"Crossover SUV",Publish
+2046,"Arrizo 3",arrizo-3,4,Sedan,Publish
+2047,"Arrizo 3",arrizo-3,4,Sedan,Publish
+2048,"Tiggo7 Pro",tiggo7-pro,4,SUV,Publish
+2049,"Tiggo7 Pro",tiggo7-pro,4,SUV,Publish
+2050,"Tiggo8 Pro",tiggo8-pro,4,SUV,Publish
+2051,"Tiggo8 Pro",tiggo8-pro,4,SUV,Publish
+2052,"Arrizo 8",arrizo-8,4,Sedan,Publish
+2053,"Arrizo 5",arrizo-5,4,Sedan,Publish
+2054,"Arrizo 5",arrizo-5,4,Sedan,Publish
+2055,Tiggo7,tiggo7,4,SUV,Publish
+2056,Suburban,suburban,20,SUV,Publish
+2057,Suburban,suburban,20,SUV,Publish
+2058,Suburban,suburban,20,SUV,Publish
+2059,Suburban,suburban,20,SUV,Publish
+2060,Suburban,suburban,20,SUV,Publish
+2061,Blazer,blazer,20,"Crossover SUV",Publish
+2062,"Camaro Convertible",camaro-convertible,20,Convertible,Publish
+2063,"Camaro Convertible",camaro-convertible,20,Convertible,Publish
+2064,Onix,onix,20,Sedan,Publish
+2065,Onix,onix,20,Sedan,Publish
+2066,Onix,onix,20,Sedan,Publish
+2067,Groove,groove,20,"crossover SUV",Publish
+2068,Groove,groove,20,"crossover SUV",Publish
+2069,Spark,spark,20,Hatchback,Publish
+2070,Aveo,aveo,20,,Publish
+2071,Spark,spark,20,Hatchback,Publish
+2072,Aveo,aveo,20,,Publish
+2073,Captiva,captiva,20,SUV,Publish
+2074,Captiva,captiva,20,SUV,Publish
+2075,Captiva,captiva,20,SUV,Publish
+2076,Captiva,captiva,20,SUV,Publish
+2077,Malibu,malibu,20,Sedan,Publish
+2078,Equinox,equinox,20,Crossover,Publish
+2079,Equinox,equinox,20,Crossover,Publish
+2080,Malibu,malibu,20,Sedan,Publish
+2081,Malibu,malibu,20,Sedan,Publish
+2082,Malibu,malibu,20,Sedan,Publish
+2083,Impala,impala,20,,Publish
+2084,Equinox,equinox,20,Crossover,Publish
+2085,Impala,impala,20,,Publish
+2086,Traverse,traverse,20,SUV,Publish
+2087,Traverse,traverse,20,SUV,Publish
+2088,Malibu,malibu,20,Sedan,Publish
+2089,Impala,impala,20,,Publish
+2090,Silverado,silverado,20,"Pick up Truck",Publish
+2091,Silverado,silverado,20,"Pick up Truck",Publish
+2092,"Camaro Coupe",camaro-coupe,20,Coupe,Publish
+2093,Traverse,traverse,20,SUV,Publish
+2094,Silverado,silverado,20,"Pick up Truck",Publish
+2095,Blazer,blazer,20,"Crossover SUV",Publish
+2096,Traverse,traverse,20,SUV,Publish
+2097,"Bolt EV",bolt-ev,20,Hatchback,Publish
+2098,Blazer,blazer,20,"Crossover SUV",Publish
+2099,"Camaro Coupe",camaro-coupe,20,Coupe,Publish
+2100,Silverado,silverado,20,"Pick up Truck",Publish
+2101,Tahoe,tahoe,20,SUV,Publish
+2102,Silverado,silverado,20,"Pick up Truck",Publish
+2103,Suburban,suburban,20,SUV,Publish
+2104,Traverse,traverse,20,SUV,Publish
+2105,Tahoe,tahoe,20,SUV,Publish
+2106,Silverado,silverado,20,"Pick up Truck",Publish
+2107,Suburban,suburban,20,SUV,Publish
+2108,"Camaro Coupe",camaro-coupe,20,Coupe,Publish
+2109,Silverado,silverado,20,"Pick up Truck",Publish
+2110,Tahoe,tahoe,20,SUV,Publish
+2111,Tahoe,tahoe,20,SUV,Publish
+2112,Tahoe,tahoe,20,SUV,Publish
+2113,Suburban,suburban,20,SUV,Publish
+2114,"Camaro Coupe",camaro-coupe,20,Coupe,Publish
+2115,Corvette,corvette,20,Coupe,Publish
+2116,Corvette,corvette,20,Coupe,Publish
+2117,Corvette,corvette,20,Coupe,Publish
+2118,Pacifica,pacifica,85,MPV,Publish
+2119,300,300,85,SUV,Publish
+2120,300,300,85,SUV,Publish
+2121,300,300,85,SUV,Publish
+2122,Pacifica,pacifica,85,MPV,Publish
+2123,Pacifica,pacifica,85,MPV,Publish
+2124,300,300,85,SUV,Publish
+2125,300,300,85,SUV,Publish
+2126,C4,c4,44,Hatchback,Publish
+2127,C4,c4,44,Hatchback,Publish
+2128,C4,c4,44,Hatchback,Publish
+2129,"C3 Aircross",c3-aircross,44,"compact SUV",Publish
+2130,"C3 Aircross",c3-aircross,44,"compact SUV",Publish
+2131,"C3 Aircross",c3-aircross,44,"compact SUV",Publish
+2132,"C5 Aircross",c5-aircross,44,SUV,Publish
+2133,"C5 Aircross",c5-aircross,44,SUV,Publish
+2134,SpaceTourer,spacetourer,44,minivan,Publish
+2135,"C5 Aircross",c5-aircross,44,SUV,Publish
+2136,SpaceTourer,spacetourer,44,minivan,Publish
+2137,Sixty,sixty,88,SUV,Publish
+2138,Sixteen,sixteen,88,Coupe,Publish
+2139,Charger,charger,76,Sedan,Publish
+2140,Charger,charger,76,Sedan,Publish
+2141,Durango,durango,76,SUV,Publish
+2142,Charger,charger,76,Sedan,Publish
+2143,Durango,durango,76,SUV,Publish
+2144,Challenger,challenger,76,Coupe,Publish
+2145,Durango,durango,76,SUV,Publish
+2146,Durango,durango,76,SUV,Publish
+2147,Charger,charger,76,Sedan,Publish
+2148,Challenger,challenger,76,Coupe,Publish
+2149,Challenger,challenger,76,Coupe,Publish
+2150,Charger,charger,76,Sedan,Publish
+2151,Challenger,challenger,76,Coupe,Publish
+2152,G60s,g60s,36,"Compact SUV",Publish
+2153,G60s,g60s,36,"Compact SUV",Publish
+2154,"Domy X5",domy-x5,36,SUV,Publish
+2155,"Domy X7",domy-x7,36,SUV,Publish
+2156,G70s,g70s,36,SUV,Publish
+2157,VX,vx,62,SUV,Publish
+2158,VX,vx,62,SUV,Publish
+2159,VX,vx,62,SUV,Publish
+2160,TXL,txl,62,SUV,Publish
+2161,TXL,txl,62,SUV,Publish
+2162,TXL,txl,62,SUV,Publish
+2163,RX,rx,62,SUV,Publish
+2164,LX,lx,62,SUV,Publish
+2165,LX,lx,62,SUV,Publish
+2166,LX,lx,62,SUV,Publish
+2167,"296 GTB",296-gtb,58,Coupe,Publish
+2168,"296 GTS",296-gts,58,Convertible,Publish
+2169,Purosangue,purosangue,58,SUV,Publish
+2170,"Portofino M",portofino-m,58,Convertible,Publish
+2171,Roma,roma,58,Coupe,Publish
+2172,"F8 Tributo",f8-tributo,58,Coupe,Publish
+2173,"F8 Spider",f8-spider,58,Convertible,Publish
+2174,"812 Superfast",812-superfast,58,Coupe,Publish
+2175,"812 GTS",812-gts,58,Convertible,Publish
+2176,"SF90 Stradale",sf90-stradale,58,Coupe,Publish
+2177,"SF90 Spider",sf90-spider,58,Coupe,Publish
+2178,500e,500e,21,Hatchback,Publish
+2179,500,500,21,Hatchback,Publish
+2180,500,500,21,Hatchback,Publish
+2181,500X,500x,21,Hatchback,Publish
+2182,Fiorino,fiorino,21,,Publish
+2183,Traveller,traveller,73,,Publish
+2184,Traveller,traveller,73,,Publish
+2185,Bronco,bronco,23,SUV,Publish
+2186,Bronco,bronco,23,SUV,Publish
+2187,Bronco,bronco,23,SUV,Publish
+2188,Bronco,bronco,23,SUV,Publish
+2189,Explorer,explorer,23,SUV,Publish
+2190,Explorer,explorer,23,SUV,Publish
+2191,Figo,figo,23,Hatchback,Publish
+2192,"Figo Sedan",figo-sedan,23,Sedan,Publish
+2193,Edge,edge,23,suv,Publish
+2194,Mustang,mustang,23,Coupe,Publish
+2195,Mustang,mustang,23,Coupe,Publish
+2196,F-150,f-150,23,"Pick up Truck",Publish
+2197,F-150,f-150,23,"Pick up Truck",Publish
+2198,F-150,f-150,23,"Pick up Truck",Publish
+2199,"Expedition EL",expedition-el,23,SUV,Publish
+2200,"Bronco 2-door",bronco-2-door,23,SUV,Publish
+2201,"Bronco 2-door",bronco-2-door,23,SUV,Publish
+2202,Territory,territory,23,SUV,Publish
+2203,Territory,territory,23,SUV,Publish
+2204,Territory,territory,23,SUV,Publish
+2205,"Ranger Raptor",ranger-raptor,23,"Pick up Truck",Publish
+2206,"Bronco Raptor",bronco-raptor,23,SUV,Publish
+2207,Everest,everest,23,SUV,Publish
+2208,Everest,everest,23,SUV,Publish
+2209,Everest,everest,23,SUV,Publish
+2210,Escort,escort,23,Sedan,Publish
+2211,EcoSport,ecosport,23,"Compact SUV",Publish
+2212,EcoSport,ecosport,23,"Compact SUV",Publish
+2213,EcoSport,ecosport,23,"Compact SUV",Publish
+2214,Escape,escape,23,"Compact SUV",Publish
+2215,Escape,escape,23,"Compact SUV",Publish
+2216,Ranger,ranger,23,"Pick up Truck",Publish
+2217,Taurus,taurus,23,Sedan,Publish
+2218,Ranger,ranger,23,"Pick up Truck",Publish
+2219,Ranger,ranger,23,"Pick up Truck",Publish
+2220,Taurus,taurus,23,Sedan,Publish
+2221,Ranger,ranger,23,"Pick up Truck",Publish
+2222,Transit,transit,23,,Publish
+2223,Ranger,ranger,23,"Pick up Truck",Publish
+2224,Edge,edge,23,suv,Publish
+2225,Ranger,ranger,23,"Pick up Truck",Publish
+2226,Ranger,ranger,23,"Pick up Truck",Publish
+2227,Edge,edge,23,suv,Publish
+2228,Ranger,ranger,23,"Pick up Truck",Publish
+2229,Taurus,taurus,23,Sedan,Publish
+2230,Explorer,explorer,23,SUV,Publish
+2231,Ranger,ranger,23,"Pick up Truck",Publish
+2232,Transit,transit,23,,Publish
+2233,Explorer,explorer,23,SUV,Publish
+2234,Edge,edge,23,suv,Publish
+2235,Transit,transit,23,,Publish
+2236,Edge,edge,23,suv,Publish
+2237,Expedition,expedition,23,SUV,Publish
+2238,Explorer,explorer,23,SUV,Publish
+2239,Mustang,mustang,23,Coupe,Publish
+2240,"Super Duty",super-duty,23,"Pick up Truck",Publish
+2241,Mustang,mustang,23,Coupe,Publish
+2242,F-150,f-150,23,"Pick up Truck",Publish
+2243,F-150,f-150,23,"Pick up Truck",Publish
+2244,Expedition,expedition,23,SUV,Publish
+2245,Expedition,expedition,23,SUV,Publish
+2246,Expedition,expedition,23,SUV,Publish
+2247,"F-150 Raptor",f-150-raptor,23,"Pick up Truck",Publish
+2248,"F-150 Raptor",f-150-raptor,23,"Pick up Truck",Publish
+2249,"Expedition EL",expedition-el,23,SUV,Publish
+2250,F-150,f-150,23,"Pick up Truck",Publish
+2251,"F-150 Raptor",f-150-raptor,23,"Pick up Truck",Publish
+2252,"F-150 Raptor",f-150-raptor,23,"Pick up Truck",Publish
+2253,Mustang,mustang,23,Coupe,Publish
+2254,"T5 Evo",t5-evo,64,SUV,Publish
+2255,U-Tour,u-tour,64,MPV,Publish
+2256,View,view,48,,Publish
+2257,View,view,48,,Publish
+2258,GS8,gs8,7,SUV,Publish
+2259,GS8,gs8,7,SUV,Publish
+2260,GS8,gs8,7,SUV,Publish
+2261,GA6,ga6,7,Sedan,Publish
+2262,"GE3 EV",ge3-ev,7,SUV,Publish
+2263,GN6,gn6,7,MPV,Publish
+2264,EMPOW,empow,7,Sedan,Publish
+2265,EMKOO,emkoo,7,SUV,Publish
+2266,EMZOOM,emzoom,7,SUV,Publish
+2267,GS3,gs3,7,SUV,Publish
+2268,GS3,gs3,7,SUV,Publish
+2269,GS4,gs4,7,Crossover,Publish
+2270,GA8,ga8,7,Sedan,Publish
+2271,GS5,gs5,7,"Compact SUV",Publish
+2272,GS5,gs5,7,"Compact SUV",Publish
+2273,GN8,gn8,7,MPV,Publish
+2274,GA8,ga8,7,Sedan,Publish
+2275,GN8,gn8,7,MPV,Publish
+2276,GS8,gs8,7,SUV,Publish
+2277,Coolray,coolray,1,"Crossover SUV",Publish
+2278,Coolray,coolray,1,"Crossover SUV",Publish
+2279,Coolray,coolray,1,"Crossover SUV",Publish
+2280,Coolray,coolray,1,"Crossover SUV",Publish
+2281,Starray,starray,1,SUV,Publish
+2282,Emegrand,emegrand,1,Sedan,Publish
+2283,Monjaro,monjaro,1,SUV,Publish
+2284,Azkarra,azkarra,1,SUV,Publish
+2285,Okavango,okavango,1,SUV,Publish
+2286,Tugella,tugella,1,"Crossover SUV",Publish
+2287,Binray,binray,1,Sedan,Publish
+2288,"Geometry C",geometry-c,1,SUV,Publish
+2289,"Geometry C",geometry-c,1,SUV,Publish
+2290,EC7,ec7,1,Sedan,Publish
+2291,"Emgrand X7 Sport",emgrand-x7-sport,1,SUV,Publish
+2292,"GS Sport",gs-sport,1,SUV,Publish
+2293,"Emgrand X7 Sport",emgrand-x7-sport,1,SUV,Publish
+2294,"Emgrand X7 Sport",emgrand-x7-sport,1,SUV,Publish
+2295,"Emgrand X7 Sport",emgrand-x7-sport,1,SUV,Publish
+2296,GV80,gv80,26,SUV,Publish
+2297,GV80,gv80,26,SUV,Publish
+2298,G90,g90,26,Sedan,Publish
+2299,GV70,gv70,26,SUV,Publish
+2300,GV70,gv70,26,SUV,Publish
+2301,GV70,gv70,26,SUV,Publish
+2302,G80,g80,26,Sedan,Publish
+2303,G70,g70,26,Sedan,Publish
+2304,G70,g70,26,Sedan,Publish
+2305,G80,g80,26,Sedan,Publish
+2306,G80,g80,26,Sedan,Publish
+2307,GV80,gv80,26,SUV,Publish
+2308,"Sierra HD",sierra-hd,10,"Pick up Truck",Publish
+2309,"Sierra HD Denali",sierra-hd-denali,10,"Pick up Truck",Publish
+2310,Terrain,terrain,10,SUV,Publish
+2311,"Hummer EV SUV",hummer-ev-suv,10,SUV,Publish
+2312,"Hummer EV SUV",hummer-ev-suv,10,SUV,Publish
+2313,"Hummer EV SUV",hummer-ev-suv,10,SUV,Publish
+2314,"Hummer EV SUV",hummer-ev-suv,10,SUV,Publish
+2315,"Hummer EV Pickup",hummer-ev-pickup,10,"Pick up Truck",Publish
+2316,"Hummer EV Pickup",hummer-ev-pickup,10,"Pick up Truck",Publish
+2317,"Hummer EV Pickup",hummer-ev-pickup,10,"Pick up Truck",Publish
+2318,"Hummer EV Pickup",hummer-ev-pickup,10,"Pick up Truck",Publish
+2319,Terrain,terrain,10,SUV,Publish
+2320,Terrain,terrain,10,SUV,Publish
+2321,Acadia,acadia,10,SUV,Publish
+2322,"Terrain Denali",terrain-denali,10,SUV,Publish
+2323,Sierra,sierra,10,"Pick up Truck",Publish
+2324,Acadia,acadia,10,SUV,Publish
+2325,Sierra,sierra,10,"Pick up Truck",Publish
+2326,Sierra,sierra,10,"Pick up Truck",Publish
+2327,Sierra,sierra,10,"Pick up Truck",Publish
+2328,"Acadia Denali",acadia-denali,10,SUV,Publish
+2329,Yukon,yukon,10,SUV,Publish
+2330,Yukon,yukon,10,SUV,Publish
+2331,Sierra,sierra,10,"Pick up Truck",Publish
+2332,Sierra,sierra,10,"Pick up Truck",Publish
+2333,"Yukon XL",yukon-xl,10,SUV,Publish
+2334,"Sierra Denali",sierra-denali,10,"Pick up Truck",Publish
+2335,"Sierra Denali",sierra-denali,10,"Pick up Truck",Publish
+2336,"Wingle 6",wingle-6,37,,Publish
+2337,"King Kong",king-kong,37,"Pick up Truck",Publish
+2338,"King Kong",king-kong,37,"Pick up Truck",Publish
+2339,"King Kong",king-kong,37,"Pick up Truck",Publish
+2340,"Wingle 5",wingle-5,37,"Pick up Truck",Publish
+2341,"Wingle 7",wingle-7,37,"Pick up Truck",Publish
+2342,"Wingle 7",wingle-7,37,"Pick up Truck",Publish
+2343,"Wingle 7",wingle-7,37,"Pick up Truck",Publish
+2344,POER,poer,37,"Pick up Truck",Publish
+2345,POER,poer,37,"Pick up Truck",Publish
+2346,"H6 GT",h6-gt,11,SUV,Publish
+2347,Jolion,jolion,11,SUV,Publish
+2348,Jolion,jolion,11,SUV,Publish
+2349,Jolion,jolion,11,SUV,Publish
+2350,Dargo,dargo,11,Crossover,Publish
+2351,H2,h2,11,,Publish
+2352,H6,h6,11,SUV,Publish
+2353,"H6 HEV",h6-hev,11,SUV,Publish
+2354,H9,h9,11,Sedan,Publish
+2355,Civic,civic,17,Sedan,Publish
+2356,Civic,civic,17,Sedan,Publish
+2357,HR-V,hr-v,17,"Crossover SUV",Publish
+2358,HR-V,hr-v,17,"Crossover SUV",Publish
+2359,HR-V,hr-v,17,"Crossover SUV",Publish
+2360,CR-V,cr-v,17,"Crossover SUV",Publish
+2361,Pilot,pilot,17,SUV,Publish
+2362,Pilot,pilot,17,SUV,Publish
+2363,Pilot,pilot,17,SUV,Publish
+2364,ZR-V,zr-v,17,"crossover SUV",Publish
+2365,"Civic Type R",civic-type-r,17,Sedan,Publish
+2366,City,city,17,Sedan,Publish
+2367,City,city,17,Sedan,Publish
+2368,City,city,17,Sedan,Publish
+2369,Civic,civic,17,Sedan,Publish
+2370,Accord,accord,17,Sedan,Publish
+2371,"Odyssey J",odyssey-j,17,MPV,Publish
+2372,Accord,accord,17,Sedan,Publish
+2373,Accord,accord,17,Sedan,Publish
+2374,"Odyssey J",odyssey-j,17,MPV,Publish
+2375,Accord,accord,17,Sedan,Publish
+2376,Accord,accord,17,Sedan,Publish
+2377,Odyssey,odyssey,17,MPV,Publish
+2378,Odyssey,odyssey,17,MPV,Publish
+2379,Odyssey,odyssey,17,MPV,Publish
+2380,H5,h5,9,SUV,Publish
+2381,H9,h9,9,Sedan,Publish
+2382,H9,h9,9,Sedan,Publish
+2383,H9,h9,9,Sedan,Publish
+2384,HS5,hs5,9,SUV,Publish
+2385,HS5,hs5,9,SUV,Publish
+2386,HS5,hs5,9,SUV,Publish
+2387,L5,l5,9,Sedan,Publish
+2388,E-HS3,e-hs3,9,SUV,Publish
+2389,E-HS3,e-hs3,9,SUV,Publish
+2390,E-QM5,e-qm5,9,Sedan,Publish
+2391,E-HS9,e-hs9,9,SUV,Publish
+2392,HS3,hs3,9,SUV,Publish
+2393,H5,h5,9,SUV,Publish
+2394,HS5,hs5,9,SUV,Publish
+2395,H7,h7,9,Sedan,Publish
+2396,H7,h7,9,Sedan,Publish
+2397,HS7,hs7,9,SUV,Publish
+2398,HS7,hs7,9,SUV,Publish
+2399,H9,h9,9,Sedan,Publish
+2400,"Ioniq 5",ioniq-5,13,Hatchback,Publish
+2401,"Ioniq 5",ioniq-5,13,Hatchback,Publish
+2402,Tucson,tucson,13,SUV,Publish
+2403,Tucson,tucson,13,SUV,Publish
+2404,i10,i10,13,Hatchback,Publish
+2405,i10,i10,13,Hatchback,Publish
+2406,"Santa Fe",santa-fe,13,SUV,Publish
+2407,"Santa Fe",santa-fe,13,SUV,Publish
+2408,"Santa Fe",santa-fe,13,SUV,Publish
+2409,Kona,kona,13,"Crossover SUV",Publish
+2410,Ioniq,ioniq,13,Hatchback,Publish
+2411,Staria,staria,13,MPV,Publish
+2412,Staria,staria,13,MPV,Publish
+2413,Staria,staria,13,MPV,Publish
+2414,Staria,staria,13,MPV,Publish
+2415,Staria,staria,13,MPV,Publish
+2416,Staria,staria,13,MPV,Publish
+2417,Venue,venue,13,"Compact SUV",Publish
+2418,Venue,venue,13,"Compact SUV",Publish
+2419,Venue,venue,13,"Compact SUV",Publish
+2420,"Grand i10",grand-i10,13,Hatchback,Publish
+2421,Accent,accent,13,Sedan,Publish
+2422,Kona,kona,13,"Crossover SUV",Publish
+2423,Elantra,elantra,13,Sedan,Publish
+2424,Elantra,elantra,13,Sedan,Publish
+2425,Elantra,elantra,13,Sedan,Publish
+2426,Creta,creta,13,SUV,Publish
+2427,Creta,creta,13,SUV,Publish
+2428,Veloster,veloster,13,Hatchback,Publish
+2429,Kona,kona,13,"Crossover SUV",Publish
+2430,Elantra,elantra,13,Sedan,Publish
+2431,Veloster,veloster,13,Hatchback,Publish
+2432,Creta,creta,13,SUV,Publish
+2433,Kona,kona,13,"Crossover SUV",Publish
+2434,Tucson,tucson,13,SUV,Publish
+2435,Tucson,tucson,13,SUV,Publish
+2436,H1,h1,13,minivan,Publish
+2437,H1,h1,13,minivan,Publish
+2438,Sonata,sonata,13,Sedan,Publish
+2439,Kona,kona,13,"Crossover SUV",Publish
+2440,Veloster,veloster,13,Hatchback,Publish
+2441,H1,h1,13,minivan,Publish
+2442,Sonata,sonata,13,Sedan,Publish
+2443,Sonata,sonata,13,Sedan,Publish
+2444,H1,h1,13,minivan,Publish
+2445,H1,h1,13,minivan,Publish
+2446,Azera,azera,13,Sedan,Publish
+2447,Azera,azera,13,Sedan,Publish
+2448,Sonata,sonata,13,Sedan,Publish
+2449,H1,h1,13,minivan,Publish
+2450,"Santa Fe",santa-fe,13,SUV,Publish
+2451,"Veloster N",veloster-n,13,Hatchback,Publish
+2452,Palisade,palisade,13,SUV,Publish
+2453,"Grand Santa Fe",grand-santa-fe,13,SUV,Publish
+2454,Palisade,palisade,13,SUV,Publish
+2455,Palisade,palisade,13,SUV,Publish
+2456,"Grenadier Station Wagen",grenadier-station-wagen,68,SUV,Publish
+2457,"Grenadier Station Wagen",grenadier-station-wagen,68,SUV,Publish
+2458,"Grenadier Station Wagen",grenadier-station-wagen,68,SUV,Publish
+2459,"Grenadier QuarterMaster",grenadier-quartermaster,68,"Pick up Truck",Publish
+2460,"Grenadier QuarterMaster",grenadier-quartermaster,68,"Pick up Truck",Publish
+2461,"Grenadier QuarterMaster",grenadier-quartermaster,68,"Pick up Truck",Publish
+2462,QX60,qx60,15,SUV,Publish
+2463,QX60,qx60,15,SUV,Publish
+2464,QX60,qx60,15,SUV,Publish
+2465,QX55,qx55,15,Crossover,Publish
+2466,QX55,qx55,15,Crossover,Publish
+2467,QX55,qx55,15,Crossover,Publish
+2468,"Q60 Coupe",q60-coupe,15,Coupe,Publish
+2469,"Q60 Coupe",q60-coupe,15,Coupe,Publish
+2470,"Q60 Coupe",q60-coupe,15,Coupe,Publish
+2471,Q30,q30,15,SUV,Publish
+2472,Q50,q50,15,Sedan,Publish
+2473,QX30,qx30,15,,Publish
+2474,Q50,q50,15,Sedan,Publish
+2475,QX70,qx70,15,,Publish
+2476,Q50,q50,15,Sedan,Publish
+2477,QX30,qx30,15,,Publish
+2478,QX50,qx50,15,SUV,Publish
+2479,Q70,q70,15,,Publish
+2480,QX50,qx50,15,SUV,Publish
+2481,QX50,qx50,15,SUV,Publish
+2482,Q50,q50,15,Sedan,Publish
+2483,QX50,qx50,15,SUV,Publish
+2484,Q70,q70,15,,Publish
+2485,QX50,qx50,15,SUV,Publish
+2486,QX80,qx80,15,SUV,Publish
+2487,QX80,qx80,15,SUV,Publish
+2488,QX80,qx80,15,SUV,Publish
+2489,QX80,qx80,15,SUV,Publish
+2490,QX80,qx80,15,SUV,Publish
+2491,QX80,qx80,15,SUV,Publish
+2492,D-MAX,d-max,82,"Pick up Truck",Publish
+2493,MU-X,mu-x,82,SUV,Publish
+2494,D-MAX,d-max,82,"Pick up Truck",Publish
+2495,D-MAX,d-max,82,"Pick up Truck",Publish
+2496,D-MAX,d-max,82,"Pick up Truck",Publish
+2497,MU-X,mu-x,82,SUV,Publish
+2498,D-MAX,d-max,82,"Pick up Truck",Publish
+2499,M4,m4,24,MPV,Publish
+2500,M4,m4,24,MPV,Publish
+2501,T8,t8,24,"Pick up Truck",Publish
+2502,"J7 Sportback",j7-sportback,24,Sedan,Publish
+2503,JS4,js4,24,SUV,Publish
+2504,JS4,js4,24,SUV,Publish
+2505,Sunray,sunray,24,,Publish
+2506,JS6,js6,24,SUV,Publish
+2507,S3,s3,24,SUV,Publish
+2508,S7,s7,24,SUV,Publish
+2509,"F-Type Coupe",f-type-coupe,27,Coupe,Publish
+2510,"F-Type Coupe",f-type-coupe,27,Coupe,Publish
+2511,E-Pace,e-pace,27,SUV,Publish
+2512,E-Pace,e-pace,27,SUV,Publish
+2513,E-Pace,e-pace,27,SUV,Publish
+2514,E-Pace,e-pace,27,SUV,Publish
+2515,"F-Type Convertible",f-type-convertible,27,Convertible,Publish
+2516,"F-Type Convertible",f-type-convertible,27,Convertible,Publish
+2517,F-Pace,f-pace,27,SUV,Publish
+2518,I-Pace,i-pace,27,SUV,Publish
+2519,E-Pace,e-pace,27,SUV,Publish
+2520,F-Pace,f-pace,27,SUV,Publish
+2521,F-Pace,f-pace,27,SUV,Publish
+2522,XE,xe,27,Sedan,Publish
+2523,XF,xf,27,Sedan,Publish
+2524,"F-Type Coupe",f-type-coupe,27,Coupe,Publish
+2525,XJ,xj,27,Sedan,Publish
+2526,I-Pace,i-pace,27,SUV,Publish
+2527,I-Pace,i-pace,27,SUV,Publish
+2528,XJ,xj,27,Sedan,Publish
+2529,XJ,xj,27,Sedan,Publish
+2530,F-Pace,f-pace,27,SUV,Publish
+2531,"Wrangler Unlimited",wrangler-unlimited,25,SUV,Publish
+2532,"Grand Cherokee",grand-cherokee,25,SUV,Publish
+2533,"Grand Wagoneer",grand-wagoneer,25,SUV,Publish
+2534,"Wrangler Unlimited",wrangler-unlimited,25,SUV,Publish
+2535,Renegade,renegade,25,SUV,Publish
+2536,Compass,compass,25,SUV,Publish
+2537,Renegade,renegade,25,SUV,Publish
+2538,Renegade,renegade,25,SUV,Publish
+2539,Cherokee,cherokee,25,SUV,Publish
+2540,Renegade,renegade,25,SUV,Publish
+2541,Cherokee,cherokee,25,SUV,Publish
+2542,Compass,compass,25,SUV,Publish
+2543,Cherokee,cherokee,25,SUV,Publish
+2544,Cherokee,cherokee,25,SUV,Publish
+2545,"Grand Cherokee",grand-cherokee,25,SUV,Publish
+2546,"Grand Cherokee",grand-cherokee,25,SUV,Publish
+2547,"Wrangler Unlimited",wrangler-unlimited,25,SUV,Publish
+2548,"Grand Cherokee L",grand-cherokee-l,25,SUV,Publish
+2549,"Grand Cherokee",grand-cherokee,25,SUV,Publish
+2550,Gladiator,gladiator,25,"Pick up Truck",Publish
+2551,Gladiator,gladiator,25,"Pick up Truck",Publish
+2552,"Wrangler Unlimited",wrangler-unlimited,25,SUV,Publish
+2553,Wrangler,wrangler,25,SUV,Publish
+2554,"Grand Cherokee",grand-cherokee,25,SUV,Publish
+2555,"Grand Cherokee",grand-cherokee,25,SUV,Publish
+2556,"Grand Cherokee",grand-cherokee,25,SUV,Publish
+2557,X70,x70,54,SUV,Publish
+2558,X95,x95,54,SUV,Publish
+2559,X70s,x70s,54,SUV,Publish
+2560,"X70 Plus",x70-plus,54,SUV,Publish
+2561,Dashing,dashing,54,SUV,Publish
+2562,T2,t2,54,SUV,Publish
+2563,X90,x90,54,SUV,Publish
+2564,"X90 Plus",x90-plus,54,SUV,Publish
+2565,"Grand Avenue",grand-avenue,77,"Pick up Truck",Publish
+2566,"X3 Pro",x3-pro,70,SUV,Publish
+2567,E5,e5,70,Sedan,Publish
+2568,"X3 Pro",x3-pro,70,SUV,Publish
+2569,Optima,optima,39,Sedan,Publish
+2570,Optima,optima,39,Sedan,Publish
+2571,"Rio Hatchback",rio-hatchback,39,Hatchback,Publish
+2572,Carens,carens,39,MPV,Publish
+2573,Carens,carens,39,MPV,Publish
+2574,"Rio Sedan",rio-sedan,39,Sedan,Publish
+2575,"Rio Sedan",rio-sedan,39,Sedan,Publish
+2576,Mohave,mohave,39,SUV,Publish
+2577,Mohave,mohave,39,SUV,Publish
+2578,Sonet,sonet,39,"Compact SUV",Publish
+2579,Sonet,sonet,39,"Compact SUV",Publish
+2580,Sonet,sonet,39,"Compact SUV",Publish
+2581,Carnival,carnival,39,MPV,Publish
+2582,K8,k8,39,Sedan,Publish
+2583,K8,k8,39,Sedan,Publish
+2584,EV9,ev9,39,SUV,Publish
+2585,EV9,ev9,39,SUV,Publish
+2586,EV9,ev9,39,SUV,Publish
+2587,EV5,ev5,39,SUV,Publish
+2588,Pegas,pegas,39,Sedan,Publish
+2589,Picanto,picanto,39,Hatchback,Publish
+2590,Pegas,pegas,39,Sedan,Publish
+2591,Picanto,picanto,39,Hatchback,Publish
+2592,"Rio Hatchback",rio-hatchback,39,Hatchback,Publish
+2593,"Rio Sedan",rio-sedan,39,Sedan,Publish
+2594,Soul,soul,39,SUV,Publish
+2595,Cerato,cerato,39,Sedan,Publish
+2596,Sonet,sonet,39,"Compact SUV",Publish
+2597,Cerato,cerato,39,Sedan,Publish
+2598,Seltos,seltos,39,SUV,Publish
+2599,Seltos,seltos,39,SUV,Publish
+2600,Seltos,seltos,39,SUV,Publish
+2601,K5,k5,39,Sedan,Publish
+2602,K5,k5,39,Sedan,Publish
+2603,Cerato,cerato,39,Sedan,Publish
+2604,Soul,soul,39,SUV,Publish
+2605,Sportage,sportage,39,SUV,Publish
+2606,Seltos,seltos,39,SUV,Publish
+2607,Sportage,sportage,39,SUV,Publish
+2608,K5,k5,39,Sedan,Publish
+2609,K5,k5,39,Sedan,Publish
+2610,Niro,niro,39,SUV,Publish
+2611,Cadenza,cadenza,39,,Publish
+2612,Sportage,sportage,39,SUV,Publish
+2613,Sorento,sorento,39,SUV,Publish
+2614,Cadenza,cadenza,39,,Publish
+2615,Sportage,sportage,39,SUV,Publish
+2616,Carnival,carnival,39,MPV,Publish
+2617,Telluride,telluride,39,SUV,Publish
+2618,Sorento,sorento,39,SUV,Publish
+2619,Sorento,sorento,39,SUV,Publish
+2620,Stinger,stinger,39,Sedan,Publish
+2621,Cadenza,cadenza,39,,Publish
+2622,Cadenza,cadenza,39,,Publish
+2623,Telluride,telluride,39,SUV,Publish
+2624,Telluride,telluride,39,SUV,Publish
+2625,Stinger,stinger,39,Sedan,Publish
+2626,K900,k900,39,,Publish
+2627,K900,k900,39,,Publish
+2628,"Panel Van",panel-van,80,,Publish
+2629,"Wide Body Passenger Van",wide-body-passenger-van,80,,Publish
+2630,"Aventador SVJ 63 Roadster",aventador-svj-63-roadster,31,Roadster,Publish
+2631,Huracan,huracan,31,Coupe,Publish
+2632,Huracan,huracan,31,Coupe,Publish
+2633,Urus,urus,31,SUV,Publish
+2634,Urus,urus,31,SUV,Publish
+2635,Huracan,huracan,31,Coupe,Publish
+2636,Huracan,huracan,31,Coupe,Publish
+2637,Huracan,huracan,31,Coupe,Publish
+2638,Huracan,huracan,31,Coupe,Publish
+2639,"Aventador S",aventador-s,31,Coupe,Publish
+2640,"Aventador S Roadster",aventador-s-roadster,31,Roadster,Publish
+2641,"Aventador Ultimae",aventador-ultimae,31,Coupe,Publish
+2642,"Aventador Ultimae",aventador-ultimae,31,Coupe,Publish
+2643,"Aventador SVJ",aventador-svj,31,Coupe,Publish
+2644,"Aventador SVJ",aventador-svj,31,Coupe,Publish
+2645,"Range Rover Sport",range-rover-sport,5,SUV,Publish
+2646,"Range Rover",range-rover,5,SUV,Publish
+2647,"Range Rover Evoque",range-rover-evoque,5,SUV,Publish
+2648,"Discovery Sport",discovery-sport,5,SUV,Publish
+2649,"Range Rover Velar",range-rover-velar,5,SUV,Publish
+2650,"Range Rover Evoque",range-rover-evoque,5,SUV,Publish
+2651,Defender,defender,5,SUV,Publish
+2652,Defender,defender,5,SUV,Publish
+2653,"Range Rover Evoque",range-rover-evoque,5,SUV,Publish
+2654,"Range Rover Velar",range-rover-velar,5,SUV,Publish
+2655,Defender,defender,5,SUV,Publish
+2656,Discovery,discovery,5,SUV,Publish
+2657,Defender,defender,5,SUV,Publish
+2658,"Range Rover Velar",range-rover-velar,5,SUV,Publish
+2659,"Range Rover",range-rover,5,SUV,Publish
+2660,"Range Rover Sport",range-rover-sport,5,SUV,Publish
+2661,"Range Rover Sport",range-rover-sport,5,SUV,Publish
+2662,"Range Rover Sport",range-rover-sport,5,SUV,Publish
+2663,"Range Rover",range-rover,5,SUV,Publish
+2664,"Range Rover",range-rover,5,SUV,Publish
+2665,"Range Rover Sport",range-rover-sport,5,SUV,Publish
+2666,"Range Rover",range-rover,5,SUV,Publish
+2667,"Range Rover",range-rover,5,SUV,Publish
+2668,ES,es,40,Sedan,Publish
+2669,LS,ls,40,Sedan,Publish
+2670,GS,gs,40,Sedan,Publish
+2671,CT,ct,40,,Publish
+2672,"UX 200",ux-200,40,SUV,Publish
+2673,"UX 200",ux-200,40,SUV,Publish
+2674,IS,is,40,Sedan,Publish
+2675,NX,nx,40,SUV,Publish
+2676,NX,nx,40,SUV,Publish
+2677,ES,es,40,Sedan,Publish
+2678,ES,es,40,Sedan,Publish
+2679,IS,is,40,Sedan,Publish
+2680,IS,is,40,Sedan,Publish
+2681,NX,nx,40,SUV,Publish
+2682,ES,es,40,Sedan,Publish
+2683,RX,rx,40,SUV,Publish
+2684,RX,rx,40,SUV,Publish
+2685,NX,nx,40,SUV,Publish
+2686,ES,es,40,Sedan,Publish
+2687,RC,rc,40,Coupe,Publish
+2688,RX,rx,40,SUV,Publish
+2689,RX,rx,40,SUV,Publish
+2690,RX,rx,40,SUV,Publish
+2691,ES,es,40,Sedan,Publish
+2692,GX,gx,40,SUV,Publish
+2693,RX,rx,40,SUV,Publish
+2694,RX,rx,40,SUV,Publish
+2695,RX,rx,40,SUV,Publish
+2696,RX,rx,40,SUV,Publish
+2697,RX,rx,40,SUV,Publish
+2698,RX,rx,40,SUV,Publish
+2699,GX,gx,40,SUV,Publish
+2700,LS,ls,40,Sedan,Publish
+2701,"RC F",rc-f,40,Coupe,Publish
+2702,"LC 500",lc-500,40,Coupe,Publish
+2703,LS,ls,40,Sedan,Publish
+2704,LS,ls,40,Sedan,Publish
+2705,"LC 500h",lc-500h,40,Coupe,Publish
+2706,"LC 500",lc-500,40,Coupe,Publish
+2707,"LC 500 Convertible",lc-500-convertible,40,Convertible,Publish
+2708,LS,ls,40,Sedan,Publish
+2709,LX,lx,40,SUV,Publish
+2710,LX,lx,40,SUV,Publish
+2711,LX,lx,40,SUV,Publish
+2712,LX,lx,40,SUV,Publish
+2713,LX,lx,40,SUV,Publish
+2714,LX,lx,40,SUV,Publish
+2715,MKZ,mkz,87,,Publish
+2716,Corsair,corsair,87,SUV,Publish
+2717,Corsair,corsair,87,SUV,Publish
+2718,Corsair,corsair,87,SUV,Publish
+2719,Nautilus,nautilus,87,SUV,Publish
+2720,Continental,continental,87,,Publish
+2721,Nautilus,nautilus,87,SUV,Publish
+2722,Nautilus,nautilus,87,SUV,Publish
+2723,Continental,continental,87,,Publish
+2724,Aviator,aviator,87,SUV,Publish
+2725,Navigator,navigator,87,SUV,Publish
+2726,Aviator,aviator,87,SUV,Publish
+2727,Continental,continental,87,,Publish
+2728,Navigator,navigator,87,SUV,Publish
+2729,Navigator,navigator,87,SUV,Publish
+2730,Emira,emira,18,Coupe,Publish
+2731,Emira,emira,18,Coupe,Publish
+2732,Exige,exige,18,Coupe,Publish
+2733,Evora,evora,18,Coupe,Publish
+2734,Evija,evija,18,Coupe,Publish
+2735,Air,air,63,Sedan,Publish
+2736,Air,air,63,Sedan,Publish
+2737,Air,air,63,Sedan,Publish
+2738,Air,air,63,Sedan,Publish
+2739,Air,air,63,Sedan,Publish
+2740,Air,air,63,Sedan,Publish
+2741,Air,air,63,Sedan,Publish
+2742,1,1,57,,Publish
+2743,1,1,57,,Publish
+2744,5,5,57,SUV,Publish
+2745,5,5,57,SUV,Publish
+2746,XUV500,xuv500,79,SUV,Publish
+2747,"Scorpio Pickup",scorpio-pickup,79,"Pick up Truck",Publish
+2748,XUV500,xuv500,79,SUV,Publish
+2749,XUV500,xuv500,79,SUV,Publish
+2750,XUV500,xuv500,79,SUV,Publish
+2751,MC20,mc20,55,Coupe,Publish
+2752,Grecale,grecale,55,suv,Publish
+2753,Grecale,grecale,55,suv,Publish
+2754,Grecale,grecale,55,suv,Publish
+2755,"MC20 Cielo",mc20-cielo,55,Convertible,Publish
+2756,Ghibli,ghibli,55,Sedan,Publish
+2757,Ghibli,ghibli,55,Sedan,Publish
+2758,Levante,levante,55,SUV,Publish
+2759,Levante,levante,55,SUV,Publish
+2760,Quattroporte,quattroporte,55,Sedan,Publish
+2761,Ghibli,ghibli,55,Sedan,Publish
+2762,Levante,levante,55,SUV,Publish
+2763,Quattroporte,quattroporte,55,Sedan,Publish
+2764,GranTurismo,granturismo,55,Coupe,Publish
+2765,Ghibli,ghibli,55,Sedan,Publish
+2766,GranTurismo,granturismo,55,Coupe,Publish
+2767,GranCabrio,grancabrio,55,Convertible,Publish
+2768,GranCabrio,grancabrio,55,Convertible,Publish
+2769,Levante,levante,55,SUV,Publish
+2770,Quattroporte,quattroporte,55,Sedan,Publish
+2771,G50,g50,56,MPV,Publish
+2772,D60,d60,56,suv,Publish
+2773,G90,g90,56,Sedan,Publish
+2774,T60,t60,56,"Pick up Truck",Publish
+2775,"G10 7-Seater",g10-7-seater,56,MPV,Publish
+2776,"G10 9-Seater",g10-9-seater,56,Minivan,Publish
+2777,"V80 Cargo Van",v80-cargo-van,56,,Publish
+2778,D90,d90,56,SUV,Publish
+2779,"V80 15-Seater",v80-15-seater,56,,Publish
+2780,"V80 15-Seater",v80-15-seater,56,,Publish
+2781,D90,d90,56,SUV,Publish
+2782,"3 Sedan",3-sedan,30,Sedan,Publish
+2783,"3 Hatchback",3-hatchback,30,Hatchback,Publish
+2784,"2 Hatchback",2-hatchback,30,Hatchback,Publish
+2785,6,6,30,Sedan,Publish
+2786,6,6,30,Sedan,Publish
+2787,6,6,30,Sedan,Publish
+2788,"CX 3",cx-3,30,SUV,Publish
+2789,"CX 3",cx-3,30,SUV,Publish
+2790,"CX 3",cx-3,30,SUV,Publish
+2791,CX-5,cx-5,30,SUV,Publish
+2792,"MX-5 Convertible Hard Top",mx-5-convertible-hard-top,30,Convertible,Publish
+2793,CX-60,cx-60,30,SUV,Publish
+2794,"CX 3",cx-3,30,SUV,Publish
+2795,"3 Sedan",3-sedan,30,Sedan,Publish
+2796,6,6,30,Sedan,Publish
+2797,CX-30,cx-30,30,SUV,Publish
+2798,CX-30,cx-30,30,SUV,Publish
+2799,"3 Hatchback",3-hatchback,30,Hatchback,Publish
+2800,6,6,30,Sedan,Publish
+2801,CX-5,cx-5,30,SUV,Publish
+2802,CX-30,cx-30,30,SUV,Publish
+2803,CX-5,cx-5,30,SUV,Publish
+2804,CX-9,cx-9,30,SUV,Publish
+2805,CX-5,cx-5,30,SUV,Publish
+2806,CX-5,cx-5,30,SUV,Publish
+2807,CX-9,cx-9,30,SUV,Publish
+2808,CX-5,cx-5,30,SUV,Publish
+2809,CX-9,cx-9,30,SUV,Publish
+2810,Artura,artura,14,Coupe,Publish
+2811,540C,540c,14,,Publish
+2812,570S,570s,14,,Publish
+2813,"570 GT",570-gt,14,,Publish
+2814,"570S Spider",570s-spider,14,,Publish
+2815,GT,gt,14,Sedan,Publish
+2816,600LT,600lt,14,,Publish
+2817,720S,720s,14,Coupe,Publish
+2818,720S,720s,14,Coupe,Publish
+2819,765LT,765lt,14,Coupe,Publish
+2820,Senna,senna,14,Coupe,Publish
+2821,"E-Class Saloon",e-class-saloon,22,Sedan,Publish
+2822,"E-Class Saloon",e-class-saloon,22,Sedan,Publish
+2823,"E-Class Saloon",e-class-saloon,22,Sedan,Publish
+2824,"E-Class Saloon",e-class-saloon,22,Sedan,Publish
+2825,EQV,eqv,22,MPV,Publish
+2826,GLB,glb,22,SUV,Publish
+2827,GLB,glb,22,SUV,Publish
+2828,"GLE Coupe",gle-coupe,22,Coupe,Publish
+2829,"GLE Coupe",gle-coupe,22,Coupe,Publish
+2830,"GLE Coupe",gle-coupe,22,Coupe,Publish
+2831,"GLE Coupe",gle-coupe,22,Coupe,Publish
+2832,GLE-Class,gle-class,22,SUV,Publish
+2833,GLE-Class,gle-class,22,SUV,Publish
+2834,GLC-Class,glc-class,22,SUV,Publish
+2835,CLA-Class,cla-class,22,Sedan,Publish
+2836,GLA,gla,22,SUV,Publish
+2837,EQC,eqc,22,SUV,Publish
+2838,"Maybach GLS",maybach-gls,22,SUV,Publish
+2839,"EQS Sedan",eqs-sedan,22,Sedan,Publish
+2840,"EQS Sedan",eqs-sedan,22,Sedan,Publish
+2841,"EQS Sedan",eqs-sedan,22,Sedan,Publish
+2842,"EQS SUV",eqs-suv,22,SUV,Publish
+2843,EQE,eqe,22,Sedan,Publish
+2844,EQE,eqe,22,Sedan,Publish
+2845,EQA,eqa,22,SUV,Publish
+2846,EQB,eqb,22,SUV,Publish
+2847,EQE,eqe,22,Sedan,Publish
+2848,"EQE SUV",eqe-suv,22,SUV,Publish
+2849,"EQE SUV",eqe-suv,22,SUV,Publish
+2850,CLE,cle,22,Sedan,Publish
+2851,CLE,cle,22,Sedan,Publish
+2852,"A-class Sedan",a-class-sedan,22,Sedan,Publish
+2853,CLA-Class,cla-class,22,Sedan,Publish
+2854,A-Class,a-class,22,Hatchback,Publish
+2855,C-Class,c-class,22,Sedan,Publish
+2856,A-Class,a-class,22,Hatchback,Publish
+2857,A-Class,a-class,22,Hatchback,Publish
+2858,A-Class,a-class,22,Hatchback,Publish
+2859,"C-Class Coupe",c-class-coupe,22,Coupe,Publish
+2860,"V Class",v-class,22,MPV,Publish
+2861,SLC,slc,22,,Publish
+2862,C-Class,c-class,22,Sedan,Publish
+2863,C-Class,c-class,22,Sedan,Publish
+2864,"E-Class Saloon",e-class-saloon,22,Sedan,Publish
+2865,GLC-Class,glc-class,22,SUV,Publish
+2866,"C Class Cabriolet",c-class-cabriolet,22,Convertible,Publish
+2867,SLC,slc,22,,Publish
+2868,"C-Class Coupe",c-class-coupe,22,Coupe,Publish
+2869,"E-Class Coupe",e-class-coupe,22,Coupe,Publish
+2870,"V Class",v-class,22,MPV,Publish
+2871,GLC-Class,glc-class,22,SUV,Publish
+2872,"C Class Cabriolet",c-class-cabriolet,22,Convertible,Publish
+2873,"E-Class Cabriolet",e-class-cabriolet,22,Convertible,Publish
+2874,"GLC Coupe",glc-coupe,22,Coupe,Publish
+2875,GLA,gla,22,SUV,Publish
+2876,CLA-Class,cla-class,22,Sedan,Publish
+2877,CLA-Class,cla-class,22,Sedan,Publish
+2878,C-Class,c-class,22,Sedan,Publish
+2879,SLC,slc,22,,Publish
+2880,"AMG GT 4-Door Coupe",amg-gt-4-door-coupe,22,Coupe,Publish
+2881,GLE-Class,gle-class,22,SUV,Publish
+2882,GLC-Class,glc-class,22,SUV,Publish
+2883,"E-Class Coupe",e-class-coupe,22,Coupe,Publish
+2884,"GLC Coupe",glc-coupe,22,Coupe,Publish
+2885,"E-Class Cabriolet",e-class-cabriolet,22,Convertible,Publish
+2886,"V Class",v-class,22,MPV,Publish
+2887,"C-Class Coupe",c-class-coupe,22,Coupe,Publish
+2888,"C Class Cabriolet",c-class-cabriolet,22,Convertible,Publish
+2889,"E-Class Cabriolet",e-class-cabriolet,22,Convertible,Publish
+2890,"GLC Coupe",glc-coupe,22,Coupe,Publish
+2891,"AMG GT 4-Door Coupe",amg-gt-4-door-coupe,22,Coupe,Publish
+2892,"E-Class Saloon",e-class-saloon,22,Sedan,Publish
+2893,"E-Class Coupe",e-class-coupe,22,Coupe,Publish
+2894,CLS-Class,cls-class,22,Sedan,Publish
+2895,C-Class,c-class,22,Sedan,Publish
+2896,CLS-Class,cls-class,22,Sedan,Publish
+2897,"C-Class Coupe",c-class-coupe,22,Coupe,Publish
+2898,GLS,gls,22,SUV,Publish
+2899,GLS,gls,22,SUV,Publish
+2900,GLS,gls,22,SUV,Publish
+2901,CLS-Class,cls-class,22,Sedan,Publish
+2902,SL-Class,sl-class,22,Roadster,Publish
+2903,"AMG GT",amg-gt,22,Coupe,Publish
+2904,S-Class,s-class,22,Sedan,Publish
+2905,G-Class,g-class,22,SUV,Publish
+2906,"S Class Cabriolet",s-class-cabriolet,22,Convertible,Publish
+2907,"AMG GT",amg-gt,22,Coupe,Publish
+2908,"AMG GT Roadster",amg-gt-roadster,22,Roadster,Publish
+2909,"AMG GT",amg-gt,22,Coupe,Publish
+2910,"S-Class Coupe",s-class-coupe,22,Coupe,Publish
+2911,G-Class,g-class,22,SUV,Publish
+2912,S-Class,s-class,22,Sedan,Publish
+2913,Maybach,maybach,22,Sedan,Publish
+2914,"S-Class Coupe",s-class-coupe,22,Coupe,Publish
+2915,"AMG GT",amg-gt,22,Coupe,Publish
+2916,"S Class Cabriolet",s-class-cabriolet,22,Convertible,Publish
+2917,Maybach,maybach,22,Sedan,Publish
+2918,"AMG GT Roadster",amg-gt-roadster,22,Roadster,Publish
+2919,"S 63 AMG Coupe",s-63-amg-coupe,22,Coupe,Publish
+2920,"S Class Cabriolet",s-class-cabriolet,22,Convertible,Publish
+2921,GT,gt,19,Sedan,Publish
+2922,GT,gt,19,Sedan,Publish
+2923,GT,gt,19,Sedan,Publish
+2924,ZS,zs,19,SUV,Publish
+2925,ZS,zs,19,SUV,Publish
+2926,ZS,zs,19,SUV,Publish
+2927,3,3,19,Hatchback,Publish
+2928,"ZS EV",zs-ev,19,SUV,Publish
+2929,One,one,19,SUV,Publish
+2930,One,one,19,SUV,Publish
+2931,"4 EV",4-ev,19,SUV,Publish
+2932,"Marvel R",marvel-r,19,SUV,Publish
+2933,Whale,whale,19,SUV,Publish
+2934,Whale,whale,19,SUV,Publish
+2935,5,5,19,SUV,Publish
+2936,5,5,19,SUV,Publish
+2937,5,5,19,SUV,Publish
+2938,RX5,rx5,19,Crossover,Publish
+2939,6,6,19,Sedan,Publish
+2940,6,6,19,Sedan,Publish
+2941,RX5,rx5,19,Crossover,Publish
+2942,6,6,19,Sedan,Publish
+2943,RX5,rx5,19,Crossover,Publish
+2944,HS,hs,19,SUV,Publish
+2945,RX8,rx8,19,SUV,Publish
+2946,HS,hs,19,SUV,Publish
+2947,RX8,rx8,19,SUV,Publish
+2948,RX8,rx8,19,SUV,Publish
+2949,"SE EV",se-ev,33,Hatchback,Publish
+2950,Convertible,convertible,33,Convertible,Publish
+2951,Hatch,hatch,33,Hatchback,Publish
+2952,Hatch,hatch,33,Hatchback,Publish
+2953,Hatch,hatch,33,Hatchback,Publish
+2954,Countryman,countryman,33,"Crossover SUV",Publish
+2955,Clubman,clubman,33,Hatchback,Publish
+2956,Hatch,hatch,33,Hatchback,Publish
+2957,Convertible,convertible,33,Convertible,Publish
+2958,Countryman,countryman,33,"Crossover SUV",Publish
+2959,Countryman,countryman,33,"Crossover SUV",Publish
+2960,Attrage,attrage,46,Sedan,Publish
+2961,Outlander,outlander,46,SUV,Publish
+2962,Outlander,outlander,46,SUV,Publish
+2963,Mirage,mirage,46,Hatchback,Publish
+2964,Xpander,xpander,46,SUV,Publish
+2965,"Lancer EX",lancer-ex,46,,Publish
+2966,L200,l200,46,"Pick up Truck",Publish
+2967,"Lancer EX",lancer-ex,46,,Publish
+2968,"Lancer EX",lancer-ex,46,,Publish
+2969,ASX,asx,46,SUV,Publish
+2970,"Eclipse Cross",eclipse-cross,46,SUV,Publish
+2971,ASX,asx,46,SUV,Publish
+2972,"Montero Sport",montero-sport,46,SUV,Publish
+2973,Pajero,pajero,46,SUV,Publish
+2974,Pajero,pajero,46,SUV,Publish
+2975,Pajero,pajero,46,SUV,Publish
+2976,"Montero Sport",montero-sport,46,SUV,Publish
+2977,Pajero,pajero,46,SUV,Publish
+2978,"Montero Sport",montero-sport,46,SUV,Publish
+2979,Pajero,pajero,46,SUV,Publish
+2980,"Montero Sport",montero-sport,46,SUV,Publish
+2981,Pajero,pajero,46,SUV,Publish
+2982,Pajero,pajero,46,SUV,Publish
+2983,ET7,et7,75,Sedan,Publish
+2984,ET7,et7,75,Sedan,Publish
+2985,ET7,et7,75,Sedan,Publish
+2986,Z,z,16,Coupe,Publish
+2987,Z,z,16,Coupe,Publish
+2988,X-Trail,x-trail,16,SUV,Publish
+2989,Juke,juke,16,"Compact SUV",Publish
+2990,Sentra,sentra,16,Sedan,Publish
+2991,Sentra,sentra,16,Sedan,Publish
+2992,Maxima,maxima,16,Sedan,Publish
+2993,Leaf,leaf,16,Hatchback,Publish
+2994,Micra,micra,16,Hatchback,Publish
+2995,Sunny,sunny,16,Sedan,Publish
+2996,Sunny,sunny,16,Sedan,Publish
+2997,Kicks,kicks,16,SUV,Publish
+2998,Sunny,sunny,16,Sedan,Publish
+2999,Sunny,sunny,16,Sedan,Publish
+3000,Kicks,kicks,16,SUV,Publish
+3001,Navara,navara,16,"Pick up Truck",Publish
+3002,Kicks,kicks,16,SUV,Publish
+3003,Kicks,kicks,16,SUV,Publish
+3004,Urvan,urvan,16,,Publish
+3005,Urvan,urvan,16,,Publish
+3006,Urvan,urvan,16,,Publish
+3007,Navara,navara,16,"Pick up Truck",Publish
+3008,X-Trail,x-trail,16,SUV,Publish
+3009,Urvan,urvan,16,,Publish
+3010,Urvan,urvan,16,,Publish
+3011,Navara,navara,16,"Pick up Truck",Publish
+3012,Urvan,urvan,16,,Publish
+3013,Altima,altima,16,Sedan,Publish
+3014,Navara,navara,16,"Pick up Truck",Publish
+3015,Altima,altima,16,Sedan,Publish
+3016,Navara,navara,16,"Pick up Truck",Publish
+3017,Xterra,xterra,16,SUV,Publish
+3018,Altima,altima,16,Sedan,Publish
+3019,Urvan,urvan,16,,Publish
+3020,Urvan,urvan,16,,Publish
+3021,Xterra,xterra,16,SUV,Publish
+3022,Xterra,xterra,16,SUV,Publish
+3023,X-Trail,x-trail,16,SUV,Publish
+3024,X-Trail,x-trail,16,SUV,Publish
+3025,Altima,altima,16,Sedan,Publish
+3026,Xterra,xterra,16,SUV,Publish
+3027,Pathfinder,pathfinder,16,SUV,Publish
+3028,Pathfinder,pathfinder,16,SUV,Publish
+3029,Pathfinder,pathfinder,16,SUV,Publish
+3030,X-Trail,x-trail,16,SUV,Publish
+3031,Xterra,xterra,16,SUV,Publish
+3032,Altima,altima,16,Sedan,Publish
+3033,Maxima,maxima,16,Sedan,Publish
+3034,"Patrol Pick Up",patrol-pick-up,16,,Publish
+3035,"Patrol Pick Up",patrol-pick-up,16,,Publish
+3036,"Patrol Safari",patrol-safari,16,SUV,Publish
+3037,"Patrol Safari",patrol-safari,16,SUV,Publish
+3038,Maxima,maxima,16,Sedan,Publish
+3039,Maxima,maxima,16,Sedan,Publish
+3040,"Patrol Safari",patrol-safari,16,SUV,Publish
+3041,"Patrol Safari",patrol-safari,16,SUV,Publish
+3042,Pathfinder,pathfinder,16,SUV,Publish
+3043,Pathfinder,pathfinder,16,SUV,Publish
+3044,Pathfinder,pathfinder,16,SUV,Publish
+3045,Civilian,civilian,16,,Publish
+3046,"Patrol Safari",patrol-safari,16,SUV,Publish
+3047,"Patrol Safari",patrol-safari,16,SUV,Publish
+3048,"Patrol Safari",patrol-safari,16,SUV,Publish
+3049,Patrol,patrol,16,SUV,Publish
+3050,"Patrol Safari",patrol-safari,16,SUV,Publish
+3051,"Patrol Safari",patrol-safari,16,SUV,Publish
+3052,Patrol,patrol,16,SUV,Publish
+3053,Patrol,patrol,16,SUV,Publish
+3054,Patrol,patrol,16,SUV,Publish
+3055,Patrol,patrol,16,SUV,Publish
+3056,Patrol,patrol,16,SUV,Publish
+3057,Patrol,patrol,16,SUV,Publish
+3058,Patrol,patrol,16,SUV,Publish
+3059,Patrol,patrol,16,SUV,Publish
+3060,GT-R,gt-r,16,Coupe,Publish
+3061,GT-R,gt-r,16,Coupe,Publish
+3062,GT-R,gt-r,16,Coupe,Publish
+3063,GT-R,gt-r,16,Coupe,Publish
+3064,GT-R,gt-r,16,Coupe,Publish
+3065,Mokka,mokka,49,"Crossover SUV",Publish
+3066,"Zafira Life",zafira-life,49,Minivan,Publish
+3067,"Zafira Life",zafira-life,49,Minivan,Publish
+3068,Vivaro,vivaro,49,,Publish
+3069,Crossland,crossland,49,"Crossover SUV",Publish
+3070,"Crossland X",crossland-x,49,"Crossover SUV",Publish
+3071,Corsa,corsa,49,Hatchback,Publish
+3072,"Crossland X",crossland-x,49,"Crossover SUV",Publish
+3073,"Crossland X",crossland-x,49,"Crossover SUV",Publish
+3074,"Astra Hatchback",astra-hatchback,49,Hatchback,Publish
+3075,"Grandland X",grandland-x,49,SUV,Publish
+3076,Insignia,insignia,49,Sedan,Publish
+3077,2008,2008,8,"Crossover SUV",Publish
+3078,2008,2008,8,"Crossover SUV",Publish
+3079,5008,5008,8,"Crossover SUV",Publish
+3080,5008,5008,8,"Crossover SUV",Publish
+3081,308,308,8,Hatchback,Publish
+3082,408,408,8,SUV,Publish
+3083,408,408,8,SUV,Publish
+3084,Landtrek,landtrek,8,"Pick up Truck",Publish
+3085,Landtrek,landtrek,8,"Pick up Truck",Publish
+3086,Landtrek,landtrek,8,"Pick up Truck",Publish
+3087,Landtrek,landtrek,8,"Pick up Truck",Publish
+3088,Partner,partner,8,,Publish
+3089,Partner,partner,8,,Publish
+3090,Rifter,rifter,8,MPV,Publish
+3091,2008,2008,8,"Crossover SUV",Publish
+3092,Rifter,rifter,8,MPV,Publish
+3093,208,208,8,Hatchback,Publish
+3094,208,208,8,Hatchback,Publish
+3095,Expert,expert,8,,Publish
+3096,Expert,expert,8,,Publish
+3097,Boxer,boxer,8,Van,Publish
+3098,2008,2008,8,"Crossover SUV",Publish
+3099,3008,3008,8,SUV,Publish
+3100,Boxer,boxer,8,Van,Publish
+3101,508,508,8,Sedan,Publish
+3102,3008,3008,8,SUV,Publish
+3103,5008,5008,8,"Crossover SUV",Publish
+3104,Traveller,traveller,8,,Publish
+3105,508,508,8,Sedan,Publish
+3106,508,508,8,Sedan,Publish
+3107,3008,3008,8,SUV,Publish
+3108,2,2,71,Sedan,Publish
+3109,2,2,71,Sedan,Publish
+3110,2,2,71,Sedan,Publish
+3111,2,2,71,Sedan,Publish
+3112,911,911,34,Coupe,Publish
+3113,911,911,34,Coupe,Publish
+3114,911,911,34,Coupe,Publish
+3115,911,911,34,Coupe,Publish
+3116,911,911,34,Coupe,Publish
+3117,911,911,34,Coupe,Publish
+3118,911,911,34,Coupe,Publish
+3119,911,911,34,Coupe,Publish
+3120,911,911,34,Coupe,Publish
+3121,Panamera,panamera,34,Coupe,Publish
+3122,Panamera,panamera,34,Coupe,Publish
+3123,Panamera,panamera,34,Coupe,Publish
+3124,Panamera,panamera,34,Coupe,Publish
+3125,Cayenne,cayenne,34,SUV,Publish
+3126,Cayenne,cayenne,34,SUV,Publish
+3127,Cayenne,cayenne,34,SUV,Publish
+3128,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3129,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3130,Macan,macan,34,SUV,Publish
+3131,718,718,34,Coupe,Publish
+3132,718,718,34,Coupe,Publish
+3133,718,718,34,Coupe,Publish
+3134,718,718,34,Coupe,Publish
+3135,718,718,34,Coupe,Publish
+3136,Macan,macan,34,SUV,Publish
+3137,Macan,macan,34,SUV,Publish
+3138,718,718,34,Coupe,Publish
+3139,Macan,macan,34,SUV,Publish
+3140,718,718,34,Coupe,Publish
+3141,Cayenne,cayenne,34,SUV,Publish
+3142,718,718,34,Coupe,Publish
+3143,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3144,Panamera,panamera,34,Coupe,Publish
+3145,Panamera,panamera,34,Coupe,Publish
+3146,Taycan,taycan,34,Coupe,Publish
+3147,718,718,34,Coupe,Publish
+3148,718,718,34,Coupe,Publish
+3149,718,718,34,Coupe,Publish
+3150,Panamera,panamera,34,Coupe,Publish
+3151,Panamera,panamera,34,Coupe,Publish
+3152,Cayenne,cayenne,34,SUV,Publish
+3153,Cayenne,cayenne,34,SUV,Publish
+3154,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3155,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3156,Cayenne,cayenne,34,SUV,Publish
+3157,Macan,macan,34,SUV,Publish
+3158,911,911,34,Coupe,Publish
+3159,"Taycan Cross Turismo",taycan-cross-turismo,34,"Station Wagon",Publish
+3160,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3161,Panamera,panamera,34,Coupe,Publish
+3162,Panamera,panamera,34,Coupe,Publish
+3163,Taycan,taycan,34,Coupe,Publish
+3164,911,911,34,Coupe,Publish
+3165,"Taycan Cross Turismo",taycan-cross-turismo,34,"Station Wagon",Publish
+3166,911,911,34,Coupe,Publish
+3167,Cayenne,cayenne,34,SUV,Publish
+3168,Panamera,panamera,34,Coupe,Publish
+3169,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3170,911,911,34,Coupe,Publish
+3171,911,911,34,Coupe,Publish
+3172,911,911,34,Coupe,Publish
+3173,"Panamera Sport Turismo",panamera-sport-turismo,34,"Station Wagon",Publish
+3174,911,911,34,Coupe,Publish
+3175,Panamera,panamera,34,Coupe,Publish
+3176,"Panamera Sport Turismo",panamera-sport-turismo,34,"Station Wagon",Publish
+3177,911,911,34,Coupe,Publish
+3178,911,911,34,Coupe,Publish
+3179,911,911,34,Coupe,Publish
+3180,Cayenne,cayenne,34,SUV,Publish
+3181,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3182,Taycan,taycan,34,Coupe,Publish
+3183,Taycan,taycan,34,Coupe,Publish
+3184,"Taycan Cross Turismo",taycan-cross-turismo,34,"Station Wagon",Publish
+3185,"Panamera Sport Turismo",panamera-sport-turismo,34,"Station Wagon",Publish
+3186,911,911,34,Coupe,Publish
+3187,911,911,34,Coupe,Publish
+3188,911,911,34,Coupe,Publish
+3189,Cayenne,cayenne,34,SUV,Publish
+3190,"Cayenne Coupe",cayenne-coupe,34,Coupe,Publish
+3191,911,911,34,Coupe,Publish
+3192,"Panamera Sport Turismo",panamera-sport-turismo,34,"Station Wagon",Publish
+3193,Taycan,taycan,34,Coupe,Publish
+3194,911,911,34,Coupe,Publish
+3195,911,911,34,Coupe,Publish
+3196,"Panamera Sport Turismo",panamera-sport-turismo,34,"Station Wagon",Publish
+3197,One,one,74,SUV,Publish
+3198,"1500 Classic",1500-classic,84,"Pick up Truck",Publish
+3199,1500,1500,84,"Pick up Truck",Publish
+3200,1500,1500,84,"Pick up Truck",Publish
+3201,1500,1500,84,"Pick up Truck",Publish
+3202,1500,1500,84,"Pick up Truck",Publish
+3203,1500,1500,84,"Pick up Truck",Publish
+3204,1500,1500,84,"Pick up Truck",Publish
+3205,"1500 Classic",1500-classic,84,"Pick up Truck",Publish
+3206,2500,2500,84,"Pick up Truck",Publish
+3207,"1500 TRX",1500-trx,84,"Pick up Truck",Publish
+3208,"1500 TRX",1500-trx,84,"Pick up Truck",Publish
+3209,Captur,captur,32,SUV,Publish
+3210,Captur,captur,32,SUV,Publish
+3211,Captur,captur,32,SUV,Publish
+3212,Talisman,talisman,32,Sedan,Publish
+3213,Talisman,talisman,32,Sedan,Publish
+3214,Talisman,talisman,32,Sedan,Publish
+3215,Talisman,talisman,32,Sedan,Publish
+3216,"Express Van",express-van,32,,Publish
+3217,Symbol,symbol,32,Sedan,Publish
+3218,Symbol,symbol,32,Sedan,Publish
+3219,"Dokker Van",dokker-van,32,,Publish
+3220,Duster,duster,32,SUV,Publish
+3221,Megane,megane,32,Sedan,Publish
+3222,Duster,duster,32,SUV,Publish
+3223,Megane,megane,32,Sedan,Publish
+3224,Duster,duster,32,SUV,Publish
+3225,Duster,duster,32,SUV,Publish
+3226,Duster,duster,32,SUV,Publish
+3227,Megane,megane,32,Sedan,Publish
+3228,Duster,duster,32,SUV,Publish
+3229,Master,master,32,,Publish
+3230,Koleos,koleos,32,SUV,Publish
+3231,Master,master,32,,Publish
+3232,Master,master,32,,Publish
+3233,Master,master,32,,Publish
+3234,Koleos,koleos,32,SUV,Publish
+3235,Koleos,koleos,32,SUV,Publish
+3236,"Megane Hatchback",megane-hatchback,32,Hatchback,Publish
+3237,"Megane Hatchback",megane-hatchback,32,Hatchback,Publish
+3238,Spectre,spectre,65,Coupe,Publish
+3239,Ghost,ghost,65,Sedan,Publish
+3240,Ghost,ghost,65,Sedan,Publish
+3241,Dawn,dawn,65,Convertible,Publish
+3242,Wraith,wraith,65,Coupe,Publish
+3243,Dawn,dawn,65,Convertible,Publish
+3244,Wraith,wraith,65,Coupe,Publish
+3245,Phantom,phantom,65,Sedan,Publish
+3246,Cullinan,cullinan,65,SUV,Publish
+3247,Phantom,phantom,65,Sedan,Publish
+3248,"Al Reem",al-reem,51,SUV,Publish
+3249,"Al Reem",al-reem,51,SUV,Publish
+3250,S24,s24,51,"Pick up Truck",Publish
+3251,S24,s24,51,"Pick up Truck",Publish
+3252,5,5,72,SUV,Publish
+3253,5,5,72,SUV,Publish
+3254,Octavia,octavia,43,Sedan,Publish
+3255,Fabia,fabia,43,Hatchback,Publish
+3256,Kushaq,kushaq,43,"Compact SUV",Publish
+3257,Scala,scala,43,Hatchback,Publish
+3258,Scala,scala,43,Hatchback,Publish
+3259,Kamiq,kamiq,43,SUV,Publish
+3260,Scala,scala,43,Hatchback,Publish
+3261,Kamiq,kamiq,43,SUV,Publish
+3262,Octavia,octavia,43,Sedan,Publish
+3263,Superb,superb,43,Sedan,Publish
+3264,Karoq,karoq,43,SUV,Publish
+3265,Octavia,octavia,43,Sedan,Publish
+3266,Kodiaq,kodiaq,43,SUV,Publish
+3267,Karoq,karoq,43,SUV,Publish
+3268,Superb,superb,43,Sedan,Publish
+3269,Kodiaq,kodiaq,43,SUV,Publish
+3270,Superb,superb,43,Sedan,Publish
+3271,Kodiaq,kodiaq,43,SUV,Publish
+3272,ET5,et5,61,SUV,Publish
+3273,DX3,dx3,81,SUV,Publish
+3274,DX5,dx5,81,SUV,Publish
+3275,DX7,dx7,81,SUV,Publish
+3276,"DX7 Nova",dx7-nova,81,SUV,Publish
+3277,WRX,wrx,47,Sedan,Publish
+3278,WRX,wrx,47,Sedan,Publish
+3279,WRX,wrx,47,Sedan,Publish
+3280,BRZ,brz,47,Coupe,Publish
+3281,BRZ,brz,47,Coupe,Publish
+3282,Impreza,impreza,47,Sedan,Publish
+3283,XV,xv,47,,Publish
+3284,Legacy,legacy,47,Sedan,Publish
+3285,XV,xv,47,,Publish
+3286,Crosstrek,crosstrek,47,SUV,Publish
+3287,Crosstrek,crosstrek,47,SUV,Publish
+3288,Legacy,legacy,47,Sedan,Publish
+3289,Outback,outback,47,SUV,Publish
+3290,Forester,forester,47,SUV,Publish
+3291,Forester,forester,47,SUV,Publish
+3292,"Swift Sport",swift-sport,41,Hatchback,Publish
+3293,"Grand Vitara",grand-vitara,41,SUV,Publish
+3294,"Grand Vitara",grand-vitara,41,SUV,Publish
+3295,"Grand Vitara",grand-vitara,41,SUV,Publish
+3296,Dzire,dzire,41,Sedan,Publish
+3297,Dzire,dzire,41,Sedan,Publish
+3298,Baleno,baleno,41,Hatchback,Publish
+3299,Ciaz,ciaz,41,Sedan,Publish
+3300,Swift,swift,41,Hatchback,Publish
+3301,Ertiga,ertiga,41,MPV,Publish
+3302,Jimny,jimny,41,"compact SUV",Publish
+3303,Baleno,baleno,41,Hatchback,Publish
+3304,Ciaz,ciaz,41,Sedan,Publish
+3305,Ertiga,ertiga,41,MPV,Publish
+3306,Jimny,jimny,41,"compact SUV",Publish
+3307,Swift,swift,41,Hatchback,Publish
+3308,Vitara,vitara,41,SUV,Publish
+3309,300,300,67,SUV,Publish
+3310,300,300,67,SUV,Publish
+3311,500,500,67,Hatchback,Publish
+3312,500,500,67,Hatchback,Publish
+3313,"Model Y",model-y,59,SUV,Publish
+3314,"Model Y",model-y,59,SUV,Publish
+3315,"Model Y",model-y,59,SUV,Publish
+3316,Cybertruck,cybertruck,59,"Pick up Truck",Publish
+3317,Cybertruck,cybertruck,59,"Pick up Truck",Publish
+3318,"Model 3",model-3,59,Sedan,Publish
+3319,"Model 3",model-3,59,Sedan,Publish
+3320,"Model 3",model-3,59,Sedan,Publish
+3321,"Model S",model-s,59,Sedan,Publish
+3322,"Model X",model-x,59,SUV,Publish
+3323,"Model X",model-x,59,SUV,Publish
+3324,"Model S",model-s,59,Sedan,Publish
+3325,Innova,innova,3,MPV,Publish
+3326,Innova,innova,3,MPV,Publish
+3327,Innova,innova,3,MPV,Publish
+3328,Innova,innova,3,MPV,Publish
+3329,"Yaris Sedan",yaris-sedan,3,Sedan,Publish
+3330,"Yaris Sedan",yaris-sedan,3,Sedan,Publish
+3331,"Land Cruiser",land-cruiser,3,SUV,Publish
+3332,"Land Cruiser",land-cruiser,3,SUV,Publish
+3333,"Land Cruiser",land-cruiser,3,SUV,Publish
+3334,"Land Cruiser",land-cruiser,3,SUV,Publish
+3335,"Land Cruiser",land-cruiser,3,SUV,Publish
+3336,"Land Cruiser",land-cruiser,3,SUV,Publish
+3337,"Land Cruiser",land-cruiser,3,SUV,Publish
+3338,"Land Cruiser",land-cruiser,3,SUV,Publish
+3339,Hilux,hilux,3,"Pick up Truck",Publish
+3340,Hilux,hilux,3,"Pick up Truck",Publish
+3341,Rav4,rav4,3,"Crossover SUV",Publish
+3342,Corolla,corolla,3,Sedan,Publish
+3343,Corolla,corolla,3,Sedan,Publish
+3344,"Land Cruiser Prado",land-cruiser-prado,3,SUV,Publish
+3345,"Land Cruiser Prado",land-cruiser-prado,3,SUV,Publish
+3346,Avalon,avalon,3,,Publish
+3347,Camry,camry,3,Sedan,Publish
+3348,Camry,camry,3,Sedan,Publish
+3349,Sequoia,sequoia,3,suv,Publish
+3350,Sequoia,sequoia,3,suv,Publish
+3351,Yaris,yaris,3,Hatchback,Publish
+3352,Yaris,yaris,3,Hatchback,Publish
+3353,Prius,prius,3,Sedan,Publish
+3354,Prius,prius,3,Sedan,Publish
+3355,"Land Cruiser Pick Up",land-cruiser-pick-up,3,,Publish
+3356,Raize,raize,3,"Compact SUV",Publish
+3357,Raize,raize,3,"Compact SUV",Publish
+3358,Raize,raize,3,"Compact SUV",Publish
+3359,Raize,raize,3,"Compact SUV",Publish
+3360,Liteace,liteace,3,,Publish
+3361,Veloz,veloz,3,MPV,Publish
+3362,"Urban Cruiser",urban-cruiser,3,SUV,Publish
+3363,"Urban Cruiser",urban-cruiser,3,SUV,Publish
+3364,Crown,crown,3,Sedan,Publish
+3365,Crown,crown,3,Sedan,Publish
+3366,Avanza,avanza,3,MPV,Publish
+3367,Avanza,avanza,3,MPV,Publish
+3368,Rush,rush,3,SUV,Publish
+3369,Corolla,corolla,3,Sedan,Publish
+3370,Rush,rush,3,SUV,Publish
+3371,Corolla,corolla,3,Sedan,Publish
+3372,Corolla,corolla,3,Sedan,Publish
+3373,"C HR",c-hr,3,SUV,Publish
+3374,Rav4,rav4,3,"Crossover SUV",Publish
+3375,"Corolla Cross",corolla-cross,3,Crossover,Publish
+3376,"C HR",c-hr,3,SUV,Publish
+3377,Camry,camry,3,Sedan,Publish
+3378,"Corolla Cross",corolla-cross,3,Crossover,Publish
+3379,Rav4,rav4,3,"Crossover SUV",Publish
+3380,Hiace,hiace,3,,Publish
+3381,Innova,innova,3,MPV,Publish
+3382,Hiace,hiace,3,,Publish
+3383,Fortuner,fortuner,3,SUV,Publish
+3384,Camry,camry,3,Sedan,Publish
+3385,Rav4,rav4,3,"Crossover SUV",Publish
+3386,Previa,previa,3,MPV,Publish
+3387,Camry,camry,3,Sedan,Publish
+3388,Rav4,rav4,3,"Crossover SUV",Publish
+3389,Rav4,rav4,3,"Crossover SUV",Publish
+3390,"Land Cruiser Pick Up",land-cruiser-pick-up,3,,Publish
+3391,Hilux,hilux,3,"Pick up Truck",Publish
+3392,Hilux,hilux,3,"Pick up Truck",Publish
+3393,Previa,previa,3,MPV,Publish
+3394,Fortuner,fortuner,3,SUV,Publish
+3395,"Land Cruiser Pick Up",land-cruiser-pick-up,3,,Publish
+3396,Highlander,highlander,3,SUV,Publish
+3397,"Land Cruiser Prado",land-cruiser-prado,3,SUV,Publish
+3398,Fortuner,fortuner,3,SUV,Publish
+3399,"Land Cruiser Prado",land-cruiser-prado,3,SUV,Publish
+3400,"FJ Cruiser",fj-cruiser,3,SUV,Publish
+3401,Highlander,highlander,3,SUV,Publish
+3402,Supra,supra,3,Coupe,Publish
+3403,Supra,supra,3,Coupe,Publish
+3404,Supra,supra,3,Coupe,Publish
+3405,"FJ Cruiser",fj-cruiser,3,SUV,Publish
+3406,Coaster,coaster,3,,Publish
+3407,Granvia,granvia,3,Minivan,Publish
+3408,Touareg,touareg,38,SUV,Publish
+3409,Tiguan,tiguan,38,SUV,Publish
+3410,Tiguan,tiguan,38,SUV,Publish
+3411,"Golf R",golf-r,38,Hatchback,Publish
+3412,T-Roc,t-roc,38,SUV,Publish
+3413,Jetta,jetta,38,,Publish
+3414,Jetta,jetta,38,,Publish
+3415,T-Roc,t-roc,38,SUV,Publish
+3416,Passat,passat,38,Sedan,Publish
+3417,Jetta,jetta,38,,Publish
+3418,T-Roc,t-roc,38,SUV,Publish
+3419,Beetle,beetle,38,,Publish
+3420,Passat,passat,38,Sedan,Publish
+3421,Arteon,arteon,38,Sedan,Publish
+3422,Teramont,teramont,38,SUV,Publish
+3423,Tiguan,tiguan,38,SUV,Publish
+3424,Tiguan,tiguan,38,SUV,Publish
+3425,Teramont,teramont,38,SUV,Publish
+3426,Arteon,arteon,38,Sedan,Publish
+3427,Arteon,arteon,38,Sedan,Publish
+3428,"Golf GTI",golf-gti,38,Hatchback,Publish
+3429,Tiguan,tiguan,38,SUV,Publish
+3430,Teramont,teramont,38,SUV,Publish
+3431,Touareg,touareg,38,SUV,Publish
+3432,Arteon,arteon,38,Sedan,Publish
+3433,"Golf GTI",golf-gti,38,Hatchback,Publish
+3434,Golf,golf,38,,Publish
+3435,Teramont,teramont,38,SUV,Publish
+3436,Touareg,touareg,38,SUV,Publish
+3437,Touareg,touareg,38,SUV,Publish
+3438,S90,s90,35,Sedan,Publish
+3439,XC90,xc90,35,SUV,Publish
+3440,XC90,xc90,35,SUV,Publish
+3441,C40,c40,35,SUV,Publish
+3442,C40,c40,35,SUV,Publish
+3443,"XC40 Recharge",xc40-recharge,35,SUV,Publish
+3444,XC40,xc40,35,SUV,Publish
+3445,XC40,xc40,35,SUV,Publish
+3446,XC60,xc60,35,SUV,Publish
+3447,S60,s60,35,Sedan,Publish
+3448,S90,s90,35,Sedan,Publish
+3449,XC60,xc60,35,SUV,Publish
+3450,XC60,xc60,35,SUV,Publish
+3451,S90,s90,35,Sedan,Publish
+3452,"Fenyr SuperSport",fenyr-supersport,90,Coupe,Publish
+3453,"Lykan HyperSport",lykan-hypersport,90,Coupe,Publish
+3454,"SandRacer 500GT",sandracer-500gt,89,SUV,Publish
+3455,Rich,rich,78,"Pick up Truck",Publish
+3456,Rich,rich,78,"Pick up Truck",Publish
+3457,E200,e200,53,Hatchback,Publish
+3458,T300,t300,53,SUV,Publish
+3459,T300,t300,53,SUV,Publish
+3460,"T600 Sport",t600-sport,53,SUV,Publish
+3461,"T600 Sport",t600-sport,53,SUV,Publish
+3462,T700,t700,53,SUV,Publish
+3463,T700,t700,53,SUV,Publish
+3464,T700,t700,53,SUV,Draft
+3465,T700,t700,53,SUV,Draft
+3466,Seal,seal,2,Sedan,Draft
+3467,Seal,seal,2,Sedan,Publish
+,paul brand,paul-brand,342,Sedan,Publish
