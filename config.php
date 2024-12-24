@@ -1,6 +1,6 @@
 <?php
 
-define('ROOT_URL', 'https://www.yaaracars.com');
+define('ROOT_URL', 'http://preprod.yaaracars.com');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'u317526817_yaaracars');
 define('DB_PASS', '[y?*~PZF0');
@@ -22,7 +22,7 @@ function site_url($return = null){
 //Main Site
 
 function site_main(){
-    $site_main = 'https://www.yaaracars.com';
+    $site_main = 'http://preprod.yaaracars.com';
     
     return $site_main;
 }
