@@ -1,10 +1,4 @@
-<?php 
-header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404); 
-?>
-
 <?php require "header.php"; ?>
-
-
 <style>
     #breadcrumbs{
         display: none;
@@ -24,6 +18,4 @@ header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
     </div>
 </section>
 
-        
 <?php require "footer.php"; ?>
-

@@ -2,8 +2,11 @@
 <?php 
 $uae_arry = ['Raize', 'Rush', 'Xterra', 'X-Trail', 'Kicks', 'Patrol'];
 $ksa_arry = ['Sportage','Bronco','Sonata','Yukon','ZS','Elantra'];
-?>
 
+$home_data_uae = all_home_data($conn, 'UAE Home');
+$home_data_ksa = all_home_data($conn, 'KSA Home');
+?>
+<?php if(!empty($home_data_uae['section_popular_cars']['car_varient_id'])): ?>
 <div class="yc-single-car-content news-bar p-3 mb-3">
     
     <div class="yc-heading d-flex align-items-center justify-content-between">
@@ -22,7 +25,7 @@ $ksa_arry = ['Sportage','Bronco','Sonata','Yukon','ZS','Elantra'];
         
         ?>
 
-        <?php foreach(car_list($conn, $uae_arry,'Modal',['Modal'], 6, false, 'Modal', 'UAE') as $cars):
+        <?php foreach(car_list_mod($conn, $home_data_uae['section_popular_cars']['car_varient_id'], 'Mod_ID', ['Modal']) as $cars):
 
 
                 $file = dirname(__DIR__)."/uae.yaaracars.com/assets/img/cars/".$cars['Featured_Image'];
@@ -60,7 +63,7 @@ $ksa_arry = ['Sportage','Bronco','Sonata','Yukon','ZS','Elantra'];
                     <?php echo $cars['Brand']." ".$cars['Modal']; ?>
                     </a>
                     <br><br>
-                    <span><?php echo $cars['Currency']." ". $cars['Price']; ?> onwards</span>
+                    <span><?php echo $cars['Currency']." ".$cars['Price']; ?> onwards</span>
                     </p>
                 </div>
             </div>
@@ -74,7 +77,9 @@ $ksa_arry = ['Sportage','Bronco','Sonata','Yukon','ZS','Elantra'];
         </div>
     </div>
 </div>
+<?php endif; ?>
 
+<?php if(!empty($home_data_ksa['section_popular_cars']['car_varient_id'])): ?>
 <div class="yc-single-car-content news-bar p-3 mb-3">
 
     <div class="yc-heading d-flex align-items-center justify-content-between">
@@ -84,7 +89,9 @@ $ksa_arry = ['Sportage','Bronco','Sonata','Yukon','ZS','Elantra'];
     <div class="yc-trend-car-desc row mt-4">
         <div class="col-12">
 
-        <?php foreach(car_list($conn, $ksa_arry,'Modal',['Modal'], 6, false, 'Modal', 'KSA') as $cars): 
+        <?php 
+        foreach(car_list_mod($conn, $home_data_ksa['section_popular_cars']['car_varient_id'], 'Mod_ID', ['Modal']) as $cars): 
+        // foreach(car_list_mod($conn, $$home_data_ksa['section_popular_cars']['cars'], 'Mod_ID', ['Modal']) as $cars): 
             
                 $file = dirname(__DIR__)."/ksa.yaaracars.com/assets/img/cars/".$cars['Featured_Image'];
 
@@ -135,3 +142,4 @@ $ksa_arry = ['Sportage','Bronco','Sonata','Yukon','ZS','Elantra'];
         </div>
     </div>
 </div>
+<?php endif; ?>

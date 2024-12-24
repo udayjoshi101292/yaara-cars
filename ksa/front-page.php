@@ -6,20 +6,28 @@ $home = page_data($conn, end($car_slug));
 $content = json_decode($home['Content'], true);
 
 //Popular cars 
-$modalp_arry = ['Sportage', 'Bronco', 'Sonata', 'Yukon', 'ZS', 'Elantra'];
-
+// $modalp_arry = ['Sportage', 'Bronco', 'Sonata', 'Yukon', 'ZS', 'Elantra'];
+$modalp_arry = $content['section_popular_cars']['cars'];
+$modalp_arry_varient = $content['section_popular_cars']['car_varient_id'];
 
 //Electric cars 
 $elec_array = ['208','2008','ZS EV','Ioniq 5','E-HS9','Taycan'];
+$electric_car_modalu_arry = $content['latest_electric_cars']['car_varient_id'];
 
 //Latest cars 
-$modall_arry = $content['section_latest']['cars'];
+$modall_arry = $content['section_popular_cars']['cars'];
 
 //Upcoming cars 
-$modalu_arry = $content['section_upcoming']['cars'];
+$modalu_arry = $content['section_popular_cars']['car_varient_id'];
 
 //Popular Brands Logo
 $brand_logo = ['Toyota', 'Hyundai', 'Bentley', 'Ford', 'Kia', 'Mercedes-Benz', 'Chevrolet', 'Nissan', 'Mitsubishi', 'BMW', 'Honda', 'Volvo'];
+
+// $arr = ['2744', '1935','1768', '202', '393', '23'];
+
+// echo "<pre>";
+// print_r(car_list_mod($conn, $modalp_arry_varient, 'Mod_ID', ['Modal']));
+// echo "</pre>";
 
 ?>
 
@@ -57,130 +65,54 @@ $brand_logo = ['Toyota', 'Hyundai', 'Bentley', 'Ford', 'Kia', 'Mercedes-Benz', '
 
             <div class="owl-theme owl-carousel hero-carosel" id="hero-carousel">
 
-                <!-- Banner -->
-                <div class="item hero-style-1 py-5">
-                    <div class="hero-image">
-                        <img src="<?php site_url(); ?>/assets/img/ksa-1.jpg" alt="" class="w-100 d-lg-block d-md-block d-none">
-                        <img src="<?php site_url(); ?>/assets/img/ksa-1-mob.jpg" alt="" class="w-100 d-lg-none d-md-none d-block">
-                    </div>
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-lg-5 col-md-5 pe-lg-5 d-none d-md-block d-lg-block">
-                                <div class="home-car-filter">
-                                    <?php include 'components/filter-cars.php' ?>
-                                </div> 
-                            </div>
-
-                            <div class="col-lg-7 col-md-7 d-lg-block d-md-block d-none">
-                                <div class="hero-content-block">
-                                    <h2 class="hero-title">Discover the <br>Future of <br>Electric Driving</h2>
-                                    <p class="hero-subtitle"></p>
-                                    <div class="btn-hero-style-1">
-                                        <a href="<?php site_url(); ?>/byd">Explore Collection</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 d-lg-none d-md-none d-block">
-                                <div class="car-logo">
-                                    <img src="<?php site_url(); ?>/assets/img/byd.png" alt="" class="img-fluid" width="150" style="max-width:150px;">
-                                    <div class="btn-hero-style-2">
-                                        <a href="<?php site_url(); ?>/byd">Explore Collection <i><img src='<?php site_url(); ?>/assets/img/ar-right.svg' class="img-fluid"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
+            <?php if(count($content['section_banner']) > 0): ?>
+                <?php foreach($content['section_banner'] as $single_banner): ?>
+                    <!-- Banner -->
+                    <div class="item hero-style-3">
+                        <div class="hero-image">
+                            <img src="<?php echo 'https://staging.yaaracars.com/' ?>/assets/img/dummy-img/<?php echo $single_banner['image'] ?>" alt="" class="w-100 d-lg-block d-md-block d-none">
+                            <img src="<?php echo 'https://staging.yaaracars.com/' ?>/assets/img/dummy-img/<?php echo $single_banner['mobile-banner-image'] ?>" alt="" class="w-100 d-lg-none d-md-none d-block">
+                            <span class="banner-style-text d-lg-block d-md-block d-none"><?php echo $single_banner['overlay-text'] ?></span>
+                            <span class="banner-style-text d-lg-none d-md-none d-block"><?php echo $single_banner['overlay-text'] ?></span>
                         </div>
-                    </div>
-                </div>
-                <!-- Banner -->
 
-                 <!-- Banner -->
-                 <div class="item hero-style-2">
-                 <div class="hero-image">
-                    <img src="<?php site_url(); ?>/assets/img/ksa-2.jpg" alt="" class="w-100 d-lg-block d-md-block d-none">
-                    <img src="<?php site_url(); ?>/assets/img/ksa-2-mob.jpg" alt="" class="w-100 d-lg-none d-md-none d-block">
-                    </div>
-                    
-                    <div class="container">
-                        <div class="row">
+                        <div class="container">
+                            <div class="row">
 
-                            <div class="col-lg-5 col-md-5 pe-lg-5 d-none d-md-block d-lg-block">
-                                <div class="home-car-filter">
-                                    <?php include 'components/filter-cars.php' ?>
-                                </div> 
-                            </div>
-
-                            <div class="col-lg-7 col-md-7 d-lg-block d-md-block d-none">
-                                <div class="hero-content-block">
-                                    <h2 class="hero-title">Step Into<br>
-                                    the World</h2>
-                                    <p class="hero-subtitle">Where Performance<br>
-                                    Meets Sophistication</p>
-                                    <div class="btn-hero-style-2">
-                                        <a href="<?php site_url(); ?>/audi">Explore Collection <i><img src='<?php site_url(); ?>/assets/img/ar-right.svg' class="img-fluid"></i></a>
+                                <div class="col-lg-5 col-md-5 pe-lg-5 d-none d-md-block d-lg-block">
+                                    <div class="home-car-filter">
+                                        <?php include 'components/filter-cars.php' ?>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-lg-12 d-lg-none d-md-none d-block">
-                                <div class="car-logo">
-                                    <img src="<?php site_url(); ?>/assets/img/audi.png" alt="" class="img-fluid" width="90" style="max-width:90px;">
-                                    <div class="btn-hero-style-2">
-                                        <a href="<?php site_url(); ?>/audi">Explore Collection <i><img src='<?php site_url(); ?>/assets/img/ar-right.svg' class="img-fluid"></i></a>
+                                <div class="col-lg-7 col-md-7 d-lg-block d-md-block d-none">
+                                    <div class="hero-content-block">
+                                        <h2 class="hero-title"><?php echo $single_banner['title'] ?></h2>
+                                        <p class="hero-subtitle"><?php echo $single_banner['sub-title'] ?></p>
+                                        <?php  if(!empty($single_banner['cta-text'])):?>
+                                        <div class="btn-hero-style-1">
+                                            <a id="dd" href="<?php echo $single_banner['cta-link'] ?>"><?php echo $single_banner['cta-text'] ?></a>
+                                        </div>
+                                        <?php  endif ?>
                                     </div>
                                 </div>
-                            </div>
 
+                                <div class="col-lg-12 d-lg-none d-md-none d-block">
+                                    <div class="car-logo">
+                                        <img src="<?php echo 'https://staging.yaaracars.com/' ?>/assets/img/dummy-img/<?php echo $single_banner['image'] ?>" alt="" class="img-fluid d-none" width="160" style="max-width:160px;">
+                                        <div class="btn-hero-style-2">
+                                            <a href="<?php echo $single_banner['cta-link'] ?>">Explore Collection <i><img src='<?php site_url(); ?>/assets/img/ar-right.svg' class="img-fluid"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
+
                     </div>
-
-                </div>
-                <!-- Banner -->
-
-                 <!-- Banner -->
-                 <div class="item hero-style-3">
-                     <div class="hero-image">
-                        <img src="<?php site_url(); ?>/assets/img/ksa-3.jpg" alt="" class="w-100 d-lg-block d-md-block d-none">
-                        <img src="<?php site_url(); ?>/assets/img/ksa-3-mob.jpg" alt="" class="w-100 d-lg-none d-md-none d-block">
-                        <span class="banner-style-text d-lg-block d-md-block d-none">Saudi Arabia</span>
-                        <span class="banner-style-text d-lg-none d-md-none d-block">KSA</span>
-                    </div>
-                    
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-lg-5 col-md-5 pe-lg-5 d-none d-md-block d-lg-block">
-                                <div class="home-car-filter">
-                                    <?php include 'components/filter-cars.php' ?>
-                                </div> 
-                            </div>
-
-                            <div class="col-lg-7 col-md-7 d-lg-block d-md-block d-none">
-                                <div class="hero-content-block">
-                                    <h2 class="hero-title">Experience <br>Unmatched Comfort</h2>
-                                    <p class="hero-subtitle">And Style with Cutting Edge<br> Vehicles</p>
-                                    <div class="btn-hero-style-1">
-                                        <a href="<?php site_url(); ?>/jetour">Explore Collection</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 d-lg-none d-md-none d-block">
-                                <div class="car-logo">
-                                    <img src="<?php site_url(); ?>/assets/img/jetour.png" alt="" class="img-fluid" width="166" style="max-width:160px;">
-                                    <div class="btn-hero-style-2">
-                                        <a href="<?php site_url(); ?>/jetour">Explore Collection <i><img src='<?php site_url(); ?>/assets/img/ar-right.svg' class="img-fluid"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Banner -->
+                    <!-- Banner -->
+                <?php endforeach; ?>
+                <?php endif; ?>
 
             </div>
 
@@ -205,19 +137,21 @@ $brand_logo = ['Toyota', 'Hyundai', 'Bentley', 'Ford', 'Kia', 'Mercedes-Benz', '
 </section>
 <!-- Hero v2 -->
 
+
 <!-- Popular Cars -->
+<?php if(!empty($content['section_popular_cars']['car_varient_id'])): ?>
 <section class="yc-cars py-5">
     <div class="container">
         <div class="row">
             <div class="col-12" data-aos-duration="1500" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <h2 class="titles_h2">
-                    <?php echo $content['section_popular']['title']." ".$car_list[0]['Location'];   ?>
+                    <?php echo $content['section_popular_cars']['title']." ".$car_list[0]['Location'];   ?>
                 </h2>
 
                 <div class="owl-carousel owl-theme cars-carousel">
 
 
-                    <?php foreach (car_list($conn, $modalp_arry, 'Modal', ['Modal'], count($modalp_arry)) as $cars) :
+                    <?php foreach (car_list_mod($conn, $modalp_arry_varient, 'Mod_ID', ['Modal'], count($modalp_arry_varient)) as $cars) :
 
                         $gallery = car_thumbnail($cars);
 
@@ -262,9 +196,12 @@ $brand_logo = ['Toyota', 'Hyundai', 'Bentley', 'Ford', 'Kia', 'Mercedes-Benz', '
         </div>
     </div>
 </section>
+<?php endif; ?>
+
 
 
 <!-- Electric Cars -->
+<?php if(!empty($content['latest_electric_cars']['car_varient_id'])): ?>
 <section class="yc-cars pb-5 pt-3">
     <div class="container">
         <div class="row">
@@ -276,7 +213,7 @@ $brand_logo = ['Toyota', 'Hyundai', 'Bentley', 'Ford', 'Kia', 'Mercedes-Benz', '
                 <div class="owl-carousel owl-theme cars-carousel">
 
 
-                    <?php foreach (car_list($conn, $elec_array, 'Modal', ['Modal'], '6') as $cars) :
+                    <?php foreach (car_list_mod($conn, $electric_car_modalu_arry, 'Mod_ID', ['Modal']) as $cars) :
 
                         $gallery = car_thumbnail($cars);
 
@@ -321,6 +258,8 @@ $brand_logo = ['Toyota', 'Hyundai', 'Bentley', 'Ford', 'Kia', 'Mercedes-Benz', '
         </div>
     </div>
 </section>
+<?php endif; ?>
+
 
 <?php //$price_data = price_carousel($conn, '51000-100000'); 
 
@@ -337,7 +276,7 @@ $carousel_range = array_combine($car_pirce, $car_text);
         <div class="row">
             <div class="col-12" data-aos="fade-right">
                 <h2 class="titles_h2 ">
-                    <?php echo $content['section_latest']['title']." ".$car_list[0]['Location']; ?>
+                    <?php echo 'New Cars by Price in KSA';  //echo $content['section_latest']['title']." ".$car_list[0]['Location']; ?>
                 </h2>
                 <div class="tabs_buttons_wrapper my-3">
                     <div class="owl-carousel owl-theme tabs_carousel nav-pills" id="car-price-tabs" role="tablist">
@@ -438,7 +377,7 @@ $carousel_range = array_combine($car_pirce, $car_text);
         <div class="row">
             <div class="col-12" data-aos-duration="1500" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <h2 class="titles_h2">
-                    <?php echo $content['section_upcoming']['title']." ".$car_list[0]['Location']; ?>
+                    <?php echo 'Find New Cars by Body Style in KSA';  //echo $content['section_upcoming']['title']." ".$car_list[0]['Location']; ?>
                 </h2>
                 <div class="tabs_buttons_wrapper my-3">
                     <div class="owl-carousel owl-theme tabs_carousel nav-pills" id="body-cars-type" role="tablist">

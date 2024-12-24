@@ -1,10 +1,9 @@
 <?php 
 
 
-
 require_once 'config.php';
 require_once 'car-data.php'; 
-include 'yaara_fun.php';
+include 'functions.php';
 
 session_start();
 
@@ -17,7 +16,7 @@ $uri = $route;
 $all_routes = [
     "" => 'front-page.php',
     '/admin' => 'login.php',
-    '/knowledge-hub' => 'archive.php',
+    '/car-news' => 'archive.php',
     '/about' => 'templates/about.php',
     '/contact-us' => 'templates/contact-us.php',
     '/faqs' => 'templates/faq.php',
@@ -39,7 +38,7 @@ $body = [];
 $post_slug = [];
 $post_brand = [];
 
-foreach(get_post($conn, 'knowledge-hub') as $post_data){
+foreach(get_post($conn, 'car-news') as $post_data){
     $post_slug[] = $post_data['Slug'];
     $post_brand[] = url_slug($post_data['Brand']);
 }
@@ -82,7 +81,7 @@ $meta_desc = null;
 if(array_key_exists($uri, $all_routes) || $uri == "") {
     $brandloc = $car_list[0]['Location'];
     $meta_title = "New Cars in $brandloc - 2024 Prices, Specs | YaaraCars";
-    $meta_desc = "Looking to buy a New Car in $brandloc - Find the updated 2024 Car prices, and specifications with exciting offers. View latest Knowledge Hub, images and videos at YaaraCars.";
+    $meta_desc = "Looking to buy a New Car in $brandloc - Find the updated 2024 Car prices, and specifications with exciting offers. View latest car news, images and videos at YaaraCars.";
     require $all_routes[$uri];
 }
 
@@ -302,13 +301,13 @@ elseif(in_array($car_slug[0], $brand_uri) && count($car_slug) == 1){
 */ 
 
 //for news single page 
-elseif(in_array('knowledge-hub', $car_slug) && in_array(end($car_slug), $post_slug_uri) && count($car_slug) == 2) {
+elseif(in_array('car-news', $car_slug) && in_array(end($car_slug), $post_slug_uri) && count($car_slug) == 2) {
     $post__ = get_post($conn, end($car_slug), '', true);
     $image_url = site_url('')."/assets/img/post/".$post__["Image"];
     require 'single.php'; 
 }
 //Make Blogs
-elseif(in_array('knowledge-hub', $car_slug) && in_array(end($car_slug), $post_brand_uri)) {
+elseif(in_array('car-news', $car_slug) && in_array(end($car_slug), $post_brand_uri)) {
     require 'archive.php'; 
 }
 
@@ -318,6 +317,5 @@ elseif(count($car_slug) === 2 && $car_slug[0] === 'about-us') {
     require 'templates/about.php'; 
 }
 else {
-    $_404 = true;
     require '404.php';
 }

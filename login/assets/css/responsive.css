@@ -1,0 +1,10 @@
+
+@media only screen and (max-width:600px){
+    .videos_wrap_grid{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0;
+    }
+    .banner_imgs_flex_wrapper{
+        flex-direction: column;
+    }
+}

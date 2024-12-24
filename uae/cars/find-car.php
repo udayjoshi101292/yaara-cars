@@ -1,5 +1,6 @@
 <?php require("header.php"); ?>
 <?php
+
 if(strcasecmp($location, 'UAE') === 0){
     $currency = "AED";
 }
@@ -485,7 +486,7 @@ if ($brandDetailsObj !== false && $brandDetailsObj->num_rows > 0) {
                         Explore By Filter
                     </a>
                 </div>
-                <div class="find_car_grid " id="find-cars" data-cars="<?php echo site_url(' ') ?>/cars-filter.php"></div>
+                <div class="find_car_grid" id="find-cars" data-cars="<?php echo site_url(' ') ?>/cars-filter.php"></div>
                 <div class="spinner__cars load-more d-none">
                     <div class="spinner-border" role="status">
                         <span class="sr-only"></span>

@@ -2127,10 +2127,9 @@ ul#pills-tab {
     top: 150px;
 }
 
-.breadcrumb li:last-child {
+.breadcrumb li:last-child a {
     pointer-events: none;
     opacity: .5;
-    text-transform: capitalize;
 }
 
 

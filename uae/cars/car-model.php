@@ -1,253 +1,274 @@
-<?php  require("header.php"); ?>
+<?php require("header.php"); ?>
 
-<?php  include "components/page-submenu.php"; ?>
-
-    
-<?php 
+<?php include "components/page-submenu.php"; ?>
 
 
-$car_modal = car_list($conn, [end($car_slug)],'Modal_Slug',['Variant'],'', false, 'Price', reset($car_slug)); 
+<?php
+
+
+$car_modal = car_list($conn, [end($car_slug)], 'Modal_Slug', ['Variant'], '', false, 'Price', reset($car_slug));
 
 $f_list = reset($car_modal);
 $l_list = end($car_modal);
 
 ?>
 
+<!-- Ads banner  -->
+<div class="ads_horizontal_wrap ad_wrapper mt-3">
+    <a href="#" class="ad_link">
+        <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
+    </a>
+</div>
+<!-- Ads banner END  -->
+
 <!-- Modal Gallery -->
 <?php include "components/top-section-modal-gallery.php" ?>
 <!-- Modal Gallery End -->
 
- <!-- Spec SECTION -->
-<section class="section yc-specs-version pb-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="titles_h2">
-                    Specs - <?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal'];
-
-                            ?>
-                </h2>
-            </div>
-            <div class="col-12">
-                <div class="table_wrapper p-4">
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 px-0">
+            <!-- Spec SECTION -->
+            <section class="section yc-specs-version pb-5">
+                <div class="container">
                     <div class="row">
+                        <div class="col-12">
+                            <h2 class="titles_h2">
+                                Specs - <?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal'];
 
-                        <div class="specs_wrap">
-                            <div class="d-flex justify-content-between yc-border-btm">
-                                <p class="yc-page-desc_2 mb-0">
-                                    Price
-                                </p>
-                                <p class="yc-page-desc mb-0">
-                                    <?php
-
-                                    if ($car_modal[0]['Price'] != "TBD") {
-                                        echo $car_data[0]['Currency'] . " " . $car_modal[0]['Price'] . " onwards";
-                                    } else {
-                                        echo $car_modal[0]['Price'];
-                                    }
-
-                                    ?>
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-between yc-border-btm">
-                                <p class="yc-page-desc_2 mb-0">
-                                    Fuel Type
-                                </p>
-                                <p class="yc-page-desc mb-0">
-                                    <?php echo $car_modal[0]['Fuel_Type']; ?>
-                                </p>
-                            </div>
-
-                            <?php if ($car_modal[0]['Engine'] != "" || $car_modal[0]['Engine'] != false): ?>
-                                <div class="d-flex justify-content-between yc-border-btm">
-                                    <p class="yc-page-desc_2 mb-0">
-                                        Engine Capacity
-                                    </p>
-                                    <p class="yc-page-desc mb-0">
-                                        <?php echo $car_modal[0]['Engine']; ?> liters
-                                    </p>
-                                </div>
-                            <?php endif; ?>
-
-                            <?php if ($car_modal[0]['Transmission'] != ""): ?>
-                                <div class="d-flex justify-content-between yc-border-btm">
-                                    <p class="yc-page-desc_2 mb-0">
-                                        Transmission
-                                    </p>
-                                    <p class="yc-page-desc mb-0">
-                                        <?php echo $car_modal[0]['Transmission']; ?>
-                                    </p>
-                                </div>
-                            <?php endif; ?>
-
-                            <div class="d-flex justify-content-between yc-border-btm">
-                                <p class="yc-page-desc_2 mb-0">
-                                    Seating Capacity
-                                </p>
-                                <p class="yc-page-desc mb-0">
-                                    <?php echo $car_modal[0]['Seating_Capacity']; ?>
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-</section>
-<!-- Spec SECTION END -->
-
-<section class="section yc-about-car pb-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="titles_h2">
-                    <?php echo "About ".$car_modal[0]['Brand'].' '.$car_modal[0]['Modal']; ?>
-                </h2>
-                <div class="yc-car-inventory-inner common_box_shadow">
-                    <div class="yc-page-desc">
-                        <div class="page_desc_text">
-
-
-                        <?php 
-                        
-                        if($f_list['Price'] != $l_list['Price'] && count($car_modal) > 1){
-                        
-                            include 'components/modal-template-1.php';
-
-                        } 
-                        elseif($f_list['Price'] != 'TBD' && count($car_modal) == 1) {
-                        
-                            include 'components/modal-template-3.php'; 
-
-                        } elseif($f_list['Price'] == $l_list['Price']) {
-                            
-                            
-                            include 'components/modal-template-2.php';
-
-                        }
-                        
-                        ?>
-
-                        
-                        </div>
-                        <button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap" style="transform: rotate(0deg);"><img src="<?php site_url();?>/assets/img/red-down.svg" alt=""></span></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Price and Version -->
-<section class="section py-lg-4 py-3 yc-price-version ">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="titles_h2">
-                  
-                        <?php echo $car_modal[0]['Year']." ".$car_modal[0]['Brand'].' '.$car_modal[0]['Modal']; ?> Price & Versions in <?php echo $car_modal[0]['Location']; ?>
-                    
-                </h2>
-            </div>
-            <div class="col-md-12">
-                <div class="table_wrapper common_box_shadow">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>VERSIONS</th>
-                                <th>PRICE</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <?php foreach ($car_modal as $car_item) : ?>
-                                <tr>
-                                    <td>
-                                        <a href="<?php echo site_url() . '/' . url_slug($car_item['Brand']) . '/' . url_slug($car_item['Modal']) . '/' . url_slug($car_item['Variant']); ?>"><strong><?php echo $car_item['Brand'] . ' ' . $car_item['Modal'] . ' ' . $car_item['Year'] . ' ' . $car_item['Variant']; ?></strong></a><br>
-                                        <?php echo $car_item['Year'] . ', ' . $car_item['Fuel_Type'] . ', ' . $car_item['Transmission']; ?>
-                                    </td>
-                                    <td>
-                                        <p class="mb-0">
-                                            
-                                        <?php 
-                                        
-                                        if($car_item['Price'] != 'TBD'){
-                                            echo $car_data[0]['Currency']." ". $car_item['Price']; 
-                                        } else {
-                                            echo $car_item['Price'];
-                                        }
-                                        
                                         ?>
-                                    
-                                    </p>
-                                        <!-- <div class="rating_wrap"><img src="<?php //site_url(); 
-                                                                                ?>/assets/img/rating-img.svg" alt=""></div> -->
-                                    </td>
-                                    <td>
-                                        <a href="<?php echo site_url() . '/' . url_slug($car_item['Brand']) . '/' . url_slug($car_item['Modal']) . '/' . url_slug($car_item['Variant']); ?>" class="view_detail">View Detail</a>
-                                    </td>
-                                </tr>
-                            <?php endforeach; ?>
+                            </h2>
+                        </div>
+                        <div class="col-12">
+                            <div class="table_wrapper p-4">
+                                <div class="row">
+
+                                    <div class="specs_wrap">
+                                        <div class="d-flex justify-content-between yc-border-btm">
+                                            <p class="yc-page-desc_2 mb-0">
+                                                Price
+                                            </p>
+                                            <p class="yc-page-desc mb-0">
+                                                <?php
+
+                                                if ($car_modal[0]['Price'] != "TBD") {
+                                                    echo $car_data[0]['Currency'] . " " . $car_modal[0]['Price'] . " onwards";
+                                                } else {
+                                                    echo $car_modal[0]['Price'];
+                                                }
+
+                                                ?>
+                                            </p>
+                                        </div>
+                                        <div class="d-flex justify-content-between yc-border-btm">
+                                            <p class="yc-page-desc_2 mb-0">
+                                                Fuel Type
+                                            </p>
+                                            <p class="yc-page-desc mb-0">
+                                                <?php echo $car_modal[0]['Fuel_Type']; ?>
+                                            </p>
+                                        </div>
+
+                                        <?php if ($car_modal[0]['Engine'] != "" || $car_modal[0]['Engine'] != false): ?>
+                                            <div class="d-flex justify-content-between yc-border-btm">
+                                                <p class="yc-page-desc_2 mb-0">
+                                                    Engine Capacity
+                                                </p>
+                                                <p class="yc-page-desc mb-0">
+                                                    <?php echo $car_modal[0]['Engine']; ?> liters
+                                                </p>
+                                            </div>
+                                        <?php endif; ?>
+
+                                        <?php if ($car_modal[0]['Transmission'] != ""): ?>
+                                            <div class="d-flex justify-content-between yc-border-btm">
+                                                <p class="yc-page-desc_2 mb-0">
+                                                    Transmission
+                                                </p>
+                                                <p class="yc-page-desc mb-0">
+                                                    <?php echo $car_modal[0]['Transmission']; ?>
+                                                </p>
+                                            </div>
+                                        <?php endif; ?>
+
+                                        <div class="d-flex justify-content-between yc-border-btm">
+                                            <p class="yc-page-desc_2 mb-0">
+                                                Seating Capacity
+                                            </p>
+                                            <p class="yc-page-desc mb-0">
+                                                <?php echo $car_modal[0]['Seating_Capacity']; ?>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- Spec SECTION END -->
+
+            <section class="section yc-about-car pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="titles_h2">
+                                <?php echo "About " . $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']; ?>
+                            </h2>
+                            <div class="yc-car-inventory-inner common_box_shadow">
+                                <div class="yc-page-desc">
+                                    <div class="page_desc_text">
 
 
-                        </tbody>
-                    </table>
+                                        <?php
+
+                                        if ($f_list['Price'] != $l_list['Price'] && count($car_modal) > 1) {
+
+                                            include 'components/modal-template-1.php';
+                                        } elseif ($f_list['Price'] != 'TBD' && count($car_modal) == 1) {
+
+                                            include 'components/modal-template-3.php';
+                                        } elseif ($f_list['Price'] == $l_list['Price']) {
+
+
+                                            include 'components/modal-template-2.php';
+                                        }
+
+                                        ?>
+
+
+                                    </div>
+                                    <button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap" style="transform: rotate(0deg);"><img src="<?php site_url(); ?>/assets/img/red-down.svg" alt=""></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+
+            <!-- Price and Version -->
+            <section class="section py-lg-4 py-3 yc-price-version ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="titles_h2">
+
+                                <?php echo $car_modal[0]['Year'] . " " . $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']; ?> Price & Versions in <?php echo $car_modal[0]['Location']; ?>
+
+                            </h2>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="table_wrapper common_box_shadow">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>VERSIONS</th>
+                                            <th>PRICE</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <?php foreach ($car_modal as $car_item) :?>
+                                            <tr>
+                                                <td>
+                                                    <a href="<?php echo site_url() . '/' . url_slug($car_item['Brand']) . '/' . url_slug($car_item['Modal']) . '/' . url_slug($car_item['Variant']); ?>"><strong><?php echo $car_item['Brand'] . ' ' . $car_item['Modal'] . ' ' . $car_item['Year'] . ' ' . $car_item['Variant']; ?></strong></a><br>
+                                                    <?php echo $car_item['Year'] . ', ' . $car_item['Fuel_Type'] . ', ' . $car_item['Transmission']; ?>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0">
+
+                                                        <?php
+
+                                                        if ($car_item['Price'] != 'TBD') {
+                                                            echo $car_data[0]['Currency'] . " " . $car_item['Price'];
+                                                        } else {
+                                                            echo $car_item['Price'];
+                                                        }
+
+                                                        ?>
+
+                                                    </p>
+                                                    <!-- <div class="rating_wrap"><img src="<?php //site_url(); 
+                                                                                            ?>/assets/img/rating-img.svg" alt=""></div> -->
+                                                </td>
+                                                <td>
+                                                    <a href="<?php echo site_url() . '/' . url_slug($car_item['Brand']) . '/' . url_slug($car_item['Modal']) . '/' . url_slug($car_item['Variant']); ?>" class="view_detail">View Detail</a>
+                                                </td>
+                                            </tr>
+                                        <?php endforeach; ?>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Price and Version End -->
+
+        </div>
+        <div class="col-md-2">
+            <div class="ads_long_wrap ad_wrapper px-2">
+                <a href="#" class="ad_link">
+                    <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
+                </a>
             </div>
         </div>
     </div>
-</section>
-<!-- Price and Version End -->
+</div>
 
-<?php  $file = "./assets/img/cars/".$car_modal[0]['Featured_Image'];
 
-if(file_exists($file)){
-    $dir = scandir('./assets/img/cars/'.$car_modal[0]['Featured_Image']);
-    $gallery = array_diff(scandir('./assets/img/cars/'.$car_modal[0]['Featured_Image']), array('.', '..'));
+<?php $file = "./assets/img/cars/" . $car_modal[0]['Featured_Image'];
+
+if (file_exists($file)) {
+    $dir = scandir('./assets/img/cars/' . $car_modal[0]['Featured_Image']);
+    $gallery = array_diff(scandir('./assets/img/cars/' . $car_modal[0]['Featured_Image']), array('.', '..'));
 } else {
     $gallery = [];
 }
 
-if($gallery):
+if ($gallery):
 
 ?>
-<!-- Gallery Images -->
-<section class="section py-5 yc-gallery">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="titles_h2"><?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal'] . ' ' . $car_modal[0]['Year']; ?> Images</h2>
-            </div>
+    <!-- Gallery Images -->
+    <section class="section py-5 yc-gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="titles_h2"><?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal'] . ' ' . $car_modal[0]['Year']; ?> Images</h2>
+                </div>
 
-            <div class="col-lg-12 pt-4">
-                <div class="yc-gallery-wrap common_box_shadow">
-                    <ul class="yc-gallery-list" id="yc-gallery-list">
-                    <?php 
+                <div class="col-lg-12 pt-4">
+                    <div class="yc-gallery-wrap common_box_shadow">
+                        <ul class="yc-gallery-list" id="yc-gallery-list">
+                            <?php
 
-                        foreach($gallery as $gal):
-                        ?>
+                            foreach ($gallery as $gal):
+                            ?>
 
-                        <li class="yc-gallery-item">
-                            <a href="<?php echo site_url().'/assets/img/cars/'.$car_data[0]['Gallery'].'/'.$gal; ?>" data-lightbox="<?php echo $car_data[0]['Brand_slug'].'-'.$car_data[0]['Modal_Slug']; ?>">
-                                    <img src="<?php echo site_url().'/assets/img/cars/'.$car_data[0]['Gallery'].'/'.$gal; ?>" alt="<?php echo $car_data[0]['Brand'].' '.$car_data[0]['Modal']; ?>" class="img-fluid">
+                                <li class="yc-gallery-item">
+                                    <a href="<?php echo site_url() . '/assets/img/cars/' . $car_data[0]['Gallery'] . '/' . $gal; ?>" data-lightbox="<?php echo $car_data[0]['Brand_slug'] . '-' . $car_data[0]['Modal_Slug']; ?>">
+                                        <img src="<?php echo site_url() . '/assets/img/cars/' . $car_data[0]['Gallery'] . '/' . $gal; ?>" alt="<?php echo $car_data[0]['Brand'] . ' ' . $car_data[0]['Modal']; ?>" class="img-fluid">
+                                    </a>
+                                </li>
+                            <?php endforeach; ?>
+
+                        </ul>
+                        <div class="yc-gallery-caption">
+                            <a href="<?php echo site_url() . "/" . $car_data[0]['Brand_Slug'] . "/" . $car_data[0]['Modal_Slug'] . "/images"; ?>">
+                                <p class="mb-0"><?php echo $car_data[0]['Brand'] . ' ' . $car_data[0]['Modal'] . ' ' . $car_data[0]['Year']; ?> Images</p>
                             </a>
-                        </li>
-                        <?php endforeach; ?>
-
-                    </ul>
-                    <div class="yc-gallery-caption">
-                        <a href="<?php echo site_url()."/".$car_data[0]['Brand_Slug']."/".$car_data[0]['Modal_Slug']."/images"; ?>"><p class="mb-0"><?php echo $car_data[0]['Brand'] . ' ' .$car_data[0]['Modal']. ' ' . $car_data[0]['Year']; ?> Images</p></a>
-                        <div class="yc-gallery-count-wrap"><img src="<?php site_url(); ?>/assets/img/photo_library.svg" alt=""> <span class="yc-gallery-count">0</span></div>
+                            <div class="yc-gallery-count-wrap"><img src="<?php site_url(); ?>/assets/img/photo_library.svg" alt=""> <span class="yc-gallery-count">0</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Gallery Images End -->
- <?php endif; ?>
+    </section>
+    <!-- Gallery Images End -->
+<?php endif; ?>
 
 <?php /*
 <!-- Video gallery  -->
@@ -335,139 +356,144 @@ if($gallery):
 
 <!-- Cars carousel  -->
 <section class="yc-cars my-5 single_car_carousel">
-    
-    <?php $related = car_list($conn, [$car_modal[0]['Brand']], 'Brand',['Brand', 'Modal']); $if_car = []; if(count($related) > 2): ?>
-    <div class="container my-4">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="titles_h2"> 
-                    All <?php echo $car_modal[0]['Brand'] ?> Cars in <?php echo $car_modal[0]['Location']; ?>
-                </h2>
 
-                <div class="owl-carousel owl-theme cars-carousel">
-                    
-                <?php foreach($related as $car): 
-                    
+    <?php $related = car_list($conn, [$car_modal[0]['Brand']], 'Brand', ['Brand', 'Modal']);
+    $if_car = [];
+    if (count($related) > 2): ?>
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titles_h2">
+                        All <?php echo $car_modal[0]['Brand'] ?> Cars in <?php echo $car_modal[0]['Location']; ?>
+                    </h2>
 
-                    $gallery = car_thumbnail($car);
+                    <div class="owl-carousel owl-theme cars-carousel">
 
-                    if($car['Modal_Slug'] != end($car_slug)):
 
-                        if($car['Fuel_Economy'] != '' && $car['Transmission'] != ''):
-                    
-                    ?>
-                    <!-- Car item -->
-                    <div class="item car-item common_box_shadow">
-                        <div class="car-mock">
-                        <a href="<?php echo site_url().'/'.$car['Brand_Slug'].'/'.$car['Modal_Slug']; ?>">
-                            <?php if($gallery): ?>
-                            <img src="<?php echo site_url().'/assets/img/cars/'.$car['Featured_Image'].'/'.reset($gallery); ?>" alt="<?php echo $car['Brand'].' '.$car['Modal']; ?>" class="img-fluid">
-                            <?php else: ?>
-                                <img src="<?php site_url(); ?>/assets/img/yaara-logo.png" class="img-fluid" style="object-fit:contain;">
-                            <?php endif;?>   
-                        </a>
-                        </div>
-                        <div class="yc-cars-details">
-                            <p class="mb-0">
-                            <a href="<?php echo site_url().'/'.$car['Brand_Slug'].'/'.$car['Modal_Slug']; ?>">
-                                <?php echo $car['Brand'].' '.$car['Modal'].' '.$car['Year']; ?>
-                            </a>
-                            </p>
-                            <h4>
-                            <?php 
-                                if($car['Price'] != "TBD"){
-                                    echo $car_data[0]['Currency']." ". $car['Price']; 
-                                } else {
-                                    echo $car['Price'];
-                                }
-                            ?>
-                           </h4>
-                            <div class="car_info_button">
-                                <span class="d-flex"><?php echo $car['Fuel_Economy']; ?> KMPL ︱ <?php echo $car['Transmission']; ?> ︱ <?php echo $car['Year']; ?></span>
-                            </div>
-                        </div>
+                        <?php foreach ($related as $car):
+
+
+                            $gallery = car_thumbnail($car);
+
+                            if ($car['Modal_Slug'] != end($car_slug)):
+
+                                if ($car['Fuel_Economy'] != '' && $car['Transmission'] != ''):
+
+                        ?>
+                                    <!-- Car item -->
+                                    <div class="item car-item common_box_shadow">
+                                        <div class="car-mock">
+                                            <a href="<?php echo site_url() . '/' . $car['Brand_Slug'] . '/' . $car['Modal_Slug']; ?>">
+                                                <?php if ($gallery): ?>
+                                                    <img src="<?php echo site_url() . '/assets/img/cars/' . $car['Featured_Image'] . '/' . reset($gallery); ?>" alt="<?php echo $car['Brand'] . ' ' . $car['Modal']; ?>" class="img-fluid">
+                                                <?php else: ?>
+                                                    <img src="<?php site_url(); ?>/assets/img/yaara-logo.png" class="img-fluid" style="object-fit:contain;">
+                                                <?php endif; ?>
+                                            </a>
+                                        </div>
+                                        <div class="yc-cars-details">
+                                            <p class="mb-0">
+                                                <a href="<?php echo site_url() . '/' . $car['Brand_Slug'] . '/' . $car['Modal_Slug']; ?>">
+                                                    <?php echo $car['Brand'] . ' ' . $car['Modal'] . ' ' . $car['Year']; ?>
+                                                </a>
+                                            </p>
+                                            <h4>
+                                                <?php
+                                                if ($car['Price'] != "TBD") {
+                                                    echo $car_data[0]['Currency'] . " " . $car['Price'];
+                                                } else {
+                                                    echo $car['Price'];
+                                                }
+                                                ?>
+                                            </h4>
+                                            <div class="car_info_button">
+                                                <span class="d-flex"><?php echo $car['Fuel_Economy']; ?> KMPL ︱ <?php echo $car['Transmission']; ?> ︱ <?php echo $car['Year']; ?></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Car item End -->
+
+                        <?php endif;
+                            endif;
+                        endforeach; ?>
+
+
                     </div>
-                    <!-- Car item End -->
-
-                <?php endif; endif;  endforeach; ?>    
-                    
-
                 </div>
             </div>
         </div>
-    </div>
     <?php endif; ?>
 
-                                
-    <?php 
 
-    if($first_['Price'] != $last_['Price']){
-        $rang_modal = range_filter($car_list, $car_modal, true);  
+    <?php
+
+    if ($first_['Price'] != $last_['Price']) {
+        $rang_modal = range_filter($car_list, $car_modal, true);
     }
-    
+
     ?>
 
-    <?php if($rang_modal): ?>
+    <?php if ($rang_modal): ?>
 
-    <div class="container my-4">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="titles_h2">
-                <?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']; ?> Alternatives to Consider
-                </h2>                
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titles_h2">
+                        <?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']; ?> Alternatives to Consider
+                    </h2>
 
-                <div class="owl-carousel owl-theme cars-carousel">
-                        
-                <?php foreach(car_list($conn, $rang_modal, 'Modal',['Brand', 'Modal'], 3) as $car_rel): 
-                    
-                    $gallery = car_thumbnail($car_rel);
+                    <div class="owl-carousel owl-theme cars-carousel">
 
-                    if($car_rel['Price'] != "DISCONTINUED" && $car_rel['Price'] != ""):
+                        <?php foreach (car_list($conn, $rang_modal, 'Modal', ['Brand', 'Modal'], 3) as $car_rel):
 
-                    ?>
+                            $gallery = car_thumbnail($car_rel);
 
-                    <!-- Car item -->
-                    <div class="item car-item common_box_shadow">
-                        <div class="car-mock">
-                        <a href="<?php echo site_url().'/'.$car_rel['Brand_Slug'].'/'.$car_rel['Modal_Slug']; ?>">
-                            <img src="<?php echo site_url().'/assets/img/cars/'.$car_rel['Featured_Image'].'/'.reset($gallery); ?>" alt="<?php echo $car_rel['Brand'].' '.$car_rel['Modal']; ?>" class="img-fluid">
-                        </a>
-                        </div>
-                        <div class="yc-cars-details">
-                            <p class="mb-0">
-                                <a href="<?php echo site_url().'/'.$car_rel['Brand_Slug'].'/'.$car_rel['Modal_Slug']; ?>">
-                                    <?php echo $car_rel['Brand'].' '.$car_rel['Modal'].' '.$car_rel['Year']; ?>
-                                </a>
-                            </p>
-                            <h4>
-                            <?php echo $car_data[0]['Currency'] ?> <?php echo $car_rel['Price']; ?>
+                            if ($car_rel['Price'] != "DISCONTINUED" && $car_rel['Price'] != ""):
 
-                            </h4>
-                            <div class="car_info_button">
-                                <span class="d-flex"><?php echo $car_rel['Fuel_Economy']; ?> KMPL ︱ <?php echo $car_rel['Transmission']; ?> ︱ <?php echo $car_rel['Year']; ?></span>
-                            </div>
-                        </div>
+                        ?>
+
+                                <!-- Car item -->
+                                <div class="item car-item common_box_shadow">
+                                    <div class="car-mock">
+                                        <a href="<?php echo site_url() . '/' . $car_rel['Brand_Slug'] . '/' . $car_rel['Modal_Slug']; ?>">
+                                            <img src="<?php echo site_url() . '/assets/img/cars/' . $car_rel['Featured_Image'] . '/' . reset($gallery); ?>" alt="<?php echo $car_rel['Brand'] . ' ' . $car_rel['Modal']; ?>" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="yc-cars-details">
+                                        <p class="mb-0">
+                                            <a href="<?php echo site_url() . '/' . $car_rel['Brand_Slug'] . '/' . $car_rel['Modal_Slug']; ?>">
+                                                <?php echo $car_rel['Brand'] . ' ' . $car_rel['Modal'] . ' ' . $car_rel['Year']; ?>
+                                            </a>
+                                        </p>
+                                        <h4>
+                                            <?php echo $car_data[0]['Currency'] ?> <?php echo $car_rel['Price']; ?>
+                                        </h4>
+                                        <div class="car_info_button">
+                                            <span class="d-flex"><?php echo $car_rel['Fuel_Economy']; ?> KMPL ︱ <?php echo $car_rel['Transmission']; ?> ︱ <?php echo $car_rel['Year']; ?></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Car item End -->
+
+                        <?php endif;
+                        endforeach; ?>
+
                     </div>
-                    <!-- Car item End -->
-
-                <?php endif;  endforeach; ?>    
-
                 </div>
             </div>
         </div>
-    </div>
     <?php endif; ?>
 
 </section>
 <!-- Cars carousel End  -->
 
-<!-- Blog section --> 
-<?php 
+<!-- Blog section -->
+<?php
 //Title Name blogs-inner.php
-$blog_title = "Latest ".$car_modal[0]['Brand']." News"; 
+$blog_title = "Latest " . $car_modal[0]['Brand'] . " News";
 //Brand Slug Refer blogs-inner.php
 $brand_post = $car_modal[0]['Brand'];
-include "components/blogs-inner.php" 
+include "components/blogs-inner.php"
 ?>
 <!-- Blog section -->
 

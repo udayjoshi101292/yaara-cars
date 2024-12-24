@@ -8,6 +8,13 @@
 $first_ = reset($car_modal);
 $last_ = end($car_modal); 
 ?>
+<!-- Ads banner  -->
+<div class="ads_horizontal_wrap ad_wrapper mt-3">
+    <a href="#" class="ad_link">
+        <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
+    </a>
+</div>
+<!-- Ads banner END  -->
 <section class="yc-car-price-page pt-5">
     <div class="container">
         <div class="row">
@@ -24,7 +31,7 @@ $last_ = end($car_modal);
     </div>
 </section>
 
-<section class="section short-desc">
+<section class="section short-desc pb-4">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -59,72 +66,84 @@ $last_ = end($car_modal);
     </div>
 </section>
 
+
 <section class="yc-car-price-table py-5">
     <div class="container">
         <div class="row">
-            <div class="yc-car-price-wrap">
-                <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Versions
-                        </button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-
-                                <?php foreach($car_modal as $items): ?>
-                                <!-- item -->
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button">
-                                            <a href="<?php echo site_url()."/".$items['Brand_Slug']."/".$items['Modal_Slug']."/".$items['Variant_Slug']; ?>">
-                                            <b><?php //echo $items['Transmission'][0]; ?> </b><span class="ms-1">(<?php echo $items['Fuel_Type']; ?>) (<?php echo $items['Brand'].' '.$items['Modal'].' '.$items['Variant']; ?>)</span>
-                                            </a>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body row justify-content-between">
-                                            <div class="col-lg-3 col-md-3 col-12 d-grid align-content-center px-0">
-                                                <p class="mb-0"> OTR Price in <?php echo $items['Location']; ?></p>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center mb-lg-0 mb-md-0 mb-4">
-                                                <p class="mb-0 text-lg-end">
-                                                <?php
-                                                
-                                                if($items['Price'] != "TBD"){
-                                                    echo $items['Currency']." ". $items['Price']; 
-                                                } else {
-                                                    echo $items['Price'];
-                                                }
-                                                
-                                                ?>
-                                                </p>                            
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-12 align-content-center">
-                                                <a href="#" class="check_offers_button two mt-0 yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                    I'm Interested
+            <div class="col-md-10">
+                <div class="yc-car-price-wrap">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Versions
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+    
+                                    <?php foreach($car_modal as $items): ?>
+                                    <!-- item -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button">
+                                                <a href="<?php echo site_url()."/".$items['Brand_Slug']."/".$items['Modal_Slug']."/".$items['Variant_Slug']; ?>">
+                                                <b><?php //echo $items['Transmission'][0]; ?> </b><span class="ms-1">(<?php echo $items['Fuel_Type']; ?>) (<?php echo $items['Brand'].' '.$items['Modal'].' '.$items['Variant']; ?>)</span>
                                                 </a>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body row justify-content-between">
+                                                <div class="col-lg-3 col-md-3 col-12 d-grid align-content-center px-0">
+                                                    <p class="mb-0"> OTR Price in <?php echo $items['Location']; ?></p>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center mb-lg-0 mb-md-0 mb-4">
+                                                    <p class="mb-0 text-lg-end">
+                                                    <?php
+                                                    
+                                                    if($items['Price'] != "TBD"){
+                                                        echo $items['Currency']." ".$items['Price']; 
+                                                    } else {
+                                                        echo $items['Price'];
+                                                    }
+                                                    
+                                                    ?>
+                                                    </p>                            
+                                                </div>
+                                                <div class="col-lg-2 col-md-2 col-12 align-content-center">
+                                                    <a href="#" class="check_offers_button two mt-0 yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        I'm Interested
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Item -->
+                                    <?php endforeach; ?>
+    
+                                    <div class="accordion-item">
+                                        <p style="color: #00000080;">
+                                        *Estimated price via verified sources. The price quote does not include any additional discount offered by the dealer.
+                                        </p>
+                                    </div>
+    
+                                    </div>    
                                 </div>
-                                <!-- Item -->
-                                <?php endforeach; ?>
-
-                                <div class="accordion-item">
-                                    <p style="color: #00000080;">
-                                    *Estimated price via verified sources. The price quote does not include any additional discount offered by the dealer.
-                                    </p>
-                                </div>
-
-                                </div>    
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-2">
+                     <!-- Ads banner  -->
+                     <div class="ads_vertical_wrap ad_wrapper bg_ff_with_border">
+                    <a href="#" class="ad_link">
+                        <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
+                    </a>
+                </div>
+                <!-- Ads banner END  -->
             </div>
         </div>
     </div>
@@ -181,7 +200,7 @@ if($rang_modal): ?>
                             <?php 
                             
                             if($car_rel['Price'] != "TBD"){
-                                echo $car_rel['Currency']." ". $car_rel['Price']; 
+                                echo $car_rel['Currency']." ".$car_rel['Price']; 
                             } else {
                                 echo $car_rel['Price'];
                             }

@@ -40,7 +40,7 @@ foreach($car_list as $car_brand) {
 $filter_uri = []; //Transmission Filter
 $fuel_uri  = [];
 $body_uri = [];
-$car_pirce = ['50000','50001-100000','100001-150000','150001'];
+$car_pirce = ['50000','51000-100000','101000-200000','201000-300000','301000-500000','501000-700000', '701000'];
 $car_uri = [];
 
 foreach(array_unique($fitler_brand) as $bu) {

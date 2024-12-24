@@ -1,5 +1,7 @@
 <?php require("header.php"); ?>
 
+
+
 <?php  include "components/page-submenu.php"; ?>
 
 <?php 
@@ -22,13 +24,14 @@ $last_ = end($car_modal);
 
 ?>
 
+<div class="ads_horizontal_wrap ad_wrapper mt-3">
+    <a href="#" class="ad_link">
+        <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
+    </a>
+</div>
 
-<style>
-    
-    .titles_h3 {
-        font-size:1rem;
-    }
-</style>
+
+
 
 
 <section class="yc-car-price-page pt-5">
@@ -119,6 +122,7 @@ $last_ = end($car_modal);
 </section>
 <!-- Hyundai Car- Exter End -->
 
+
 <?php $gallery = car_thumbnail($car_modal[0]); ?>
 
 <section class="section short-desc pb-4">
@@ -149,6 +153,7 @@ $last_ = end($car_modal);
         </div>
     </div>
 </section>
+
 
 <!-- Car Gallery -->
 <section class="yc-single-gallery variant top-section pb-5">
@@ -339,13 +344,9 @@ if($rang_modal):
                             <?php 
                             
                             if($car_rel['Price'] != "TBD"){
-                                echo $car_rel['Currency']." ". $car_rel['Price']; 
+                                echo $car_rel['Currency']." ".$car_rel['Price']; 
                             } else {
-                                if($car_rel['Price'] == 'TBD'){
-                                    echo $car_rel['Price'];
-                                }else{
-                                    echo $car_rel['Price'];
-                                }
+                                echo $car_rel['Price'];
                             }
                             
                             ?>

@@ -24,7 +24,6 @@ if($form_data['filter-form'] != "" && in_array('search', $car_slug) ){
 }
 
 
-
 //Filter Data via Price range
 $range_data = []; 
 $brand_data = [];
@@ -88,6 +87,7 @@ if(in_array('search', $car_slug) || count($car_slug) == 1) {
     $brand_unique = array_unique($brand_data);
 
     $range_filter = array_filter($range_, fn($e) => in_array($e['Brand_Slug'], $brand_data));
+    
 
 }
 
@@ -135,7 +135,8 @@ if(in_array('search', $car_slug) || count($car_slug) == 1) {
 
                                 </h2>
                             </div>
-                             <div class="col-lg-12">
+                            
+                            <div class="col-lg-12">
                                 <div class="yc-page-desc pb-4">
                 
                                     <div class="page_desc_text_">
@@ -159,13 +160,9 @@ if(in_array('search', $car_slug) || count($car_slug) == 1) {
                                             echo  $car_list[0]['Currency']." "; 
                                             
                                             if(count($slug_count) == 1) {
-                                                $min_ = reset($slug_count);
-                                                echo number_format($min);
+                                                echo reset($slug_count);
                                             } else {
-                                                $min_ = reset($slug_count);
-                                                $max_ = end($slug_count);
-                                                
-                                                echo number_format($min_)." to ".number_format($max_);
+                                                echo reset($slug_count)." to ".end($slug_count);
                                             }
                                             
                                             ?>
@@ -244,8 +241,6 @@ if(in_array('search', $car_slug) || count($car_slug) == 1) {
                                 $cars_ = pagination_filter($range_brand, 10); //['prev'] and ['next'] and ['count'] part of function  
                                 
                             }
- 
-                            
 
                             ?>
 
@@ -274,7 +269,7 @@ if(in_array('search', $car_slug) || count($car_slug) == 1) {
                                         <?php
                                         
                                         if($modal['Price'] != "TBD"){
-                                            echo "<b>".$modal['Currency'].' '.$modal['Price']." </b><span>onwards </span>"; 
+                                            echo "<b>".$modal['Currency'].' '.$modal['Price']." </b><span>onwards</span>"; 
                                         } else {
                                             echo $modal['Price'];
                                         }
@@ -317,5 +312,6 @@ if(in_array('search', $car_slug) || count($car_slug) == 1) {
     </div>
 </section>
 <?php endif; ?>
+
 
 <?php require 'footer.php'; ?>

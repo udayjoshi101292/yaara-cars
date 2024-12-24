@@ -2,7 +2,7 @@
 <?php
 
 require_once 'config.php';
-include 'yaara_fun.php';
+include 'functions.php';
 
 $allcars = all_cars($conn);
 function sortByBrand($a, $b) {

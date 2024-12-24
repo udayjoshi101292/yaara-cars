@@ -186,7 +186,6 @@ $page = page_data($conn, 'faqs');
 $content = json_decode($page['Content'], true);
 
 // print_r($content);
-
 ?>
 
 <section class="about-section py-4 faq-section">
