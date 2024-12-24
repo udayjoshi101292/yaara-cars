@@ -26,6 +26,6 @@ if (
 
     console.log(`Redirect To: ${TakeMeTo}`);
 
-    window.location.replace(TakeMeTo)
+    // window.location.replace(TakeMeTo)
     
 }
