@@ -9,11 +9,11 @@ $first_ = reset($car_modal);
 $last_ = end($car_modal); 
 ?>
 <!-- Ads banner  -->
-<div class="ads_horizontal_wrap ad_wrapper mt-3">
+<!-- <div class="ads_horizontal_wrap ad_wrapper mt-3">
     <a href="#" class="ad_link">
         <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
     </a>
-</div>
+</div> -->
 <!-- Ads banner END  -->
 <section class="yc-car-price-page pt-5">
     <div class="container">
@@ -70,7 +70,7 @@ $last_ = end($car_modal);
 <section class="yc-car-price-table py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-12">
                 <div class="yc-car-price-wrap">
                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -136,13 +136,13 @@ $last_ = end($car_modal);
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                     <!-- Ads banner  -->
+            <!-- Ads banner  -->
+            <!-- <div class="col-md-2">
                      <div class="ads_vertical_wrap ad_wrapper bg_ff_with_border">
                     <a href="#" class="ad_link">
                         <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
                     </a>
-                </div>
+                </div> -->
                 <!-- Ads banner END  -->
             </div>
         </div>

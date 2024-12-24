@@ -9,11 +9,11 @@ $brand_data =  car_list($conn, [end($car_slug)], 'Brand_Slug', ['Modal', 'Brand'
 ?>
 
 <!-- Ads banner  -->
-<div class="ads_horizontal_wrap ad_wrapper mt-3">
+<!-- <div class="ads_horizontal_wrap ad_wrapper mt-3">
     <a href="#" class="ad_link">
         <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
     </a>
-</div>
+</div> -->
 <!-- Ads banner END  -->
 <!-- Brand Cars -->
 <section class="yc-car-brand-page pt-5">
@@ -204,18 +204,18 @@ $brand_data =  car_list($conn, [end($car_slug)], 'Brand_Slug', ['Modal', 'Brand'
                             <?php $_quary = $_GET['ad-type'] ?>
                             <?php if(empty($_quary)): ?>
                             <!-- Ads banner  -->
-                            <div class="ads_boxed_wrap ad_wrapper">
+                            <!-- <div class="ads_boxed_wrap ad_wrapper">
                                 <a href="#" class="ad_link">
                                     <img src="https://staging.yaaracars.com/assets/img/boxed_ads_img.png" alt="Ads">
                                 </a>
-                            </div>
+                            </div> -->
                             <?php else: ?>
                             <!-- Long ad  -->
-                            <div class="ads_long_wrap ad_wrapper">
+                            <!-- <div class="ads_long_wrap ad_wrapper">
                                 <a href="#" class="ad_link">
                                     <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
                                 </a>
-                            </div>
+                            </div> -->
                             <?php endif; ?>
                             <!-- Ads banner END  -->
                             <?php include 'components/popular-brands.php'; ?>
