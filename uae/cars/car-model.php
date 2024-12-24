@@ -14,11 +14,11 @@ $l_list = end($car_modal);
 ?>
 
 <!-- Ads banner  -->
-<div class="ads_horizontal_wrap ad_wrapper mt-3">
+<!-- <div class="ads_horizontal_wrap ad_wrapper mt-3">
     <a href="#" class="ad_link">
         <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
     </a>
-</div>
+</div> -->
 <!-- Ads banner END  -->
 
 <!-- Modal Gallery -->
@@ -27,7 +27,7 @@ $l_list = end($car_modal);
 
 <div class="container">
     <div class="row">
-        <div class="col-md-10 px-0">
+        <div class="col-md-12 px-0">
             <!-- Spec SECTION -->
             <section class="section yc-specs-version pb-5">
                 <div class="container">
@@ -209,13 +209,13 @@ $l_list = end($car_modal);
             <!-- Price and Version End -->
 
         </div>
-        <div class="col-md-2">
+        <!-- <div class="col-md-2">
             <div class="ads_long_wrap ad_wrapper px-2">
                 <a href="#" class="ad_link">
                     <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
                 </a>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 

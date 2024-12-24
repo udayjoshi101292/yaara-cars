@@ -208,26 +208,26 @@ $brand_logo = $content['section_popular_cars']['cars'];
 <!-- Hero v2 -->
 
 <!-- Ads banner  -->
-<div class="ads_horizontal_wrap ad_wrapper mt-3">
+<!-- <div class="ads_horizontal_wrap ad_wrapper mt-3">
     <a href="#" class="ad_link">
         <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
     </a>
-</div>
+</div> -->
 <!-- Ads banner END  -->
 
 
 <div class="container">
     <div class="row sm_col_reverse">
-        <div class="col-md-2 padding_top_100">
-            <!-- Ads banner  -->
+        <!-- Ads banner  -->
+        <!-- <div class="col-md-2 padding_top_100">
             <div class="ads_vertical_wrap ad_wrapper">
                 <a href="#" class="ad_link">
                     <img src="https://staging.yaaracars.com/assets/img/vertical_ad_img.png" alt="Ads">
                 </a>
             </div>
-            <!-- Ads banner END  -->
-        </div>
-        <div class="col-md-10">
+        </div> -->
+        <!-- Ads banner END  -->
+        <div class="col-md-12">
             <!-- Popular Cars -->
             <section class="yc-cars py-5">
                 <div class="container">

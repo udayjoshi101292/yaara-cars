@@ -6,11 +6,11 @@
 array_pop($slug_spec); ?>
 
 <!-- Ads banner  -->
-<div class="ads_horizontal_wrap ad_wrapper mt-3">
+<!-- <div class="ads_horizontal_wrap ad_wrapper mt-3">
     <a href="#" class="ad_link">
         <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
     </a>
-</div>
+</div> -->
 <!-- Ads banner END  -->
 
 <!-- Modal Gallery -->
@@ -106,7 +106,7 @@ $features_final_keys = feature($conn, $car_data);
         */ ?>
 
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-12">
                 <div class="row row_gap_25 my-3">
                     <h2 class="titles_h2">Specs - <?php echo $car_data['Brand'] . ' ' . $car_data['Modal'] . ' ' . $car_data['Year'] . ' ' . $car_data['Variant']; ?></h2>
                     <div class="col-md-6 ">
@@ -472,15 +472,15 @@ $features_final_keys = feature($conn, $car_data);
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <!-- <div class="col-md-2"> -->
                 <!-- Ads banner  -->
-                <div class="ads_vertical_wrap ad_wrapper bg_ff_with_border">
+                <!-- <div class="ads_vertical_wrap ad_wrapper bg_ff_with_border">
                     <a href="#" class="ad_link">
                         <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
                     </a>
-                </div>
+                </div> -->
                 <!-- Ads banner END  -->
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 </section>

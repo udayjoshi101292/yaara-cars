@@ -18,11 +18,11 @@ $last_ = end($car_modal);
 
 
 <!-- Ads banner  -->
-<div class="ads_horizontal_wrap ad_wrapper mt-3">
+<!-- <div class="ads_horizontal_wrap ad_wrapper mt-3">
     <a href="#" class="ad_link">
         <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
     </a>
-</div>
+</div> -->
 <!-- Ads banner END  -->
 
 <section class="yc-car-price-page pt-5">
@@ -256,7 +256,7 @@ $last_ = end($car_modal);
             <?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']; ?> Variants Price List
         </h2>
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-12">
                 <div class="yc-car-price-wrap">
 
                     <?php
@@ -532,15 +532,15 @@ $last_ = end($car_modal);
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <!-- <div class="col-md-2"> -->
                 <!-- Ads banner  -->
-                <div class="ads_vertical_wrap ad_wrapper bg_ff_with_border">
+                <!-- <div class="ads_vertical_wrap ad_wrapper bg_ff_with_border">
                     <a href="#" class="ad_link">
                         <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
                     </a>
-                </div>
+                </div> -->
                 <!-- Ads banner END  -->
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 </section>

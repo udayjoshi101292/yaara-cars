@@ -24,11 +24,11 @@ $last_ = end($car_modal);
 
 ?>
 
-<div class="ads_horizontal_wrap ad_wrapper mt-3">
+<!-- <div class="ads_horizontal_wrap ad_wrapper mt-3">
     <a href="#" class="ad_link">
         <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
     </a>
-</div>
+</div> -->
 
 
 
