@@ -1,15 +1,19 @@
 <?php 
 
 
-// echo "<div class='d-none' style='display:none;'>";
-// print_r($_SERVER);
-// echo "</div>";
+// if($_SERVER['REQUEST_URI'] === '/uae/'){
+//     $_SERVER['REQUEST_URI'] = '/';
+//     print_r($_SERVER);
+// }
+
+
 
 require_once 'config.php';
 require_once 'car-data.php'; 
-include 'yaara_fun.php';
+include 'functions.php';
 
 session_start();
+
 
 //Route Value
 $route = rtrim(parse_url($_SERVER['REQUEST_URI'])['path'], '/'); 
@@ -18,8 +22,8 @@ $uri = $route;
 
 //Static Pages
 $all_routes = [
-    "$site" => 'front-page.php',
-    '/car-prices' => 'cars/car-filter.php',
+    "/uae" => 'front-page.php',
+    '/uae/car-prices' => 'cars/car-filter.php',
     // '/make-price' => 'cars/make-price.php',
     // '/site' => 'sitemap/images-sitemap.php',
     // '/test' => 'test.php'
@@ -36,7 +40,7 @@ $body = [];
 $post_slug = [];
 $post_brand = [];
 
-foreach(get_post($conn, 'knowledge-hub') as $post_data){
+foreach(get_post($conn, 'car-news') as $post_data){
     $post_slug[] = $post_data['Slug'];
     $post_brand[] = url_slug($post_data['Brand']);
 }
@@ -94,14 +98,14 @@ if (array_key_exists('page', $_GET) && !empty($_GET['page'])) {
 if(array_key_exists($uri, $all_routes) || $uri == "") {
     $brandloc = $car_list[0]['Location'];
     $meta_title = "New Cars in $brandloc - 2024 Prices, Specs | YaaraCars";
-    $meta_desc = "Looking to buy a New Car in $brandloc - Find the updated 2024 Car prices, and specifications with exciting offers. View latest knowledge hub, images and videos at YaaraCars.";
+    $meta_desc = "Looking to buy a New Car in $brandloc - Find the updated 2024 Car prices, and specifications with exciting offers. View latest car news, images and videos at YaaraCars.";
     require $all_routes[$uri];
 }
 
 elseif(in_array(end($car_slug), $variant_uri) && count($car_slug) == 3){
     $x = $car_slug; 
     array_pop($x);
-   // $brand = car_list($conn,[end($x)],'Modal_Slug',['Brand','Modal']);
+    // $brand = car_list($conn,[end($x)],'Modal_Slug',['Brand','Modal']);
     $brand = car_list($conn, [end($car_slug)],'Variant_Slug',['Variant'],'',true, 'Price', reset($car_slug)); 
     $brandloc = $brand['Location'];
     $brandNameModel = $brand['Brand'] ." ". $brand['Modal'];
@@ -111,12 +115,10 @@ elseif(in_array(end($car_slug), $variant_uri) && count($car_slug) == 3){
     $meta_desc = "Get $brandNameModel $brandvariant 2024 Car Price in $brandloc. View $brandmodel $brandvariant features, specs, images, mileage, and colours at YaaraCars.";
     $image_list = car_thumbnail($brand); 
     $image_url = site_url('')."/assets/img/cars/".$brand['Featured_Image']."/".reset($image_list);
+
+    $schemaId = 4;
     
-     if($brand['Modal_Slug'] == $car_slug[1]){
-        require 'cars/specific-car-model.php'; //Single Variant Page/specidifc car model  
-    } else {
-        require '404.php';
-    } 
+    require 'cars/specific-car-model.php'; //Single Variant Page/specidifc car model   
 }
 
 elseif(in_array(end($car_slug), $filter_uri) && count($car_slug) == 2){
@@ -280,6 +282,8 @@ elseif(in_array($car_slug[1], $model_uri) && count($car_slug) == 2){
     $image_list = car_thumbnail(reset($brand)); 
     $image_url = site_url('')."/assets/img/cars/".$brand[0]['Featured_Image']."/".reset($image_list);
 
+    $schemaId = 1;
+
     if(!empty($brand)){
         require 'cars/car-model.php'; //Car Modal Images
     } else {
@@ -351,6 +355,9 @@ elseif(in_array($car_slug[1], $model_uri) && count($car_slug) == 3 && end($car_s
     $meta_desc = "Get $brandNameModel Price in $brandloc. Check out the latest 2024 $brandNameModel price with best offers at YaaraCars.";
     $image_list = car_thumbnail(reset($brand)); 
     $image_url = site_url('')."/assets/img/cars/".$brand[0]['Featured_Image']."/".reset($image_list);
+
+
+    $schemaId = 2;
     
     if(!empty($brand)){
         require 'cars/car-price.php'; //Car Modal Images
@@ -369,6 +376,8 @@ elseif(in_array($car_slug[1], $model_uri) && count($car_slug) == 3 && end($car_s
     $meta_desc = "$brandNameModel Specifications – View dimensions, features, mileage, colours, and technical specs of 2024 $brandNameModel at YaaraCars.";
     $image_list = car_thumbnail(reset($brand)); 
     $image_url = site_url('')."/assets/img/cars/".$brand[0]['Featured_Image']."/".reset($image_list);
+
+    $schemaId = 3;
 
     if(!empty($brand)){
         require 'cars/car-specs.php'; //Car Modal Images
@@ -423,6 +432,8 @@ elseif(in_array($car_slug[0], $brand_uri) && count($car_slug) == 1){
     }
     $meta_title .= $brandName." Cars in $brandloc, ". $brandName ." New Car Prices | YaaraCars";
     $meta_desc .= $brandName." Cars in $brandloc – View details of ".$brandName." $count Cars along with prices, specs, images and videos at YaaraCars.";
+
+
 
     require 'cars/car-brand.php'; //Car Brand Page
 }
@@ -494,7 +505,5 @@ elseif (in_array($car_slug[0], $brand_uri) && count($car_slug) === 2 && strcasec
 //     require 'templates/about.php'; 
 // }
 else {
-    
-    $_404 = true;
     require '404.php';
 }

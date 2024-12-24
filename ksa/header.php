@@ -18,6 +18,12 @@
     <?php if($_404 != true): ?>
     <link rel="canonical" href="<?php  echo site_url().$_SERVER['REQUEST_URI']; ?>" />
     <?php endif; ?>
+
+    <style>
+        body{
+            display: none;
+        }
+    </style>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16713074057">

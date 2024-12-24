@@ -1,26 +1,36 @@
 <?php require("header.php"); ?>
 
-<?php  include "components/page-submenu.php"; ?>
+<?php include "components/page-submenu.php"; ?>
 
-<?php $slug_price = $car_slug;  array_pop($slug_price); 
-$car_modal = car_list($conn, [end($slug_price)],'Modal_Slug',['Variant'],'', false, 'Price', reset($car_slug));
+<?php $slug_price = $car_slug;
+array_pop($slug_price);
+$car_modal = car_list($conn, [end($slug_price)], 'Modal_Slug', ['Variant'], '', false, 'Price', reset($car_slug));
 //print_r($car_modal);
 ?>
 
-<?php 
+<?php
 
 $first_ = reset($car_modal);
-$last_ = end($car_modal); 
+$last_ = end($car_modal);
 
 
 ?>
+
+
+<!-- Ads banner  -->
+<div class="ads_horizontal_wrap ad_wrapper mt-3">
+    <a href="#" class="ad_link">
+        <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
+    </a>
+</div>
+<!-- Ads banner END  -->
 
 <section class="yc-car-price-page pt-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <h1 class="titles_h2">
-                <?php echo $car_modal[0]['Brand'].' '.$car_modal[0]['Modal']; ?> Variants
+                    <?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']; ?> Variants
                 </h1>
                 <?php /*
                 <p class="yc-page-desc">
@@ -50,48 +60,49 @@ $last_ = end($car_modal);
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="yc-car-wrap">
-                            <?php  
+                            <?php
 
                             $gallery = car_thumbnail($car_modal[0]);
 
-                                usort($gallery, function($a, $b) {
-                                    // Extract the number between the last two underscores in the filename
+                            usort($gallery, function ($a, $b) {
+                                // Extract the number between the last two underscores in the filename
                                 preg_match('/__(\d+)_/', $a, $aMatches);
                                 preg_match('/__(\d+)_/', $b, $bMatches);
                                 // Convert the extracted numbers to integers and compare
-                                    return intval($aMatches[1]) - intval($bMatches[1]);
-                                });
-  
+                                return intval($aMatches[1]) - intval($bMatches[1]);
+                            });
+
                             ?>
 
-                            <a href="<?php echo site_url().'/assets/img/cars/'.$car_modal[0]['Gallery'].'/'.reset($gallery); ?>" data-lightbox="<?php echo $car_data[0]['Brand_slug'].'-'.$car_data[0]['Modal_Slug']; ?>">
-                                    <img src="<?php echo site_url().'/assets/img/cars/'.$car_modal[0]['Gallery'].'/'.reset($gallery); ?>" alt="<?php echo $car_data[0]['Brand'].' '.$car_data[0]['Modal']; ?>" class="img-fluid">
+                            <a href="<?php echo site_url() . '/assets/img/cars/' . $car_modal[0]['Gallery'] . '/' . reset($gallery); ?>" data-lightbox="<?php echo $car_data[0]['Brand_slug'] . '-' . $car_data[0]['Modal_Slug']; ?>">
+                                <img src="<?php echo site_url() . '/assets/img/cars/' . $car_modal[0]['Gallery'] . '/' . reset($gallery); ?>" alt="<?php echo $car_data[0]['Brand'] . ' ' . $car_data[0]['Modal']; ?>" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-6 col-12">
                         <div class="yc-single-car-content">
                             <div class="yc-heading d-flex align-items-center justify-content-between">
-                                <h1 class="yc-title mb-0"><?php echo $car_modal[0]['Brand'].' '.$car_modal[0]['Modal']; ?></h1>
+                                <h1 class="yc-title mb-0"><?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']; ?></h1>
 
                                 <a href="#" class="yc-car-share share_btn" data-bs-toggle="modal" data-bs-target="#share_btn_modal">
                                     <img src="<?php site_url(); ?>/assets/img/share.svg" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="yc-single-car-desc mt-4">
-                                <!-- <p class="yc-versions"><span class="pe-2"><img src="<?php //site_url(); ?>/assets/img/location_on.svg" alt="" class="img-fluid"></span>New Delhi</p> -->
+                                <!-- <p class="yc-versions"><span class="pe-2"><img src="<?php //site_url(); 
+                                                                                            ?>/assets/img/location_on.svg" alt="" class="img-fluid"></span>New Delhi</p> -->
                                 <h4 class="yc-price">
-                                <?php 
-                                
-                                if(count($car_modal) > 1 && $first_['Price'] != $last_['Price']){
-                                    echo "From ".$car_modal[0]['Currency'].' '.$first_['Price']." onwards";
-                                } elseif($first_['Price'] != 'TBD') {
-                                    echo $car_modal[0]['Currency']." ".$first_['Price'];
-                                } else {
-                                    echo $first_['Price'];
-                                }
-                                
-                                ?>
+                                    <?php
+
+                                    if (count($car_modal) > 1 && $first_['Price'] != $last_['Price']) {
+                                        echo "From " . $car_modal[0]['Currency'] . ' ' . $first_['Price'] . " onwards";
+                                    } elseif ($first_['Price'] != 'TBD') {
+                                        echo $car_modal[0]['Currency'] . " " . $first_['Price'];
+                                    } else {
+                                        echo $first_['Price'];
+                                    }
+
+                                    ?>
 
 
                                 </h4>
@@ -111,7 +122,7 @@ $last_ = end($car_modal);
 </section>
 <!-- Modal I'm Interested-->
 <?php include 'components/im-interested-popup.php'; ?>
-<?php  include "components/share-pop-modal.php"; ?>
+<?php include "components/share-pop-modal.php"; ?>
 
 <!-- Hyundai Car- Exter End -->
 
@@ -242,369 +253,385 @@ $last_ = end($car_modal);
 <section class="yc-car-price-table variant pb-5">
     <div class="container">
         <h2 class="titles_h2">
-        <?php echo $car_modal[0]['Brand'].' '.$car_modal[0]['Modal']; ?> Variants Price List
+            <?php echo $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']; ?> Variants Price List
         </h2>
         <div class="row">
-            <div class="yc-car-price-wrap">
+            <div class="col-md-10">
+                <div class="yc-car-price-wrap">
 
-                <?php 
-                $fuel_type = []; 
-                $trans_type = [];
+                    <?php
+                    $fuel_type = [];
+                    $trans_type = [];
 
-                foreach($car_modal as $i) {
-                    $fuel_type[] = $i['Fuel_Type']; 
-                    $trans_type[] = $i['Transmission'];
-                }
-                
-                ?>
+                    foreach ($car_modal as $i) {
+                        $fuel_type[] = $i['Fuel_Type'];
+                        $trans_type[] = $i['Transmission'];
+                    }
 
-                <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Versions
-                        </button>
-                    </li>
+                    ?>
 
-                    <?php if(in_array('Petrol', $fuel_type)): ?>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-petrol-tab" data-bs-toggle="pill" data-bs-target="#pills-petrol" type="button" role="tab" aria-controls="pills-petrol" aria-selected="true">Petrol Version
-                        </button>
-                    </li>
-                    <?php endif; ?>
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Versions
+                            </button>
+                        </li>
 
-                    <?php if(in_array('Diesel', $fuel_type)): ?>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-diesel-tab" data-bs-toggle="pill" data-bs-target="#pills-diesel" type="button" role="tab" aria-controls="pills-diesel" aria-selected="true">Diesel Version
-                        </button>
-                    </li>
-                    <?php endif; ?>
-                    
-                    <?php if(in_array('Automatic', $trans_type)): ?>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-automatic-tab" data-bs-toggle="pill" data-bs-target="#pills-automatic" type="button" role="tab" aria-controls="pills-automatic" aria-selected="true">Automatic Version
-                        </button>
-                    </li>
-                    <?php endif; ?>
+                        <?php if (in_array('Petrol', $fuel_type)): ?>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-petrol-tab" data-bs-toggle="pill" data-bs-target="#pills-petrol" type="button" role="tab" aria-controls="pills-petrol" aria-selected="true">Petrol Version
+                                </button>
+                            </li>
+                        <?php endif; ?>
 
-                </ul>
+                        <?php if (in_array('Diesel', $fuel_type)): ?>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-diesel-tab" data-bs-toggle="pill" data-bs-target="#pills-diesel" type="button" role="tab" aria-controls="pills-diesel" aria-selected="true">Diesel Version
+                                </button>
+                            </li>
+                        <?php endif; ?>
 
-                <?php //echo "<pre>"; print_r($car_modal); echo "</pre>";?>
-                <div class="tab-content" id="pills-tabContent">
-                    <!-- All Versions -->
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="px-0">
+                        <?php if (in_array('Automatic', $trans_type)): ?>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-automatic-tab" data-bs-toggle="pill" data-bs-target="#pills-automatic" type="button" role="tab" aria-controls="pills-automatic" aria-selected="true">Automatic Version
+                                </button>
+                            </li>
+                        <?php endif; ?>
 
-                                <?php foreach($car_modal as $items): ?>
-                                    <!-- item -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <a href="<?php echo site_url().'/'.$items['Brand_Slug'].'/'.$items['Modal_Slug']."/".$items['Variant_Slug']; ?>">
-                                                <button class="accordion-button" type="button" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    <b><?php echo $items['Brand'].' '.$items['Modal'].' '.$items['Variant'];?></b>
-                                                </button>
-                                            </a>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse show">
-                                            <div class="accordion-body row justify-content-between">
-                                                <div class="col-lg-3 col-md-3 col-12 d-grid">
-                                                    <p class="mb-0"> (Base Model)
-                                                        
-                                                        <?php echo $items['Horsepower'].'bhp, '.$items['Transmission'].', '.$items['Fuel_Type'].', '.$items['Fuel_Economy']; ?> kmpl
-                                                        <br><br>
-                                                    </p>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center">
-                                                    <p class="mb-0 text-lg-end">
-                                                    <?php 
-                                                    
-                                                    if($items['Price'] != "TBD"){
-                                                        echo $items['Currency']." ".$items['Price']; 
-                                                    } else {
-                                                        echo $items['Price'];
-                                                    }
-                                                    
-                                                    ?>
-                                                    </p>                            
-                                                </div>
-                                                <div class="col-lg-2 col-md-3 col-12">
-                                                    <a href="#" class="check_offers_button two yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                        I'm Interested
+                    </ul>
+
+                    <?php //echo "<pre>"; print_r($car_modal); echo "</pre>";
+                    ?>
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- All Versions -->
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="px-0">
+
+                                        <?php foreach ($car_modal as $items): ?>
+                                            <!-- item -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <a href="<?php echo site_url() . '/' . $items['Brand_Slug'] . '/' . $items['Modal_Slug'] . "/" . $items['Variant_Slug']; ?>">
+                                                        <button class="accordion-button" type="button" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                            <b><?php echo $items['Brand'] . ' ' . $items['Modal'] . ' ' . $items['Variant']; ?></b>
+                                                        </button>
                                                     </a>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse show">
+                                                    <div class="accordion-body row justify-content-between">
+                                                        <div class="col-lg-3 col-md-3 col-12 d-grid">
+                                                            <p class="mb-0"> (Base Model)
+
+                                                                <?php echo $items['Horsepower'] . 'bhp, ' . $items['Transmission'] . ', ' . $items['Fuel_Type'] . ', ' . $items['Fuel_Economy']; ?> kmpl
+                                                                <br><br>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center">
+                                                            <p class="mb-0 text-lg-end">
+                                                                <?php
+
+                                                                if ($items['Price'] != "TBD") {
+                                                                    echo $items['Currency'] . " " . $items['Price'];
+                                                                } else {
+                                                                    echo $items['Price'];
+                                                                }
+
+                                                                ?>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-lg-2 col-md-3 col-12">
+                                                            <a href="#" class="check_offers_button two yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                I'm Interested
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <!-- item -->
-                                    <?php endforeach; ?>
+                                            <!-- item -->
+                                        <?php endforeach; ?>
 
-                                </div>    
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- All Version End -->
-                
-                    <?php if(in_array('Petrol', $fuel_type)): ?>
-                    <!-- Petrol Versions -->
-                    <div class="tab-pane fade" id="pills-petrol" role="tabpanel" aria-labelledby="pills-petrol-tab" tabindex="0">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="px-0">
-                                    
-                                <?php foreach($car_modal as $items): ?>
+                        <!-- All Version End -->
 
-                                    <?php if($items['Fuel_Type'] == 'Petrol'): ?>
+                        <?php if (in_array('Petrol', $fuel_type)): ?>
+                            <!-- Petrol Versions -->
+                            <div class="tab-pane fade" id="pills-petrol" role="tabpanel" aria-labelledby="pills-petrol-tab" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="px-0">
 
-                                    <!-- item -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                        <a href="<?php echo site_url().'/'.$items['Brand_Slug'].'/'.$items['Modal_Slug']."/".$items['Variant_Slug']; ?>">
-                                            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                <b><?php echo $items['Brand'].' '.$items['Modal'].' '.$items['Variant'];?></b>
-                                            </button>
-                                        </a>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse show">
-                                            <div class="accordion-body row justify-content-between">
-                                                <div class="col-lg-3 col-md-3 col-12 d-grid">
-                                                    <p class="mb-0"> (Base Model)
-                                                        
-                                                        <?php echo $items['Horsepower'].'bhp, '.$items['Transmission'].', '.$items['Fuel_Type'].', '.$items['Fuel_Economy']; ?> kmpl
-                                                        <br><br>
-                                                    </p>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center">
-                                                    <p class="mb-0 text-lg-end">
-                                                    <?php  if($items['Price'] != "TBD"){
-                                                        echo $items['Currency']." ".$items['Price']; 
-                                                    } else {
-                                                        echo $items['Price'];
-                                                    }
-                                                    ?>
-                                                    </p>                            
-                                                </div>
-                                                <div class="col-lg-2 col-md-3 col-12">
-                                                    <a href="#" class="check_offers_button two yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                        I'm Interested
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- item -->
-                                    <?php endif; endforeach; ?>
-                                    
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Petrol Version End -->
-                     <?php endif; ?>
+                                            <?php foreach ($car_modal as $items): ?>
 
-                     <?php if(in_array('Diesel', $fuel_type)): ?>
-                    <!-- Diesel Versions -->
-                    <div class="tab-pane fade" id="pills-diesel" role="tabpanel" aria-labelledby="pills-diesel-tab" tabindex="0">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="px-0">
-                                    
-                                <?php foreach($car_modal as $items): ?>
+                                                <?php if ($items['Fuel_Type'] == 'Petrol'): ?>
 
-                                <?php if($items['Fuel_Type'] == 'Diesel'): ?>
+                                                    <!-- item -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <a href="<?php echo site_url() . '/' . $items['Brand_Slug'] . '/' . $items['Modal_Slug'] . "/" . $items['Variant_Slug']; ?>">
+                                                                <button class="accordion-button" type="button" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                    <b><?php echo $items['Brand'] . ' ' . $items['Modal'] . ' ' . $items['Variant']; ?></b>
+                                                                </button>
+                                                            </a>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body row justify-content-between">
+                                                                <div class="col-lg-3 col-md-3 col-12 d-grid">
+                                                                    <p class="mb-0"> (Base Model)
 
-                                <!-- item -->
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                    <a href="<?php echo site_url().'/'.$items['Brand_Slug'].'/'.$items['Modal_Slug']."/".$items['Variant_Slug']; ?>">
-                                        <button class="accordion-button" type="button" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            <b><?php echo $items['Brand'].' '.$items['Modal'].' '.$items['Variant'];?></b>
-                                        </button>
-                                    </a>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse show">
-                                        <div class="accordion-body row justify-content-between">
-                                            <div class="col-lg-3 col-md-3 col-12 d-grid">
-                                                <p class="mb-0"> (Base Model)
-                                                    
-                                                    <?php echo $items['Horsepower'].'bhp, '.$items['Transmission'].', '.$items['Fuel_Type'].', '.$items['Fuel_Economy']; ?> kmpl
-                                                    <br><br>
-                                                </p>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center">
-                                                <p class="mb-0 text-lg-end">
-                                                <?php  if($items['Price'] != "TBD"){
-                                                        echo $items['Currency']." ".$items['Price'];
-                                                    } else {
-                                                        echo $items['Price'];
-                                                    } ?>
-                                                </p>                            
-                                            </div>
-                                            <div class="col-lg-2 col-md-3 col-12">
-                                                <a href="#" class="check_offers_button two yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                    I'm Interested
-                                                </a>
-                                            </div>
+                                                                        <?php echo $items['Horsepower'] . 'bhp, ' . $items['Transmission'] . ', ' . $items['Fuel_Type'] . ', ' . $items['Fuel_Economy']; ?> kmpl
+                                                                        <br><br>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center">
+                                                                    <p class="mb-0 text-lg-end">
+                                                                        <?php if ($items['Price'] != "TBD") {
+                                                                            echo $items['Currency'] . " " . $items['Price'];
+                                                                        } else {
+                                                                            echo $items['Price'];
+                                                                        }
+                                                                        ?>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-lg-2 col-md-3 col-12">
+                                                                    <a href="#" class="check_offers_button two yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                        I'm Interested
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- item -->
+                                            <?php endif;
+                                            endforeach; ?>
+
                                         </div>
                                     </div>
                                 </div>
-                                <!-- item -->
-                                <?php endif; endforeach; ?>        
-
-                                </div>    
                             </div>
-                        </div>
-                    </div>
-                    <!-- Diesel Versions End -->
-                     <?php endif; ?>
+                            <!-- Petrol Version End -->
+                        <?php endif; ?>
 
-                     <?php if(in_array('Automatic', $trans_type)): ?>
-                    <!-- Automatic Versions -->
-                    <div class="tab-pane fade" id="pills-automatic" role="tabpanel" aria-labelledby="pills-automatic-tab" tabindex="0">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="px-0">
+                        <?php if (in_array('Diesel', $fuel_type)): ?>
+                            <!-- Diesel Versions -->
+                            <div class="tab-pane fade" id="pills-diesel" role="tabpanel" aria-labelledby="pills-diesel-tab" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="px-0">
 
-                                    <?php foreach($car_modal as $items): ?>
+                                            <?php foreach ($car_modal as $items): ?>
 
-                                <?php if($items['Transmission'] == 'Automatic'): ?>
+                                                <?php if ($items['Fuel_Type'] == 'Diesel'): ?>
 
-                                <!-- item -->
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                    <a href="<?php echo site_url().'/'.$items['Brand_Slug'].'/'.$items['Modal_Slug']."/".$items['Variant_Slug']; ?>">
-                                        <button class="accordion-button" type="button" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            <b><?php echo $items['Brand'].' '.$items['Modal'].' '.$items['Variant'];?></b>
-                                        </button>
-                                    </a>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse show">
-                                        <div class="accordion-body row justify-content-between">
-                                            <div class="col-lg-3 col-md-3 col-12 d-grid">
-                                                <p class="mb-0"> (Base Model)
-                                                    
-                                                    <?php echo $items['Horsepower'].'bhp, '.$items['Transmission'].', '.$items['Fuel_Type'].', '.$items['Fuel_Economy']; ?> kmpl
-                                                    <br><br>
-                                                </p>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center">
-                                                <p class="mb-0 text-lg-end">
-                                                <?php  if($items['Price'] != "TBD"){
-                                                        echo $items['Currency']." ". $items['Price']; 
-                                                    } else {
-                                                        echo $items['Price'];
-                                                    } ?>
-                                                </p>                            
-                                            </div>
-                                            <div class="col-lg-2 col-md-3 col-12">
-                                                <a href="#" class="check_offers_button two yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                    I'm Interested
-                                                </a>
-                                            </div>
+                                                    <!-- item -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <a href="<?php echo site_url() . '/' . $items['Brand_Slug'] . '/' . $items['Modal_Slug'] . "/" . $items['Variant_Slug']; ?>">
+                                                                <button class="accordion-button" type="button" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                    <b><?php echo $items['Brand'] . ' ' . $items['Modal'] . ' ' . $items['Variant']; ?></b>
+                                                                </button>
+                                                            </a>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body row justify-content-between">
+                                                                <div class="col-lg-3 col-md-3 col-12 d-grid">
+                                                                    <p class="mb-0"> (Base Model)
+
+                                                                        <?php echo $items['Horsepower'] . 'bhp, ' . $items['Transmission'] . ', ' . $items['Fuel_Type'] . ', ' . $items['Fuel_Economy']; ?> kmpl
+                                                                        <br><br>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center">
+                                                                    <p class="mb-0 text-lg-end">
+                                                                        <?php if ($items['Price'] != "TBD") {
+                                                                            echo $items['Currency'] . " " . $items['Price'];
+                                                                        } else {
+                                                                            echo $items['Price'];
+                                                                        } ?>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-lg-2 col-md-3 col-12">
+                                                                    <a href="#" class="check_offers_button two yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                        I'm Interested
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- item -->
+                                            <?php endif;
+                                            endforeach; ?>
+
                                         </div>
                                     </div>
                                 </div>
-                                <!-- item -->
-                                <?php endif; endforeach; ?>  
-
-                                </div>    
                             </div>
-                        </div>
+                            <!-- Diesel Versions End -->
+                        <?php endif; ?>
+
+                        <?php if (in_array('Automatic', $trans_type)): ?>
+                            <!-- Automatic Versions -->
+                            <div class="tab-pane fade" id="pills-automatic" role="tabpanel" aria-labelledby="pills-automatic-tab" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="px-0">
+
+                                            <?php foreach ($car_modal as $items): ?>
+
+                                                <?php if ($items['Transmission'] == 'Automatic'): ?>
+
+                                                    <!-- item -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <a href="<?php echo site_url() . '/' . $items['Brand_Slug'] . '/' . $items['Modal_Slug'] . "/" . $items['Variant_Slug']; ?>">
+                                                                <button class="accordion-button" type="button" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                    <b><?php echo $items['Brand'] . ' ' . $items['Modal'] . ' ' . $items['Variant']; ?></b>
+                                                                </button>
+                                                            </a>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body row justify-content-between">
+                                                                <div class="col-lg-3 col-md-3 col-12 d-grid">
+                                                                    <p class="mb-0"> (Base Model)
+
+                                                                        <?php echo $items['Horsepower'] . 'bhp, ' . $items['Transmission'] . ', ' . $items['Fuel_Type'] . ', ' . $items['Fuel_Economy']; ?> kmpl
+                                                                        <br><br>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-12 row_custom align-content-center">
+                                                                    <p class="mb-0 text-lg-end">
+                                                                        <?php if ($items['Price'] != "TBD") {
+                                                                            echo $items['Currency'] . " " . $items['Price'];
+                                                                        } else {
+                                                                            echo $items['Price'];
+                                                                        } ?>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-lg-2 col-md-3 col-12">
+                                                                    <a href="#" class="check_offers_button two yc_pop_up" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                        I'm Interested
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- item -->
+                                            <?php endif;
+                                            endforeach; ?>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Automatic Versions End -->
+                        <?php endif; ?>
+
                     </div>
-                    <!-- Automatic Versions End -->
-                    <?php endif; ?>
-                    
                 </div>
+            </div>
+            <div class="col-md-2">
+                <!-- Ads banner  -->
+                <div class="ads_vertical_wrap ad_wrapper bg_ff_with_border">
+                    <a href="#" class="ad_link">
+                        <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
+                    </a>
+                </div>
+                <!-- Ads banner END  -->
             </div>
         </div>
     </div>
 </section>
 <!-- Car Version List End -->
 
-<!-- Blog section --> 
-<?php 
+<!-- Blog section -->
+<?php
 //Title Name blogs-inner.php
-$blog_title = $car_modal[0]['Brand']." in News"; 
+$blog_title = $car_modal[0]['Brand'] . " in News";
 //Brand Slug Refer blogs-inner.php
 $brand_post = $car_modal[0]['Brand'];
-include "components/blogs-inner.php" 
+include "components/blogs-inner.php"
 ?>
 <!-- Blog section -->
 
 
 
 
-                
+
 <?php
 
-if($first_['Price'] != $last_['Price']){
-    $rang_modal = range_filter($car_list, $car_modal, true);  
+if ($first_['Price'] != $last_['Price']) {
+    $rang_modal = range_filter($car_list, $car_modal, true);
 }
 
-if($rang_modal): ?>
-<!-- Upcoming Cars -->
-<section class="yc-cars pb-5">
-    <div class="container">
-    <div class="row">
-            <div class="col-12">
-                <h2 class="titles_h2">
-                <?php echo "Check Prices of ".$car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal']." Alternatives"; ?>
-                </h2>
-                
+if ($rang_modal): ?>
+    <!-- Upcoming Cars -->
+    <section class="yc-cars pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titles_h2">
+                        <?php echo "Check Prices of " . $car_modal[0]['Brand'] . ' ' . $car_modal[0]['Modal'] . " Alternatives"; ?>
+                    </h2>
 
-                <div class="owl-carousel owl-theme cars-carousel">
-                        
-                <?php foreach(car_list($conn, $rang_modal, 'Modal',['Brand', 'Modal'], 3) as $car_rel): 
-                    
-                    $gallery = car_thumbnail($car_rel);
 
-                    usort($gallery, function($a, $b) {
-                        // Extract the number between the last two underscores in the filename
-                       preg_match('/__(\d+)_/', $a, $aMatches);
-                       preg_match('/__(\d+)_/', $b, $bMatches);
-                       // Convert the extracted numbers to integers and compare
-                        return intval($aMatches[1]) - intval($bMatches[1]);
-                     });
+                    <div class="owl-carousel owl-theme cars-carousel">
 
-                    if($car_rel['Price'] != "DISCONTINUED" && $car_rel['Price'] != ""):
-                    
-                    ?>
+                        <?php foreach (car_list($conn, $rang_modal, 'Modal', ['Brand', 'Modal'], 3) as $car_rel):
 
-                    <!-- Car item -->
-                    <div class="item car-item common_box_shadow">
-                        <div class="car-mock">
-                        <a href="<?php echo site_url().'/'.$car_rel['Brand_Slug'].'/'.$car_rel['Modal_Slug']; ?>">
-                            <img src="<?php echo site_url().'/assets/img/cars/'.$car_rel['Featured_Image'].'/'.reset($gallery); ?>" alt="<?php echo $car_rel['Brand'].' '.$car_rel['Modal']; ?>" class="img-fluid">
-                        </a>
-                        </div>
-                        <div class="yc-cars-details">
-                            <a href="<?php echo site_url().'/'.$car_rel['Brand_Slug'].'/'.$car_rel['Modal_Slug']; ?>">
-                                <p class="mb-0">
-                                    <?php echo $car_rel['Brand'].' '.$car_rel['Modal'].' '.$car_rel['Year']; ?>
-                                </p>
-                            </a>
-                            <h4>
-                            <?php  if($car_rel['Price'] != "TBD"){
-                                                        echo $car_rel['Currency']." ". $car_rel['Price']; 
-                                                    } else {
-                                                        echo $car_rel['Price'];
-                                                    } ?>
-                            </h4>
-                            <span class="car_info_button">
-                                <span class="d-flex"><?php echo $car_rel['Fuel_Economy']; ?> KMPL ︱ <?php echo $car_rel['Transmission']; ?> ︱ <?php echo $car_rel['Year']; ?></span>
-                            </span>
-                        </div>
+                            $gallery = car_thumbnail($car_rel);
+
+                            usort($gallery, function ($a, $b) {
+                                // Extract the number between the last two underscores in the filename
+                                preg_match('/__(\d+)_/', $a, $aMatches);
+                                preg_match('/__(\d+)_/', $b, $bMatches);
+                                // Convert the extracted numbers to integers and compare
+                                return intval($aMatches[1]) - intval($bMatches[1]);
+                            });
+
+                            if ($car_rel['Price'] != "DISCONTINUED" && $car_rel['Price'] != ""):
+
+                        ?>
+
+                                <!-- Car item -->
+                                <div class="item car-item common_box_shadow">
+                                    <div class="car-mock">
+                                        <a href="<?php echo site_url() . '/' . $car_rel['Brand_Slug'] . '/' . $car_rel['Modal_Slug']; ?>">
+                                            <img src="<?php echo site_url() . '/assets/img/cars/' . $car_rel['Featured_Image'] . '/' . reset($gallery); ?>" alt="<?php echo $car_rel['Brand'] . ' ' . $car_rel['Modal']; ?>" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="yc-cars-details">
+                                        <a href="<?php echo site_url() . '/' . $car_rel['Brand_Slug'] . '/' . $car_rel['Modal_Slug']; ?>">
+                                            <p class="mb-0">
+                                                <?php echo $car_rel['Brand'] . ' ' . $car_rel['Modal'] . ' ' . $car_rel['Year']; ?>
+                                            </p>
+                                        </a>
+                                        <h4>
+                                            <?php if ($car_rel['Price'] != "TBD") {
+                                                echo $car_rel['Currency'] . " " . $car_rel['Price'];
+                                            } else {
+                                                echo $car_rel['Price'];
+                                            } ?>
+                                        </h4>
+                                        <span class="car_info_button">
+                                            <span class="d-flex"><?php echo $car_rel['Fuel_Economy']; ?> KMPL ︱ <?php echo $car_rel['Transmission']; ?> ︱ <?php echo $car_rel['Year']; ?></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- Car item End -->
+
+                        <?php endif;
+                        endforeach; ?>
+
                     </div>
-                    <!-- Car item End -->
-
-                <?php endif;  endforeach; ?>    
-
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Upcoming Cars End -->
- <?php endif; ?>
+    </section>
+    <!-- Upcoming Cars End -->
+<?php endif; ?>
 
 <?php /*
 <!-- FAQ  -->
@@ -660,6 +687,6 @@ if($rang_modal): ?>
 </section>
 <!-- FAQ End -->
 
-*/?>
+*/ ?>
 
 <?php require("footer.php"); ?>

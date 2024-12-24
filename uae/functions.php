@@ -84,16 +84,15 @@ function pagination($cars){
 }
 
 
-
 //Car list Data Parameters (connection, search, column_name, filter_search, limit, is_single_variant)
 function car_list($conn, $arry_, $column, $filter, $limit = '', $single = false, $asc = 'Modal', $brand = ''){
 
-    //Limit Set
-    if($limit == NULL) {
-        $limit = "";
-    } else {
-        $limit = "LIMIT $limit";
-    }
+        //Limit Set
+        if($limit == NULL) {
+            $limit = "";
+        } else {
+            $limit = "LIMIT $limit";
+        }
 
     $arry_list = "'".implode("','", $arry_)."'";
 
@@ -132,6 +131,7 @@ function car_list($conn, $arry_, $column, $filter, $limit = '', $single = false,
     INNER JOIN yc_safety ON yc_engine.Var_ID = yc_safety.Variant_ID
     WHERE $column IN ($arry_list) $brand_ $modal_ AND yc_master.Location = 'UAE' AND yc_engine.Price != 'Discontinued' AND yc_modal.Status_Modal = 'Publish' AND yc_engine.Status = 'Publish' GROUP BY $filter_list ORDER BY $asc ASC $limit";
 
+    
     $list_table_all = mysqli_query($conn, $list_all);
 
     //Filter data based on Single and Listing page
@@ -140,6 +140,46 @@ function car_list($conn, $arry_, $column, $filter, $limit = '', $single = false,
     } else {
         $list = mysqli_fetch_all($list_table_all, MYSQLI_ASSOC);
     }
+
+    return $list;
+}
+
+//Car list Data Parameters (connection, search, column_name, filter_search, limit, is_single_variant)
+function car_list_mod($conn, $arry_, $column, $filter, $asc = 'Modal' ){
+
+    //Limit Set
+    if ($limit == NULL) {
+        $limit = "";
+    } else {
+        $limit = "LIMIT $limit";
+    }
+
+    $arry_list = "'" . implode("','", $arry_) . "'";
+
+    $filter_list = implode(", ", $filter);
+
+    $slug_ = explode("/", $_SERVER['REQUEST_URI']);
+
+    array_pop($slug_);
+
+    $slug = end($slug_);
+
+
+    if ($asc == 'Price') {
+        $asc = "CASE WHEN Price REGEXP '^[0-9]' THEN 0 ELSE 1 END, CAST(REPLACE(Price, ',', '') AS UNSIGNED)";
+    }
+
+
+    $list_all = "SELECT yc_master.*, yc_modal.*, yc_engine.* FROM yc_master   
+    INNER JOIN yc_modal ON yc_master.Master_ID = yc_modal.Brand_ID 
+    INNER JOIN yc_engine ON yc_modal.Mod_ID = yc_engine.Modal_ID 
+    WHERE $column IN ($arry_list) AND yc_master.Location = 'UAE' AND yc_engine.Price != 'Discontinued' AND yc_modal.Status_Modal = 'Publish' AND yc_engine.Status = 'Publish' GROUP BY $filter_list ORDER BY $asc ASC $limit";
+
+    // echo $list_all;
+
+    $list_table_all = mysqli_query($conn, $list_all);
+
+    $list = mysqli_fetch_all($list_table_all, MYSQLI_ASSOC);
 
     return $list;
 }
@@ -184,6 +224,10 @@ function brand_logo($conn, $arry_, $limit){
         $limit = "";
     } else {
         $limit = "LIMIT $limit";
+    }
+
+    if(empty($arry_)){
+        return;
     }
 
     $arry_list = "'".implode("','", $arry_)."'";
@@ -278,7 +322,7 @@ function range_filter($all_modal, $related_data, $kmpl = false){
 function page_data($conn, $Slug){
 
     if($Slug == '') {
-        $url = 'home'; 
+        $url = 'home-uae'; 
     } else {
         $url = $Slug; 
     }
@@ -322,7 +366,7 @@ function page_title($conn, $slugs= ""){
         }
     }
 
-    if(in_array('knowledge-hub', $slugs)) {
+    if(in_array('car-news', $slugs)) {
 
         //All Post
         $post_data_all = "SELECT * FROM yc_post WHERE yc_post.Slug = '$url'";
@@ -748,7 +792,7 @@ function GetDataFor($conn,$tablename,$column,$value,$isString = false, $AND_OR =
     
     
     
-    // echo $sql;
+    echo $sql;
     $results = mysqli_query($conn, $sql);
 
     // print_r($results);

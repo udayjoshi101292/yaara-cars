@@ -1,9 +1,17 @@
 <?php require_once 'header.php' ?>
 
-<?php  include "components/page-submenu.php"; ?>
+<?php include "components/page-submenu.php"; ?>
 
-<?php $slug_spec = $car_slug;  array_pop($slug_spec); ?>
+<?php $slug_spec = $car_slug;
+array_pop($slug_spec); ?>
 
+<!-- Ads banner  -->
+<div class="ads_horizontal_wrap ad_wrapper mt-3">
+    <a href="#" class="ad_link">
+        <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
+    </a>
+</div>
+<!-- Ads banner END  -->
 
 <!-- Modal Gallery -->
 <?php include "components/top-section-modal-gallery.php" ?>
@@ -12,7 +20,7 @@
 
 <?php
 
-$car_data = car_list($conn, [end($slug_spec)],'Modal_Slug',['Variant'],'',true); 
+$car_data = car_list($conn, [end($slug_spec)], 'Modal_Slug', ['Variant'], '', true);
 $car_All = car_list($conn, [end($slug_spec)], 'Modal_Slug', ['Variant'], '', false);
 
 for ($i = 0; $i < count($car_data); $i++) {
@@ -31,7 +39,6 @@ $features_final_keys = feature($conn, $car_data);
 
 
 ?>
-
 
 
 <section class="section short-desc pb-4">
@@ -62,6 +69,7 @@ $features_final_keys = feature($conn, $car_data);
         </div>
     </div>
 </section>
+
 
 <!-- car info  -->
 <section class="spec-car-info">
@@ -98,7 +106,7 @@ $features_final_keys = feature($conn, $car_data);
         */ ?>
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-10">
                 <div class="row row_gap_25 my-3">
                     <h2 class="titles_h2">Specs - <?php echo $car_data['Brand'] . ' ' . $car_data['Modal'] . ' ' . $car_data['Year'] . ' ' . $car_data['Variant']; ?></h2>
                     <div class="col-md-6 ">
@@ -111,16 +119,16 @@ $features_final_keys = feature($conn, $car_data);
                                 </li>
                             <?php endif; ?>
 
-                                <li>
-                                    <p>Engine Capacity</p>
-                                    
-                                    <?php if ($car_data['Engine']) : ?>
-                                    <p><?php echo $car_data['Engine']; ?> liters</p>
-                                    <?php else: ?>
-                                        0.0
-                                    <?php endif; ?> 
+                            <li>
+                                <p>Engine Capacity</p>
 
-                                </li>
+                                <?php if ($car_data['Engine']) : ?>
+                                    <p><?php echo $car_data['Engine']; ?> liters</p>
+                                <?php else: ?>
+                                    0.0
+                                <?php endif; ?>
+
+                            </li>
 
                             <?php if ($car_data['Horsepower']) : ?>
                                 <li>
@@ -129,18 +137,18 @@ $features_final_keys = feature($conn, $car_data);
                                 </li>
                             <?php endif; ?>
 
-                                <li>
-                                    <p>Seating Capacity</p>
-                                    <p><?php
-                                    
-                                    if($car_data['Seating_Capacity']){
+                            <li>
+                                <p>Seating Capacity</p>
+                                <p><?php
+
+                                    if ($car_data['Seating_Capacity']) {
                                         echo $car_data['Seating_Capacity'];
                                     } else {
                                         echo "N/A";
                                     }
-                                    
+
                                     ?></p>
-                                </li>
+                            </li>
 
                             <?php if ($car_data['Trunk_Capacity']) : ?>
                                 <li>
@@ -175,16 +183,16 @@ $features_final_keys = feature($conn, $car_data);
                                     <p>Body Type</p>
                                     <p><?php echo $car_data['Body_Type']; ?></p>
                                 </li>
-                            <?php endif; ?>  
-                            
+                            <?php endif; ?>
+
                             <?php if ($car_data['Motor']) : ?>
                                 <li>
                                     <p>Motor</p>
                                     <p><?php echo $car_data['Motor']; ?></p>
                                 </li>
-                            <?php endif; ?>  
+                            <?php endif; ?>
 
-            
+
 
                         </ul>
                     </div>
@@ -198,32 +206,32 @@ $features_final_keys = feature($conn, $car_data);
                                 </li>
                             <?php endif; ?>
 
-                            
-                                <li>
-                                    <p>No. of Cylinders</p>
-                                    <p><?php 
-                                    
-                                    if($car_data['Cylinders']){
+
+                            <li>
+                                <p>No. of Cylinders</p>
+                                <p><?php
+
+                                    if ($car_data['Cylinders']) {
                                         echo $car_data['Cylinders'];
                                     } else {
                                         echo "N/A";
                                     }
-                                    
-                                    ?></p>
-                                </li>
 
-                                <li>
-                                    <p>Drive Type</p>
-                                    <p><?php 
-                                    
-                                    if($car_data['Drive_Type']){
+                                    ?></p>
+                            </li>
+
+                            <li>
+                                <p>Drive Type</p>
+                                <p><?php
+
+                                    if ($car_data['Drive_Type']) {
                                         echo $car_data['Drive_Type'];
                                     } else {
                                         echo "N/A";
                                     }
-                                    
+
                                     ?></p>
-                                </li>
+                            </li>
 
                             <?php if ($car_data['Torque']) : ?>
                                 <li>
@@ -261,57 +269,57 @@ $features_final_keys = feature($conn, $car_data);
                     <div class="col-md-6 ">
                         <ul class="custom_table_wrap">
 
-                                <li>
-                                    <p>Length (meters)</p>
-                                    <p><?php 
-                                    
-                                    if($car_data['Length']){
-                                        echo $car_data['Length'];
-                                    } 
-                                
-                                ?></p>
-                                </li>
+                            <li>
+                                <p>Length (meters)</p>
+                                <p><?php
 
-                                <li>
-                                    <p>Width (meters)</p>
-                                    <p><?php 
-                                    
-                                    if($car_data['Width']){
-                                        echo $car_data['Width']; 
+                                    if ($car_data['Length']) {
+                                        echo $car_data['Length'];
                                     }
 
                                     ?></p>
-                                </li>
+                            </li>
 
-                                <li>
-                                    <p>Height (meters)</p>
-                                    <p><?php 
-                                    if($car_data['Height']){
-                                    echo $car_data['Height'];
-                                    } ?></p>
-                                </li>
+                            <li>
+                                <p>Width (meters)</p>
+                                <p><?php
 
-                                <li>
-                                    <p>Wheelbase (meters)</p>
-                                    <p><?php 
-                                    
-                                    if($car_data['Wheelbase']){
-                                        echo $car_data['Wheelbase'];
-                                    } 
-                                    
+                                    if ($car_data['Width']) {
+                                        echo $car_data['Width'];
+                                    }
+
                                     ?></p>
-                                </li>
+                            </li>
+
+                            <li>
+                                <p>Height (meters)</p>
+                                <p><?php
+                                    if ($car_data['Height']) {
+                                        echo $car_data['Height'];
+                                    } ?></p>
+                            </li>
+
+                            <li>
+                                <p>Wheelbase (meters)</p>
+                                <p><?php
+
+                                    if ($car_data['Wheelbase']) {
+                                        echo $car_data['Wheelbase'];
+                                    }
+
+                                    ?></p>
+                            </li>
 
                             <?php if ($car_data['Trunk_Capacity']) : ?>
                                 <li>
                                     <p>Trunk Capacity (liters)</p>
-                                    <p><?php 
-                                   
-                                    if($car_data['Trunk_Capacity']){
-                                        echo $car_data['Trunk_Capacity']." Litres";
-                                    } ?> 
-                                    
-                                </p>
+                                    <p><?php
+
+                                        if ($car_data['Trunk_Capacity']) {
+                                            echo $car_data['Trunk_Capacity'] . " Litres";
+                                        } ?>
+
+                                    </p>
                                 </li>
                             <?php endif; ?>
                         </ul>
@@ -319,7 +327,7 @@ $features_final_keys = feature($conn, $car_data);
                 </div>
                 <div class="row my-3">
                     <h2 class="titles_h2">Features - <?php echo $car_data['Brand'] . ' ' . $car_data['Modal'] . ' ' . $car_data['Year'] . ' ' . $car_data['Variant']; ?></h2>
-                   
+
                     <div class="col-md-10">
                         <div class="custom_table_wrap">
                             <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -464,6 +472,15 @@ $features_final_keys = feature($conn, $car_data);
                     </div>
                 </div>
             </div>
+            <div class="col-md-2">
+                <!-- Ads banner  -->
+                <div class="ads_vertical_wrap ad_wrapper bg_ff_with_border">
+                    <a href="#" class="ad_link">
+                        <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
+                    </a>
+                </div>
+                <!-- Ads banner END  -->
+            </div>
         </div>
     </div>
 </section>
@@ -481,37 +498,39 @@ $features_final_keys = feature($conn, $car_data);
             <div class="col-lg-12 pt-4">
                 <div class="yc-gallery-wrap common_box_shadow">
                     <ul class="yc-gallery-list" id="yc-gallery-list">
-                        
-                    <?php 
 
-                        $file = "./assets/img/cars/".$car_data['Gallery'];
+                        <?php
 
-                        if(file_exists($file)){
-                            $dir = scandir('./assets/img/cars/'.$car_data['Gallery']);
-                            $gallery = array_diff(scandir('./assets/img/cars/'.$car_data['Gallery']), array('.', '..'));
+                        $file = "./assets/img/cars/" . $car_data['Gallery'];
+
+                        if (file_exists($file)) {
+                            $dir = scandir('./assets/img/cars/' . $car_data['Gallery']);
+                            $gallery = array_diff(scandir('./assets/img/cars/' . $car_data['Gallery']), array('.', '..'));
                         }
 
-                        usort($gallery, function($a, $b) {
+                        usort($gallery, function ($a, $b) {
                             // Extract the number between the last two underscores in the filename
-                           preg_match('/__(\d+)_/', $a, $aMatches);
-                           preg_match('/__(\d+)_/', $b, $bMatches);
-                           // Convert the extracted numbers to integers and compare
+                            preg_match('/__(\d+)_/', $a, $aMatches);
+                            preg_match('/__(\d+)_/', $b, $bMatches);
+                            // Convert the extracted numbers to integers and compare
                             return intval($aMatches[1]) - intval($bMatches[1]);
-                         });
+                        });
 
-                        foreach($gallery as $gal):
+                        foreach ($gallery as $gal):
                         ?>
 
-                        <li class="yc-gallery-item">
-                            <a href="<?php echo site_url().'/assets/img/cars/'.$car_data['Gallery'].'/'.$gal; ?>" data-lightbox="<?php echo $car_data['Brand_slug'].'-'.$car_data['Modal_Slug']; ?>">
-                                    <img src="<?php echo site_url().'/assets/img/cars/'.$car_data['Gallery'].'/'.$gal; ?>" alt="<?php echo $car_data['Brand'].' '.$car_data['Modal']; ?>" class="img-fluid">
-                            </a>
-                        </li>
+                            <li class="yc-gallery-item">
+                                <a href="<?php echo site_url() . '/assets/img/cars/' . $car_data['Gallery'] . '/' . $gal; ?>" data-lightbox="<?php echo $car_data['Brand_slug'] . '-' . $car_data['Modal_Slug']; ?>">
+                                    <img src="<?php echo site_url() . '/assets/img/cars/' . $car_data['Gallery'] . '/' . $gal; ?>" alt="<?php echo $car_data['Brand'] . ' ' . $car_data['Modal']; ?>" class="img-fluid">
+                                </a>
+                            </li>
                         <?php endforeach; ?>
 
                     </ul>
                     <div class="yc-gallery-caption">
-                        <a href="<?php echo site_url()."/".$car_data['Brand_Slug']."/".$car_data['Modal_Slug']."/images"; ?>"><p class="mb-0"><?php echo $car_data['Brand'] . ' ' . $car_data['Modal'] . ' ' . $car_data['Year']; ?> Images</p></a>
+                        <a href="<?php echo site_url() . "/" . $car_data['Brand_Slug'] . "/" . $car_data['Modal_Slug'] . "/images"; ?>">
+                            <p class="mb-0"><?php echo $car_data['Brand'] . ' ' . $car_data['Modal'] . ' ' . $car_data['Year']; ?> Images</p>
+                        </a>
                         <div class="yc-gallery-count-wrap"><img src="<?php site_url(); ?>/assets/img/photo_library.svg" alt=""> <span class="yc-gallery-count">0</span></div>
                     </div>
                 </div>
@@ -521,92 +540,94 @@ $features_final_keys = feature($conn, $car_data);
 </section>
 <!-- Price and Version End -->
 
-<?php $var__ = car_list($conn, [$car_data['Modal']], 'Modal',['Variant'],'',false, 'Modal', reset($car_slug)); if(count($var__) >= 2):  ?>
+<?php $var__ = car_list($conn, [$car_data['Modal']], 'Modal', ['Variant'], '', false, 'Modal', reset($car_slug));
+if (count($var__) >= 2):  ?>
 
-<!-- Cars carousel  --> 
-<section class="yc-cars my-5 single_car_carousel">
-    <div class="container my-4">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="titles_h2">
+    <!-- Cars carousel  -->
+    <section class="yc-cars my-5 single_car_carousel">
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titles_h2">
                         New <?php echo $car_data['Brand'] . ' ' . $car_data['Modal'] . ' ' . $car_data['Year']; ?> in <?php echo $car_data['Location']; ?>
-                </h2>
-                <div class="owl-carousel owl-theme cars-carousel">
+                    </h2>
+                    <div class="owl-carousel owl-theme cars-carousel">
 
-                <?php $arr = []; 
-                foreach($var__ as $car): 
-                    
-                    $gallery = car_thumbnail($car);
+                        <?php $arr = [];
+                        foreach ($var__ as $car):
 
-                    usort($gallery, function($a, $b) {
-                        // Extract the number between the last two underscores in the filename
-                       preg_match('/__(\d+)_/', $a, $aMatches);
-                       preg_match('/__(\d+)_/', $b, $bMatches);
-                       // Convert the extracted numbers to integers and compare
-                        return intval($aMatches[1]) - intval($bMatches[1]);
-                     });
+                            $gallery = car_thumbnail($car);
 
-                    if($car['Price'] != "DISCONTINUED" && $car['Price'] != "" && $car['Fuel_Economy'] != '' && $car['Transmission'] != '' && $car['Variant_Slug'] != $car_data['Variant_Slug']):
+                            usort($gallery, function ($a, $b) {
+                                // Extract the number between the last two underscores in the filename
+                                preg_match('/__(\d+)_/', $a, $aMatches);
+                                preg_match('/__(\d+)_/', $b, $bMatches);
+                                // Convert the extracted numbers to integers and compare
+                                return intval($aMatches[1]) - intval($bMatches[1]);
+                            });
 
-                        $arr[] = $car['Brand'];
-                    ?>
+                            if ($car['Price'] != "DISCONTINUED" && $car['Price'] != "" && $car['Fuel_Economy'] != '' && $car['Transmission'] != '' && $car['Variant_Slug'] != $car_data['Variant_Slug']):
 
-                    <!-- Car item -->
-                    <div class="item car-item common_box_shadow">
-                        <div class="car-mock">
-                        <a href="<?php echo site_url().'/'.$car['Brand_Slug'].'/'.$car['Modal_Slug'].'/'.$car['Variant_Slug']; ?>">
-                            <img src="<?php echo site_url().'/assets/img/cars/'.$car['Featured_Image'].'/'.reset($gallery); ?>" alt="<?php echo $car['Brand'].' '.$car['Modal']; ?>" class="img-fluid">
-                        </a>
-                        </div>
-                        <div class="yc-cars-details">
-                            <p class="mb-0">
-                                <a href="<?php echo site_url().'/'.$car['Brand_Slug'].'/'.$car['Modal_Slug'].'/'.$car['Variant_Slug']; ?>">
-                                    <?php echo $car['Brand'].' '.$car['Modal'].' '.$car['Variant'].' '.$car['Year']; ?>
-                                </a>
-                            </p>
-                            <h4>
-                                <?php 
-                                
-                                if($car['Price'] != "TBD"){
-                                    echo $car['Currency'].' '.$car['Price'];
-                                } else {
-                                    echo $car['Price'];
-                                }
-                                
-                                ?>
-                            </h4>
-                            <div class="car_info_button">
-                                <span class="d-flex"><?php echo $car['Fuel_Economy']; ?> KMPL ︱ <?php echo $car['Transmission']; ?> ︱ <?php echo $car['Year']; ?></span>
-                            </div>
-                        </div>
+                                $arr[] = $car['Brand'];
+                        ?>
+
+                                <!-- Car item -->
+                                <div class="item car-item common_box_shadow">
+                                    <div class="car-mock">
+                                        <a href="<?php echo site_url() . '/' . $car['Brand_Slug'] . '/' . $car['Modal_Slug'] . '/' . $car['Variant_Slug']; ?>">
+                                            <img src="<?php echo site_url() . '/assets/img/cars/' . $car['Featured_Image'] . '/' . reset($gallery); ?>" alt="<?php echo $car['Brand'] . ' ' . $car['Modal']; ?>" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="yc-cars-details">
+                                        <p class="mb-0">
+                                            <a href="<?php echo site_url() . '/' . $car['Brand_Slug'] . '/' . $car['Modal_Slug'] . '/' . $car['Variant_Slug']; ?>">
+                                                <?php echo $car['Brand'] . ' ' . $car['Modal'] . ' ' . $car['Variant'] . ' ' . $car['Year']; ?>
+                                            </a>
+                                        </p>
+                                        <h4>
+                                            <?php
+
+                                            if ($car['Price'] != "TBD") {
+                                                echo $car['Currency'] . ' ' . $car['Price'];
+                                            } else {
+                                                echo $car['Price'];
+                                            }
+
+                                            ?>
+                                        </h4>
+                                        <div class="car_info_button">
+                                            <span class="d-flex"><?php echo $car['Fuel_Economy']; ?> KMPL ︱ <?php echo $car['Transmission']; ?> ︱ <?php echo $car['Year']; ?></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Car item End -->
+
+                        <?php endif;
+                        endforeach;
+
+                        if (empty($arr)) {
+                            echo "<style>.single_car_carousel{display:none;}</style>";
+                        }
+                        ?>
+
                     </div>
-                    <!-- Car item End -->
-
-                <?php endif;  endforeach;  
-                
-                if(empty($arr)){ 
-                    echo "<style>.single_car_carousel{display:none;}</style>";
-                    } 
-                ?>    
-
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Cars carousel End  -->
+    </section>
+    <!-- Cars carousel End  -->
 <?php endif; ?>
 
 
 
 
-<!-- Blog section --> 
-<?php 
+<!-- Blog section -->
+<?php
 //Title Name blogs-inner.php
-$blog_title = "Latest ".$car_data['Brand']." News"; 
+$blog_title = "Latest " . $car_data['Brand'] . " News";
 //Brand Slug Refer blogs-inner.php
 $brand_post = $car_data['Brand'];
-include "components/blogs-inner.php"    
+include "components/blogs-inner.php"
 ?>
 <!-- Blog section -->
 

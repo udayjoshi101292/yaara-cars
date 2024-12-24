@@ -3,7 +3,6 @@
 <?php 
 
 
-
 $filter_val = str_replace("-cars","",end($car_slug)); 
 $pop_slug = $car_slug; array_pop($pop_slug);
 
@@ -70,6 +69,7 @@ if(in_array(end($car_slug), $filter_uri) && count($car_slug) == 2){ //Refer Rout
 
 <?php if(end($car_slug) == "popular-brands" && count($car_slug) == 1): ?>
 
+
 <!-- Popular Brands -->
 <section class="yc-cars py-5">
     <div class="container">
@@ -78,7 +78,7 @@ if(in_array(end($car_slug), $filter_uri) && count($car_slug) == 2){ //Refer Rout
                 <h1 class="titles_h2 mb-4 pb-3">
                 <?php echo $search_title; ?>
                 </h1>
-
+                
                 <div class="row">
 
                     <?php foreach (brand_logo($conn, $brand, 100) as $logo) : ?>
@@ -163,7 +163,7 @@ if(in_array(end($car_slug), $filter_uri) && count($car_slug) == 2){ //Refer Rout
                             <?php echo $search_title; ?>
                             </h1>
                             
-                            <div class="row">
+                             <div class="row">
                                 <div class="col-lg-12 col-md-12 mb-4">
                                     
                                     <div class="yc-page-desc">
@@ -322,7 +322,7 @@ if(in_array(end($car_slug), $filter_uri) && count($car_slug) == 2){ //Refer Rout
                                             <?php 
                                             
                                             if($modal['Price'] != "TBD"){
-                                                echo "<b>".$modal['Currency'].' '. $modal['Price']." </b><span>onwards<br>OTR Price</span>"; 
+                                                echo "<b>".$modal['Currency'].' '.$modal['Price']." </b><span>onwards<br>OTR Price</span>"; 
                                             } else {
                                                 echo "<b>".$modal['Price']."</b>"; 
                                             }

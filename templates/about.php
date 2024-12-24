@@ -21,7 +21,7 @@
         <div class="row my-3">
             <div class="short_about_us mt-3">
                 <div class="about_logo_wrap my-2">
-                    <img src="http://preprod.yaaracars.com/assets/img/yaara-logo.png" alt="logo">
+                    <img src="https://www.yaaracars.com/assets/img/yaara-logo.png" alt="logo">
                 </div>
                 <h5 class="short_about_title my-2">Accelerating Transformation in Mobility</h5>
                 <p class="mt-2">At YaaraCars, we're not just selling cars; we're redefining the automotive experience. Our mission? To revolutionize the road ahead. Since our ignition in early 2023, we've been fueled by a passion for innovation, propelling us to the forefront of the automotive industry.</p>
@@ -32,7 +32,7 @@
                 <div class="col-md-5 customer_col_1">
                     <div class="customer_journey customer_journey_left">
                         <div class="about_icon_wrap">
-                            <img src="http://preprod.yaaracars.com/assets/img/about-customor-icon.svg" alt="">
+                            <img src="https://www.yaaracars.com/assets/img/about-customor-icon.svg" alt="">
                         </div>
                         <div class="customer_title_wrap">
                             <h2 class="customer_title about_page_section_title">The Customer Journey</h2>
@@ -47,13 +47,13 @@
                 </div>
                 <div class="col-md-2 customer_col_2 about_wheel_col">
                     <div class="about-wheel-holder">
-                        <img src="http://preprod.yaaracars.com/assets/img/about-car-wheel.svg" alt="">
+                        <img src="https://www.yaaracars.com/assets/img/about-car-wheel.svg" alt="">
                     </div>
                 </div>
                 <div class="col-md-5 customer_col_3">
                     <div class="customer_journey customer_journey_right">
                         <div class="about_icon_wrap">
-                            <img src="http://preprod.yaaracars.com/assets/img/about_customor_icon-01.svg" alt="">
+                            <img src="https://www.yaaracars.com/assets/img/about_customor_icon-01.svg" alt="">
                         </div>
                         <div class="customer_title_wrap">
                             <h2 class="customer_title about_page_section_title">The Torque of Collaboration</h2>
@@ -71,7 +71,7 @@
         <div class="row my-4 our_pioneer d-none">
             <div class="col-md-12 d-flex justify-content-center">
                 <div class="pioneer_icon_wrap">
-                    <img src="http://preprod.yaaracars.com/assets/img/pioneer-icon.svg" alt="">
+                    <img src="https://www.yaaracars.com/assets/img/pioneer-icon.svg" alt="">
                 </div>
             </div>
             <div class="col-md-12 d-flex justify-content-center">
@@ -179,7 +179,7 @@
         <div class="row my-5">
             <div class="col-md-12 d-grid text-center justify-content-center">
                 <div class="pioneer_icon_wrap my-2">
-                    <img src="http://preprod.yaaracars.com/assets/img/revolution-icon.svg" alt="">
+                    <img src="https://www.yaaracars.com/assets/img/revolution-icon.svg" alt="">
                 </div>
                 <div class=" justify-content-center my-2">
                     <h2 class="about_page_section_title">Join the YaaraCars Revolution</h2>

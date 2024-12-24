@@ -7,7 +7,7 @@
  */
 
 include 'config.php';
-include 'yaara_fun.php';
+include 'functions.php';
 
 
 $SHOW__HOW__MUCH = 100;

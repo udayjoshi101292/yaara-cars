@@ -146,7 +146,52 @@ function car_list($conn, $arry_, $column, $filter, $limit = '', $single = false,
 
     return $list;
 }
+//Car list Data Parameters (connection, search, column_name, filter_search, limit, is_single_variant)
+function car_list_mod($conn, $arry_, $column, $filter, $asc = 'Modal' ){
 
+    //Limit Set
+    // if ($limit == NULL) {
+    //     $limit = "";
+    // } else {
+    //     $limit = "LIMIT $limit";
+    // }
+
+    $arry_list = "'" . implode("','", $arry_) . "'";
+
+    $filter_list = implode(", ", $filter);
+
+    $slug_ = explode("/", $_SERVER['REQUEST_URI']);
+
+    array_pop($slug_);
+
+    $slug = end($slug_);
+
+
+    if ($asc == 'Price') {
+        $asc = "CASE WHEN Price REGEXP '^[0-9]' THEN 0 ELSE 1 END, CAST(REPLACE(Price, ',', '') AS UNSIGNED)";
+    }
+
+
+    $list_all = "SELECT yc_master.*, yc_modal.*, yc_engine.* FROM yc_master   
+    INNER JOIN yc_modal ON yc_master.Master_ID = yc_modal.Brand_ID 
+    INNER JOIN yc_engine ON yc_modal.Mod_ID = yc_engine.Modal_ID 
+    WHERE $column IN ($arry_list) AND yc_engine.Price != 'Discontinued' AND yc_modal.Status_Modal = 'Publish' AND yc_engine.Status = 'Publish' GROUP BY $filter_list ORDER BY $asc ASC $limit";
+
+    $list_table_all = mysqli_query($conn, $list_all);
+
+    $list = mysqli_fetch_all($list_table_all, MYSQLI_ASSOC);
+
+    return $list;
+}
+// Get all home data 
+function all_home_data($conn, $location){
+    $data = "SELECT * FROM yc_pages WHERE Template = '$location'";
+    $data_all = mysqli_query($conn, $data);
+    $data_result = mysqli_fetch_all($data_all, MYSQLI_ASSOC);
+    $the_data = json_decode($data_result[0]['Content'], true);
+    return $the_data;
+
+}
 //Car Fitlers 
 function car_fitler($conn, $arry_, $column, $filter, $Brand_Slug = '', $limit = '', $asc = 'Modal'){
 
@@ -319,7 +364,7 @@ function page_title($conn, $slugs= ""){
         }
     }
 
-    if(in_array('knowledge-hub', $slugs) && count($slugs) == 2) {
+    if(in_array('car-news', $slugs) && count($slugs) == 2) {
 
         //All Post
         $post_data_all = "SELECT * FROM yc_post WHERE yc_post.Slug = '$url' OR yc_post.Brand_Slug = '$url'";
@@ -334,7 +379,7 @@ function page_title($conn, $slugs= ""){
                 
                 $title = $all_pages['Meta_Title'];          
             } else {
-                $title = $all_pages['Brand']." Knowledge Hub, Latest Updates, Launches | YaaraCars";  
+                $title = $all_pages['Brand']." Car News, Latest Updates, Launches | YaaraCars";  
             }
              
 
@@ -353,7 +398,7 @@ function page_title($conn, $slugs= ""){
             if($all_pages['Meta_Desc']){
                 $desc = $all_pages['Meta_Desc']; 
             } else {
-                $desc = "Get the latest ".$all_pages['Brand']." knowledge hub, new and upcoming launches, price updates, and other auto industry updates from YaaraCars."; 
+                $desc = "Get the latest ".$all_pages['Brand']." car news, new and upcoming launches, price updates, and other auto industry updates from YaaraCars."; 
             }
 
         } else {
