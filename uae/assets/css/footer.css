@@ -1,0 +1,47 @@
+.footer-top {
+    border-bottom: solid 1px #00000080;
+}
+
+.footer-widget h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.footer-widget ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 12px;
+
+    & li {
+        margin-bottom: 3px;
+    }
+}
+
+.footer-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.footer-icon-block-content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.footer-icon-block-content p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-icon-block {
+    display: flex;
+    align-items: center;
+
+    & img {
+        margin-right: 15px;
+    }
+}
