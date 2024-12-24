@@ -1,6 +1,6 @@
 <?php
 
-define('ROOT_URL', 'http://staging.yaaracars.com/uae');
+define('ROOT_URL', 'http://preprod.yaaracars.com/uae');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'u317526817_staging');
 define('DB_PASS', 'T3qDdLB[9T!l');
