@@ -1,10 +1,10 @@
 <?php
 
-define('ROOT_URL', 'http://staging.yaaracars.com');
+define('ROOT_URL', 'http://preprod.yaaracars.com');
 define('DB_HOST', 'localhost');
-define('DB_USER', 'u317526817_staging');
-define('DB_PASS', 'T3qDdLB[9T!l');
-define('DB_NAME', 'u317526817_staging');
+define('DB_USER', 'u317526817_yaaracars');
+define('DB_PASS', '[y?*~PZF0');
+define('DB_NAME', 'u317526817_yaaracars');
 
 
 // error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
@@ -22,7 +22,7 @@ function site_url($return = null){
 //Main Site
 
 function site_main(){
-    $site_main = 'http://staging.yaaracars.com';
+    $site_main = 'http://preprod.yaaracars.com';
     
     return $site_main;
 }

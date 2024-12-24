@@ -57,6 +57,29 @@
                 <div class="yc-logo yc-footer-logo">
                     <img src="<?php site_url(); ?>/assets/img/yaara-logo.png" alt="" class="img-fluid">
                 </div>
+                <style>
+                     .logo_desc {
+                         margin-top: 20px;
+                     }
+                     .logo_desc h4 {
+                         margin-bottom: 10px;
+                         font-weight: 700;
+                         font-size: 14px;
+                         text-transform: capitalize;
+                     }
+                     .logo_desc p{
+                        font-size: 12px;
+                        font-weight: 400;
+                     }
+                 </style>
+                 <div class="footer-widget logo_desc">
+                     <h4>YaaraCars, a Logi5 Company</h4>
+                     <p>
+                         Unit No: 303, Tiffany Towers, Plot No:<br>
+                         JLT-PH2-W2A, Jumeirah Lakes Towers<br>
+                         Dubai UAE
+                     </p>
+                 </div>
             </div>
 
             <div class="col-lg-2 col-md-2 footer-widget col-6 col-lg-0 col-md-0 mb-4">
@@ -81,7 +104,7 @@
                 <h4>NEWS & RESOURCES</h4>
                 <ul class="footer-menu">
                     <li class="footer-menu-item">
-                        <a href="<?php echo site_main(); ?>/car-news">News</a>
+                        <a href="<?php echo site_main(); ?>/knowledge-hub">News</a>
                     </li>
                     <!-- <li class="footer-menu-item">
                         <a href="<?php //site_url(); ?>/blogs">Blog</a>
@@ -192,9 +215,6 @@ all_img_tags.forEach(single_img => {
 
 
 <script src="<?php site_url(' '); ?>/assets/js/redirect-user.js?ver=<?php echo time();?>"></script>
-
-
-<script src="<?php site_url(); ?>/assets/js/pass.js"></script>
 
 
 </body>

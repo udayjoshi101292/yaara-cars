@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /assets/img/
+Sitemap: https://uae.yaaracars.com/sitemap.xml

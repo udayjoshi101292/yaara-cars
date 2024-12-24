@@ -1,136 +1,108 @@
 <?php require "header.php"; ?>
 
-<?php
+<?php 
 
-$all_post = get_post($conn, end($car_slug));
+    $all_post = get_post($conn, end($car_slug));
 
-$page_post = pagination_filter($all_post, 10);
-
+    $page_post = pagination_filter($all_post, 10); 
+                
 
 ?>
 
-<!-- Ads banner  -->
-<div class="ads_horizontal_wrap ad_wrapper mt-3">
-    <a href="#" class="ad_link">
-        <img src="https://staging.yaaracars.com/assets/img/horizontal_ad_img.png" alt="Ads">
-    </a>
-</div>
-<!-- Ads banner END  -->
-
 <section class="yc-news-listing-section pt-5" id="yc-news-listing">
-    <!-- Car Gallery -->
-    <section class="yc-news-listing variant top-section pb-5">
-        <div class="container py-lg-4 py-0">
-            <div class="row">
-                <h1 class="titles_h1 pb-4">
+<!-- Car Gallery -->
+<section class="yc-news-listing variant top-section pb-5">
+    <div class="container py-lg-4 py-0">
+        <div class="row">
+        <h1 class="titles_h1 pb-4"> 
+        
+        <?php 
+        
+        if($all_post[0]['Brand_Slug'] == end($car_slug)) {
+            echo $all_post[0]['Brand']." Knowledge Hub";
+        } else {
+            echo "Knowledge Hub";
+        };?>
 
-                    <?php
-
-                    if ($all_post[0]['Brand_Slug'] == end($car_slug)) {
-                        echo $all_post[0]['Brand'] . " Car News";
-                    } else {
-                        echo "Car News";
-                    }; ?>
-
-                </h1>
+        </h1>
                 <!-- News Listing  -->
-                <div class="col-lg-9 col-md-9 col-12 pe-lg-0 pe-3">
-                    <!-- Listing 1 -->
+            <div class="col-lg-9 col-md-9 col-12 pe-lg-0 pe-3">
+                <!-- Listing 1 -->
+                 
+            <?php
 
-                    <?php
-
-                    foreach ($page_post['range'] as $post):
+                 foreach ($page_post['range'] as $post):
 
                         // print_r($post);
-                        // var_dump($post);
-                    ?>
-                        <article class="news-listing-item p-3 mb-4">
-
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-12">
-                                    <a href="<?php echo site_main(); ?>/car-news/<?php echo $post['Slug']; ?>" class="news-blog-link">
-                                        <img class="img-fluid" src="<?php site_url(); ?>/assets/img/post/<?php echo $post['Image'] ?>" alt="<?php echo $post["Title"]; ?>">
+                    // var_dump($post);
+                 ?>
+                <article class="news-listing-item p-3 mb-4">
+                    
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                            <a href="<?php echo site_main();?>/knowledge-hub/<?php echo $post['Slug'] ; ?>" class="news-blog-link">
+                                <img class="img-fluid" src="<?php site_url(); ?>/assets/img/post/<?php echo $post['Image']?>" alt="<?php echo $post["Title"]; ?>">
+                            </a>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <h4 class="yc-h3-title two">
+                                    <a href="<?php echo site_main();?>/knowledge-hub/<?php echo $post['Slug'] ; ?>" class="news-blog-link">
+                                        <?php echo $post["Title"]; ?>
                                     </a>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-12">
-                                    <h4 class="yc-h3-title two">
-                                        <a href="<?php echo site_main(); ?>/car-news/<?php echo $post['Slug']; ?>" class="news-blog-link">
-                                            <?php echo $post["Title"]; ?>
-                                        </a>
-                                    </h4>
-                                    <div class="listing_blog_content">
-                                        <?php
+                                </h4>
+                                <div class="listing_blog_content">
+                                    <?php 
                                         if ($post['Excerpt']) {
                                             echo (substr(strip_tags($post['Excerpt']), 0, 100)) . '...';
                                         } else {
                                             // echo $post['Content'];
                                             echo (substr(strip_tags($post['Content']), 0, 100)) . '...';
                                         }
-
-                                        ?>
-                                    </div>
-                                    <p class="author-name">
-                                        <?php
-                                        echo "YaaraCars Team";
-                                        //echo $post["Author_ID"]; 
-                                        ?>
-                                    </p>
-                                    <p class="publish-date">
-                                        <?php
-                                        // echo $post["Date"]; 
-                                        $strData = $post["Date"];
-                                        $theDate = new DateTime($strData);
-                                        $formattedDate = $theDate->format('M j, Y');
-                                        echo $formattedDate;
-                                        ?>
-                                        <!-- Jun 3, 2024 -->
-                                    </p>
+                                    
+                                    ?>
                                 </div>
+                                <p class="author-name">
+                                    <?php 
+                                    echo "YaaraCars Team";
+                                    //echo $post["Author_ID"]; ?>
+                                </p>
+                                <p class="publish-date">
+                                    <?php 
+                                    // echo $post["Date"]; 
+                                    $strData = $post["Date"];
+                                    $theDate = new DateTime($strData);
+                                    $formattedDate = $theDate->format('M j, Y');
+                                    echo $formattedDate;
+                                    ?>
+                                    <!-- Jun 3, 2024 -->
+                                </p>
                             </div>
-                        </article>
+                        </div>
+                </article>
 
-                    <?php endforeach; ?>
-
-                    <!-- Pagination -->
-                    <div class="yc_pagination">
-                        <?php pagination($page_post); //Pagination 
-                        ?>
-                    </div>
-
+                <?php endforeach; ?>
+                
+                <!-- Pagination -->
+                <div class="yc_pagination">
+                        <?php pagination($page_post); //Pagination ?>
                 </div>
-                <!-- Carousel End -->
 
-                <!-- Trending Cars -->
-                <div class="col-lg-3 col-md-3 col-12">
-                    <div class="yc-posting-list">
-                        <?php $_quary = $_GET['ad-type'] ?>
-                        <?php if (empty($_quary)): ?>
-                            <!-- ads -->
-                            <div class="ads_long_wrap ad_wrapper mt-0 px-5">
-                                <a href="#" class="ad_link">
-                                    <img src="https://staging.yaaracars.com/assets/img/long_ads_img.png" alt="Ads">
-                                </a>
-                            </div>
-                            <!-- ad  -->
-                        <?php endif; ?>
-                        <?php include "components/side-bar-cars.php"; ?>
-                        <?php if (!empty($_quary)): ?>
-                            <!-- ads -->
-                            <div class="ads_boxed_wrap ad_wrapper mt-0">
-                                <a href="#" class="ad_link">
-                                    <img src="https://staging.yaaracars.com/assets/img/boxed_ads_img.png" alt="Ads">
-                                </a>
-                            </div>
-                        <?php endif; ?>
-                        <!-- ad  -->
-
-                    </div>
-                </div>
-                <!-- Trending Cars End -->
             </div>
+            <!-- Carousel End -->
+
+            <!-- Trending Cars -->
+            <div class="col-lg-3 col-md-3 col-12">
+                <div class="yc-posting-list">
+
+                    <?php include "components/side-bar-cars.php"; ?>
+
+                </div>
+            </div>
+            <!-- Trending Cars End -->
         </div>
-    </section>
-    <!-- Car Gallery End -->
+    </div>
+</section>
+<!-- Car Gallery End -->
 
 
-    <?php require "footer.php"; ?>
+ <?php require "footer.php"; ?>

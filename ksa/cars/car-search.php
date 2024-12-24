@@ -134,6 +134,99 @@ if(in_array('search', $car_slug) || count($car_slug) == 1) {
 
                                 </h2>
                             </div>
+                            
+                             <div class="col-lg-12">
+                                <div class="yc-page-desc pb-4">
+                
+                                    <div class="page_desc_text_">
+                                        
+                                       
+                                        <p>
+                                            In the <?php echo $car_list[0]['Location']; ?>, the four-wheeler market offers 
+                                            <?php  
+                                            
+                                                if(empty($range_brand)){
+                                                    echo count($range_filter);
+                                                } else {
+                                                    echo count($range_brand);
+                                                    
+                                                }   
+                                            ?>
+                                            new car models across various brands within the 
+                                            
+                                            <?php
+                                            
+                                            echo  $car_list[0]['Currency']." "; 
+                                            
+                                            if(count($slug_count) == 1) {
+                                                $min_ = reset($slug_count);
+                                                echo number_format($min);
+                                            } else {
+                                                $min_ = reset($slug_count);
+                                                $max_ = end($slug_count);
+                                                
+                                                echo number_format($min_)." to ".number_format($max_);
+                                            }
+                                            
+                                            ?>
+                                            
+                                            price range. The 
+                                            
+                                            <?php
+                                            
+                                              if(empty($range_brand)){
+                                                    $val =  reset($range_filter);
+                                                    echo $val['Brand']." ".$val['Modal'];
+                                                } else {
+                                                    $val = reset($range_brand);
+                                                    echo $val['Brand']." ".$val['Modal'];
+                                                    
+                                                }     
+                                            
+                                            ?> 
+                                            
+                                            starts at 
+                                            
+                                             <?php
+                                            
+                                              if(empty($range_brand)){
+                                                    $val =  reset($range_filter);
+                                                    echo $val['Currency']." ".$val['Price'];
+                                                } else {
+                                                    $val = reset($range_brand);
+                                                    echo $val['Currency']." ".$val['Price'];
+                                                    
+                                                }     
+                                            
+                                              ?> 
+                                            
+                                            , while the 
+                                            
+                                            <?php
+                                            
+                                              if(empty($range_brand)){
+                                                    $val =  end($range_filter);
+                                                    echo $val['Brand']." ".$val['Modal'];
+                                                } else {
+                                                    $val = end($range_brand);
+                                                    echo $val['Brand']." ".$val['Modal'];
+                                                    
+                                                }     
+                                            
+                                              ?> 
+                                            
+                                            sits at the higher end of this range. To learn more about these cars, including prices, variants, specifications, images, and mileage, simply select the model you're interested in from the options below.
+                                        </p>
+                                        
+                                        
+                                       
+                                    
+                                    </div>
+                                    
+                                    <!--<button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap"><img src="http://staging.yaaracars.com/uae/assets/img/red-down.svg" alt=""></span></button>-->
+                                
+                                </div>
+                            </div>
                             <!-- <div class="col-lg-3 col-md-3">
                                 <button class="btn btn-style-2 filter-btn">
                                     Filter by Price >

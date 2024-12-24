@@ -1,7 +1,7 @@
 <?php
 
 if ($car_slug[0] == null) {
-    $slug = 'car-news';
+    $slug = 'knowledge-hub';
 } elseif ($brand_post != null) {
     $slug = $brand_post;
 } else {
@@ -35,7 +35,7 @@ if (!empty($post_list)):
                     <!-- Blog 1 -->
                     <article class="blog-item col-lg-6 col-md-6 px-lg-4 mb-4">
                         <div class="single_blog_item ">
-                            <a href="<?php echo site_main() . "/car-news/" . $post['Slug']; ?>" id="yc_blog_card" class="row common_box_shadow">
+                            <a href="<?php echo site_main() . "/knowledge-hub/" . $post['Slug']; ?>" id="yc_blog_card" class="row common_box_shadow">
                                 <div class="col-lg-6 col-md-12 col-12 p-0">
                                     <img src="<?php echo site_main(); ?>/assets/img/post/<?php echo $post['Image']; ?>" alt="<?php echo $post['Title']; ?>" class="img-fluid img_width_100">
                                 </div>

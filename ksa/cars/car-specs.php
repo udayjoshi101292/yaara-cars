@@ -13,6 +13,8 @@
 <?php
 
 $car_data = car_list($conn, [end($slug_spec)],'Modal_Slug',['Variant'],'',true); 
+$car_All = car_list($conn, [end($slug_spec)], 'Modal_Slug', ['Variant'], '', false);
+
 
 for ($i = 0; $i < count($car_data); $i++) {
     // print_r($car_data);
@@ -30,6 +32,35 @@ $features_final_keys = feature($conn, $car_data);
 
 
 ?>
+
+<section class="section short-desc pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                
+                <div class="yc-page-desc">
+                
+                    <div class="page_desc_text_">
+                        
+                       
+                        
+                        <p>
+                            In <?php echo $car_data['Location']; ?>, the <?php echo $car_data['Brand']." ".$car_data['Modal']; ?> is powered by a <?php echo $car_data['Fuel_Type']; ?> engine and comes in <?php echo count($car_All); ?> variants. This <?php echo $car_data['Seating_Capacity']; ?>-seater <?php echo $car_data['Body_Type']; ?> is equipped with a <?php echo $car_data['Transmission']; ?> transmission. <?php echo $car_data['Brand']." ".$car_data['Modal']; ?> measures <?php echo $car_data['Length']; ?> meters in length, <?php echo $car_data['Width']; ?> meters in width, <?php echo $car_data['Height']; ?> meters in height, and has a wheelbase of <?php echo $car_data['Wheelbase']; ?> meters.
+                        </p>
+                        
+                        
+                       
+                    
+                    </div>
+                    
+                    <!--<button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap"><img src="http://staging.yaaracars.com/uae/assets/img/red-down.svg" alt=""></span></button>-->
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- car info  -->
 <section class="spec-car-info">

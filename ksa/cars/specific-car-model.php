@@ -33,6 +33,138 @@ $features_final_keys = feature($conn, $car_data);
 
 ?>
 
+<style>
+    
+    .single-car-desc {
+        padding-left: 1rem;
+        
+        & li {
+            margin-bottom:.5rem;
+        }
+        
+        & li::marker {
+            color:var(--theme-color-accent);
+        }
+    }
+    
+    
+    
+</style>
+
+<section class="section short-desc pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                
+                <div class="yc-page-desc">
+                
+                    <div class="page_desc_text">
+                        
+                       
+                        
+                        <ul class="single-car-desc">
+                            
+                            <?php if($car_data['Price'] == "TBD"): ?>
+                            <li>
+                                <b><?php echo $car_data['Brand']." ".$car_data['Modal']." ".$car_data['Variant']; ?> Price:</b> The <?php echo $car_data['Brand']." ".$car_data['Modal']." ".$car_data['Variant']; ?> price is not officially available.
+                            </li>
+                            <?php else: ?>
+                            
+                             <li>
+                                <b><?php echo $car_data['Brand']." ".$car_data['Modal']." ".$car_data['Variant']; ?> Price:</b> The <?php echo $car_data['Brand']." ".$car_data['Modal']." ".$car_data['Variant']; ?> is priced at <?php echo $car_data['Currency']." ".$car_data['Price']; ?>.
+                            </li>
+                            
+                            <?php endif; ?>
+                            
+                            <?php if($car_data['Fuel_Economy']): ?>
+                            <li>
+                                <b><?php echo $car_data['Brand']." ".$car_data['Modal']." ".$car_data['Variant']; ?> Mileage:</b> It delivers a mileage of <?php echo $car_data['Fuel_Economy']; ?> kmpl.
+                            </li>
+                            <?php endif; ?>
+                            
+                            <li><b><?php echo $car_data['Brand']." ".$car_data['Modal']." ".$car_data['Variant']; ?> Seating Capacity:</b> This variant offers seating for <?php $cap = explode(" ", $car_data['Seating_Capacity']); echo $cap[0]; ?> passengers.</li>
+                            
+                            <li><b><?php echo $car_data['Brand']." ".$car_data['Modal']." ".$car_data['Variant']; ?> Engine and Transmission:</b> The <?php echo $car_data['Variant']; ?> variant is equipped with a <?php echo $car_data['Fuel_Type']; ?> engine and <?php echo $car_data['Transmission']; ?> transmission</li>
+                            
+                            <li><b><?php echo $car_data['Modal']." ".$car_data['Variant']; ?> Features:</b> Inside, the <?php echo $car_data['Modal']." ".$car_data['Variant']; ?> features a 
+                            
+                            <span class="var-list">
+                                <?php
+                                 $fea = [];
+                                 $ext = [];
+                                 $saf = [];
+                             
+                                 foreach($features_final_keys as $list => $vals){
+                                     if($car_data[$list] == "Yes"){
+                                         $fea[] = $features_final_keys[$list]."<span>, </span>";
+                                     }
+                                 }
+                                 
+                                 
+                                 foreach(array_slice($fea, 0, 6) as $s){
+                                     echo $s;
+                                 }
+                                
+                                ?>
+                            </span>.
+                            
+                            </li>
+                            
+                            <li><b><?php echo $car_data['Brand']." ".$car_data['Modal']." ".$car_data['Variant']; ?> Exterior and Safety Features:</b> This <?php echo $car_data['Body_Type']; ?> boasts an 
+                            
+                            
+                            <span class="var-list">
+                                <?php
+                             
+                                 foreach($exterior_final_keys as $list => $vals){
+                                     if($car_data[$list] == "Yes"){
+                                         $ext[] = $exterior_final_keys[$list]."<span>, </span>";
+                                     }
+                                 }
+                                 
+                                 
+                                 foreach(array_slice($ext, 0, 6) as $s){
+                                     echo $s;
+                                 }
+                                
+                                ?>
+                            </span>. Its safety features include 
+                            
+                             <span class="var-list">
+                                <?php
+                             
+                                 foreach($safety_final_keys as $list => $vals){
+                                     if($car_data[$list] == "Yes"){
+                                         $saf[] = $safety_final_keys[$list]."<span>, </span>";
+                                     }
+                                 }
+                                 
+                                 
+                                 foreach(array_slice($saf, 0, 6) as $s){
+                                     echo $s;
+                                 }
+                                
+                                ?>
+                            </span>.
+                            
+                            </li>
+                            
+                        </ul>
+                        
+                        
+                       
+                    
+                    </div>
+                    
+                    <button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap"><img src="http://staging.yaaracars.com/uae/assets/img/red-down.svg" alt=""></span></button>
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- car info  -->
 <section class="spec-car-info">

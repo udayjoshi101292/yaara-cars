@@ -22,6 +22,12 @@ $last_ = end($car_modal);
 
 ?>
 
+<style>
+    
+    .titles_h3 {
+        font-size:1rem;
+    }
+</style>
 
 
 
@@ -115,6 +121,35 @@ $last_ = end($car_modal);
 <!-- Hyundai Car- Exter End -->
 
 <?php $gallery = car_thumbnail($car_modal[0]); ?>
+
+<section class="section short-desc pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                
+                <div class="yc-page-desc">
+                
+                    <div class="page_desc_text">
+                        
+                       
+                        
+                        <p>
+                           Take a look at the latest images of the <?php echo $first_['Year']." ".$first_['Brand']." ".$first_['Modal']; ?>. Explore all <?php echo count($gallery); ?> photos, including front and rear views, side and top angles, and more of the <?php echo $first_['Modal']; ?>.
+                        </p>
+                        
+                        
+                       
+                    
+                    </div>
+                    
+                    <!--<button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap"><img src="http://staging.yaaracars.com/uae/assets/img/red-down.svg" alt=""></span></button>-->
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Car Gallery -->
 <section class="yc-single-gallery variant top-section pb-5">

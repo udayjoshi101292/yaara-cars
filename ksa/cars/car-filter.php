@@ -162,6 +162,122 @@ if(in_array(end($car_slug), $filter_uri) && count($car_slug) == 2){ //Refer Rout
                             <h1 class="titles_h2 ">
                             <?php echo $search_title; ?>
                             </h1>
+                            
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 mb-4">
+                                    
+                                    <div class="yc-page-desc">
+                                    
+                                        <div class="page_desc_text">
+                                            
+                                            
+                                            <?php   
+                                            
+                                            
+                                            $car_arr = [];
+                                            
+                                            foreach($brand_data as $da){
+                                                if($da['Price'] != 'TBD'){
+                                                    $car_arr[] = str_replace(',','', $da['Price']);
+                                                }
+                                            }
+                                            
+                                            sort($car_arr);
+                                            
+                                             $min = reset($car_arr);
+                                             $max = end($car_arr);
+                                             $val = reset($brand_data);
+                                             $val_f = reset($brand_data);
+                                             $val_l = end($brand_data);
+                                             
+                                    
+                                            
+                                            if(in_array(end($car_slug), $fuel_uri)): 
+                                            
+                                            ?>
+                                            <p>
+                                                When you're on a budget or aiming to make a wise investment by opting for a 
+                                                
+                                                <?php
+                                               
+                                                
+                                                echo $val['Fuel_Type'];
+                                                
+                                                ?>
+                                                
+                                                car, it's essential to take various factors into account beyond just the price. While the cost is an important consideration, other aspects such as fuel efficiency, maintenance costs, performance, and the car’s overall features should also influence your decision. In the UAE, there are 
+                                                
+                                                <?php echo count($brand_data)." ".$val['Fuel_Type']; ?>
+                                                
+                                                
+                                                cars available, starting from as low as 
+                                                
+                                                <?php
+                                                
+                                                
+                                                echo $val['Currency']." ".number_format($min);
+                                                
+                                                ?>. To get a closer look at the prices, specifications, features, and other details of these 
+                                                
+                                                <?php
+                                                
+                                                
+                                                echo $val['Fuel_Type'];
+                                                
+                                                ?>
+                                                
+                                                cars, feel free to explore the options we’ve compiled for you.
+                                            </p>
+                                            <?php elseif(in_array(end($car_slug), $filter_uri)): ?>
+                                            <p>
+                                               Looking for <?php echo $val['Transmission']; ?> car or browsing the latest models in the <?php echo $val['Location']; ?>? Our updated list has you covered!
+                                               
+                                               <?php echo $val['Transmission']; ?>
+                                               
+                                               car prices range from 
+                                               
+                                                <?php echo $val_f['Currency']." ".number_format($min); ?>
+                                               
+                                               to 
+                                               
+                                                <?php echo $val_l['Currency']." ".number_format($max); ?>
+                                               
+                                               . Explore top 
+                                               
+                                                <?php echo $val_f['Transmission']; ?>
+                                               
+                                               cars from leading brands, complete with up-to-date details on prices, variants, specifications, images, and mileage.
+                                            </p>
+                                            
+                                            <?php elseif(in_array(end($car_slug), $body_uri)): ?>
+                                            <p>
+                                               Are you thinking about buying a 
+                                               
+                                               <?php echo $val['Body_Type']; ?>? 
+                                               
+                                               With so many options in the market, finding the right fit for your needs and budget can be challenging. In the 
+                                               
+                                               <?php echo $val['Location']; ?>
+                                               
+                                               market, there are <?php echo count($brand_data)." ".$val['Body_Type']; ?> options to choose from. The most affordable 
+                                               
+                                              <?php echo $val['Body_Type']; ?>
+                                               
+                                               is the <?php echo $val_f['Brand']." ".$val_f['Make']; ?>, priced at <?php echo $val_f['Currency']." ".$val_f['Price']; ?>, while the luxurious <?php echo $val_l['Brand']." ".$val_l['Make']; ?> sits at the top end with a starting price of <?php echo $val_l['Currency']." ".$val_l['Price']; ?>. To make things easier, we’ve compiled a list of <?php echo $val['Body_Type']; ?>s to consider in <?php echo $val['Location']; ?>, with detailed information on prices, variants, specifications, images, and mileage.
+                                            </p>
+                                            
+                                            <?php endif; ?>
+                                            
+                                           
+                                        
+                                        </div>
+                                        
+                                        <button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap"><img src="http://staging.yaaracars.com/uae/assets/img/red-down.svg" alt=""></span></button>
+                                    
+                                    </div>
+                                    
+                                </div>
+                            </div>
 
                             <div class="yc-car-inventory-wrap d-grid gap_25" data-aos="fade-right"  data-aos-offset="200" data-aos-duration="1000">
 

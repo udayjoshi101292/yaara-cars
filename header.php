@@ -4,19 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-        body{
-            display: none;
-        }
-    </style>
 
     <?php $meta = page_title($conn, $car_slug); ?>
-
+    <?php $content = strip_tags($meta['pages']['Content']);?>
+    <?php $fallbackdesc =  substr($content, 0 , 100); ?>
     <?php
+
+
     $title = null;
     $metaDesc = null;
-    if (array_key_exists('page', $_GET) && !empty($_GET['page']) && strpos($_SERVER['SCRIPT_URI'], 'car-news') !== 0) {
+    if (array_key_exists('page', $_GET) && !empty($_GET['page']) && strpos($_SERVER['SCRIPT_URI'], 'knowledge-hub') !== 0) {
 
         $page = $_GET['page'];
 
@@ -25,13 +22,21 @@
     }
 
     $title .= $meta['title'];
-    $metaDesc .= $meta['desc'];
+    $metaDesc .= trim($meta['desc']);
+
+    // var_dump($metaDesc);
+        if(empty(trim($meta['desc'])) &&  !empty($fallbackdesc)){
+            $metaDesc .= $fallbackdesc .'...';
+        }
+
     ?>
 
+   
     <title><?php echo $title; ?></title>
-    <!--<meta name="robots" content="index, follow">-->
-    <meta name="robots" content="noindex,nofollow" />
-
+    
+    
+    <!-- <meta name="robots" content="index, follow"> -->
+    <meta name="robots" content="noindex, nofollow">
 
 
     <meta name="title" content="<?php echo $title; ?>">
@@ -52,7 +57,38 @@
 
     <meta property="og:url" content="<?php echo site_url() . $_SERVER['REQUEST_URI']; ?>">
 
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M6F9XCB3');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16713074057">
+    </script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'AW-16713074057');
+    </script>
+    
+    <?php if($_404 != true): ?>
     <link rel="canonical" href="<?php  echo site_url().$_SERVER['REQUEST_URI']; ?>" />
+    <?php endif; ?>
 
     <link rel="icon" type="image/x-icon" href="<?php site_url(); ?>/assets/img/favicon.ico">
 
@@ -91,17 +127,16 @@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
     
- <!-- ads css  -->
-<link rel="stylesheet" href="https://staging.yaaracars.com/ads-styling.css">
-
-
-                                       
 
 </head>
 
 <body>
 
- 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6F9XCB3"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Header -->
     <header class="yc-header" id="yc-header">
 
@@ -135,7 +170,7 @@
 
                                 <li class="yc-top-list-items">
                                     <img src="<?php site_url(); ?>/assets/img/breaking_news.svg" alt="" class="img-fuild">
-                                    <a href="<?php site_url(); ?>/car-news">News & Resources</a>
+                                    <a href="<?php site_url(); ?>/knowledge-hub">News & Resources</a>
                                 </li>
                             </ul>
                         </div>
@@ -150,7 +185,7 @@
                                 <a href="<?php site_url(); ?>/about" target="">About </a>
                             </li>
                             <li class="yc-nav-items">
-                                <a href="<?php site_url(); ?>/car-news" target="">News </a>
+                                <a href="<?php site_url(); ?>/knowledge-hub" target="">News </a>
                             </li>
                             <li class="yc-nav-items">
                                 <a href="<?php site_url(); ?>/advertise-with-us" target="">Advertise With Us </a>
@@ -192,7 +227,7 @@
                             <a href="<?php site_url(); ?>/about" target="">About </a>
                         </li>
                         <li class="yc-nav-items">
-                            <a href="<?php site_url(); ?>/car-news" target="">News </a>
+                            <a href="<?php site_url(); ?>/knowledge-hub" target="">News </a>
                         </li>
                         <li class="yc-nav-items">
                             <a href="<?php site_url(); ?>/advertise-with-us" target="">Advertise With Us </a>

@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> <?php //echo page_title($conn, $car_slug)  ?> <?php echo $meta_title ;?> </title>
-    <!--<meta name="robots" content="index, follow">-->
-    <meta name="robots" content="noindex,nofollow" />
+    <meta name="robots" content="index, follow">
     <meta name="title" content="<?php echo $meta_title ;?>">
     <meta name="description" content="<?php echo $meta_desc ;?>">
     <meta property="og:title" content="<?php echo $meta_title ;?>">
@@ -14,14 +13,41 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="YaaraCars">
     <meta property="og:url" content="<?php  echo site_url().$_SERVER['REQUEST_URI']; ?>">
-    <link rel="canonical" href="<?php  echo site_url().$_SERVER['REQUEST_URI']; ?>" />
     
+    
+    <?php if($_404 != true): ?>
+    <link rel="canonical" href="<?php  echo site_url().$_SERVER['REQUEST_URI']; ?>" />
+    <?php endif; ?>
+
     <style>
         body{
             display: none;
         }
     </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16713074057">
+    </script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'AW-16713074057');
+    </script>
 
+    <!-- Google Tag Manager -->
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-M5CQQR3J');</script>
+
+    <!-- End Google Tag Manager -->
 
     <link rel="icon" type="image/x-icon" href="<?php site_url(); ?>/assets/img/favicon.ico">
 
@@ -62,7 +88,13 @@
 </head>
 <body>
 
+<!-- Google Tag Manager (noscript) -->
 
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5CQQR3J"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- Header -->
 <header class="yc-header" id="yc-header">
@@ -109,7 +141,7 @@
                                 
                                 <li class="yc-top-list-items">
                                     <img src="<?php site_url(); ?>/assets/img/breaking_news.svg" alt="" class="img-fuild">
-                                    <a href="<?php echo site_main(); ?>/car-news">News & Resources</a>
+                                    <a href="<?php echo site_main(); ?>/knowledge-hub">News & Resources</a>
                                     <!-- <span class="yc-icon"><img src="<?php site_url(); ?>/assets/img/down-arrow.svg" alt="" class="img-fuild"></span> -->
                                 </li>
 

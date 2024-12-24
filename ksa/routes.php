@@ -3,7 +3,7 @@
 
 require_once 'config.php';
 require_once 'car-data.php'; 
-include 'functions.php';
+include 'yaara_fun.php';
 
 session_start();
 
@@ -14,9 +14,9 @@ $uri = $route;
 
 //Static Pages
 $all_routes = [
-    "/ksa" => 'front-page.php',
+    "$site" => 'front-page.php',
     // '/admin' => 'login.php',
-    '/ksa/car-prices' => 'cars/car-filter.php',
+    '/car-prices' => 'cars/car-filter.php',
     // '/make-price' => 'cars/make-price.php',
     // '/test' => 'test.php'
 ];
@@ -32,7 +32,7 @@ $body = [];
 $post_slug = [];
 $post_brand = [];
 
-foreach(get_post($conn, 'car-news') as $post_data){
+foreach(get_post($conn, 'knowledge-hub') as $post_data){
     $post_slug[] = $post_data['Slug'];
     $post_brand[] = url_slug($post_data['Brand']);
 }
@@ -87,24 +87,28 @@ if (array_key_exists('page', $_GET) && !empty($_GET['page'])) {
 if(array_key_exists($uri, $all_routes) || $uri == "") {
     $brandloc = $car_list[0]['Location'];
     $meta_title = "New Cars in $brandloc - 2024 Prices, Specs | YaaraCars";
-    $meta_desc = "Looking to buy a New Car in $brandloc - Find the updated 2024 Car prices, and specifications with exciting offers. View latest car news, images and videos at YaaraCars.";
+    $meta_desc = "Looking to buy a New Car in $brandloc - Find the updated 2024 Car prices, and specifications with exciting offers. View latest knowledge hub, images and videos at YaaraCars.";
     require $all_routes[$uri];
 }
 
 elseif(in_array(end($car_slug), $variant_uri) && count($car_slug) == 3){
     $x = $car_slug; 
     array_pop($x);
-    $brand = car_list($conn,[end($x)],'Modal_Slug',['Brand','Modal']);
-    $brandloc = $brand[0]['Location'];
-    $brandNameModel = $brand[0]['Brand'] ." ". $brand[0]['Modal'];
-    $brandmodel = $brand[0]['Modal'];
-    $brandvariant = $brand[0]['Variant'];
+     $brand = car_list($conn, [end($car_slug)],'Variant_Slug',['Variant'],'',true, 'Price', reset($car_slug)); 
+    $brandloc = $brand['Location'];
+    $brandNameModel = $brand['Brand'] ." ". $brand['Modal'];
+    $brandmodel = $brand['Modal'];
+    $brandvariant = $brand['Variant'];
     $meta_title = "$brandNameModel $brandvariant Price, Specs, Images | YaaraCars";
     $meta_desc = "Get $brandNameModel $brandvariant 2024 Car Price in $brandloc. View $brandmodel $brandvariant features, specs, images, mileage, and colours at YaaraCars.";
-    $image_list = car_thumbnail(reset($brand)); 
-    $image_url = site_url('')."/assets/img/cars/".$brand[0]['Featured_Image']."/".reset($image_list);
+    $image_list = car_thumbnail($brand); 
+    $image_url = site_url('')."/assets/img/cars/".$brand['Featured_Image']."/".reset($image_list);
     
-    require 'cars/specific-car-model.php'; //Single Variant Page/specidifc car model   
+    if($brand['Modal_Slug'] == $car_slug[1]){
+        require 'cars/specific-car-model.php'; //Single Variant Page/specidifc car model  
+    } else {
+        require '404.php';
+    }
 }
 
 elseif(in_array(end($car_slug), $filter_uri) && count($car_slug) == 2){
@@ -485,5 +489,7 @@ elseif (in_array($car_slug[0], $brand_uri) && count($car_slug) === 2 && strcasec
 //     require 'templates/about.php'; 
 // }
 else {
+    
+    $_404 = true;
     require '404.php';
 }

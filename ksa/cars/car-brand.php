@@ -223,11 +223,11 @@
         <?php foreach($brand_post as $post): ?>
             <div class="col-md-4 mb-lg-0 my-md-0 my-4" data-aos="fade-right"  data-aos-offset="300" data-aos-duration="1000">
                 <div class="news_wrap common_box_shadow">
-                    <a href="<?php echo site_main().'/car-news/'.$post['Slug'];?>" class="new_img_holder">
+                    <a href="<?php echo site_main().'/knowledge-hub/'.$post['Slug'];?>" class="new_img_holder">
                         <img src="<?php echo site_main(); ?>/assets/img/post/<?php echo $post['Image']; ?>" alt="<?php echo $post['Title']; ?>" class="img-fluid img_width_100">
                     </a>
                     <div class="news_desc">
-                        <a href="<?php echo site_main().'/car-news/'.$post['Slug'];?>">
+                        <a href="<?php echo site_main().'/knowledge-hub/'.$post['Slug'];?>">
                             <h5><strong><?php echo $post['Title']; ?></strong></h5>
                         </a>
                         <div class="blog-content">
@@ -241,7 +241,7 @@
                             ?>       
 
                         </div>
-                        <div class="read_more"><a href="<?php echo site_main().'/car-news/'.$post['Slug'];?>">Read More</a></div>
+                        <div class="read_more"><a href="<?php echo site_main().'/knowledge-hub/'.$post['Slug'];?>">Read More</a></div>
                     </div>
                 </div>
             </div>

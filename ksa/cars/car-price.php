@@ -25,6 +25,41 @@ $last_ = end($car_modal);
     </div>
 </section>
 
+<section class="section short-desc">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                
+                <div class="yc-page-desc">
+                
+                    <div class="page_desc_text_">
+                        
+                        <?php if($first_['Price'] == "TBD"): ?>
+                        
+                         <p>
+                            The <?php echo $first_['Brand']." ".$first_['Modal']; ?> price is not officially available in <?php echo $first_['Location']; ?>. <?php echo $first_['Brand']." ".$first_['Modal']; ?> is available in <?php echo count($car_modal); ?> variants in the <?php echo $first_['Location']; ?>, check out variant details below.
+                        </p>
+                       
+                        <?php else: ?>
+                        <p>
+                            The <?php echo $first_['Brand']." ".$first_['Modal']; ?> in the <?php echo $first_['Location']; ?> is priced starting from <?php echo $first_['Currency']." ".$first_['Price']; ?> for the base model, with the top-end <?php echo $last_['Modal']." ".$last_['Variant']; ?> variant available at <?php echo $last_['Currency']." ".$last_['Price']; ?>. <?php echo $first_['Brand']." ".$first_['Modal']; ?> is available in <?php echo count($car_modal); ?> variants in the <?php echo $first_['Location']; ?>. Check out the detailed price list for each variant of the <?php echo $first_['Brand']." ".$first_['Modal']; ?>.
+                        </p>
+                        
+                        <?php endif; ?>
+                        
+                       
+                    
+                    </div>
+                    
+                    <!--<button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap"><img src="http://staging.yaaracars.com/uae/assets/img/red-down.svg" alt=""></span></button>-->
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="yc-car-price-table py-5">
     <div class="container">

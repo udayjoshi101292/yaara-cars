@@ -115,6 +115,129 @@ $last_ = end($car_modal);
 
 <!-- Hyundai Car- Exter End -->
 
+<section class="section short-desc pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                
+                <div class="yc-page-desc">
+                
+                    <div class="page_desc_text_">
+                        
+                        <?php if($first_['Price'] == "TBD"): ?>
+                        
+                         <p>
+                            The <?php echo $first_['Brand']." ".$first_['Modal']; ?> is available in <?php echo count($car_modal); ?> variants: 
+                            
+                            
+                            <span class="var-list">
+                            <?php foreach($car_modal as $v): ?>
+                                    <?php echo $v['Variant']."<span>,</span>"; ?>
+                            <?php endforeach; ?>
+                             </span>. This <?php echo $first_['Seating_Capacity']; ?> <?php echo $first_['Body_Type']; ?> comes with a 
+                            
+                             <?php 
+                            
+                            $ful_arry = []; 
+                            
+                            foreach($car_modal as $ful){
+                                $ful_arry[] = $ful['Fuel_Type'];
+                            }; 
+                            
+                            echo "<span class='var-list'>";
+                            foreach(array_unique($ful_arry) as $f){
+                                echo $f."<span>,</span>";
+                            }
+                            echo "</span>";
+                          
+                            ?>
+
+                            engine and 
+                            
+                            <?php 
+                            
+                            $eng_arry = [];
+                            
+                            foreach($car_modal as $eng){
+                                $eng_arry[] = $eng['Transmission'];
+                            }; 
+                            
+                            echo "<span class='var-list'>";
+                            foreach(array_unique($eng_arry) as $e){
+                                echo $e."<span>,</span>";
+                            }
+                            echo "</span>";
+                          
+                            ?>
+                            
+                            transmission options.
+                        </p>
+                       
+                        <?php else: ?>
+                        <p>
+                            The <?php echo $first_['Brand']." ".$first_['Modal']; ?> is available in <?php echo count($car_modal); ?> variants: 
+                            
+                             <span class="var-list">
+                            <?php foreach($car_modal as $v): ?>
+                                    <?php echo $v['Variant']."<span>,</span>"; ?>
+                            <?php endforeach; ?>
+                             </span>
+                            
+                            . The base model, the <?php echo $first_['Variant']; ?>, is priced at <?php echo $first_['Currency']." ".$first_['Price']; ?>, while the top-tier <?php echo $last_['Brand']." ".$last_['Modal']." ".$last_['Variant']; ?> is priced at <?php echo $last_['Currency']." ".$last_['Price']; ?>. This <?php echo $first_['Seating_Capacity']; ?> <?php echo $first_['Body_Type']; ?> comes with a 
+                            
+                            
+                            <?php 
+                            
+                            $ful_arry = []; 
+                            
+                            foreach($car_modal as $ful){
+                                $ful_arry[] = $ful['Fuel_Type'];
+                            }; 
+                            
+                            echo "<span class='var-list'>";
+                            foreach(array_unique($ful_arry) as $f){
+                                echo $f."<span>,</span>";
+                            }
+                            echo "</span>";
+                          
+                            ?>
+
+                            engine and 
+                            
+                            <?php 
+                            
+                            $eng_arry = [];
+                            
+                            foreach($car_modal as $eng){
+                                $eng_arry[] = $eng['Transmission'];
+                            }; 
+                            
+                            echo "<span class='var-list'>";
+                            foreach(array_unique($eng_arry) as $e){
+                                echo $e."<span>,</span>";
+                            }
+                            echo "</span>";
+                          
+                            ?>
+                            
+                            transmission options.
+                        </p>
+                        
+                        <?php endif; ?>
+                        
+                       
+                    
+                    </div>
+                    
+                    <!--<button class="yc_read_more_1 mt-2 read_more_button"><span class="readmore_text">Read More</span> <span class="read_more_img_wrap"><img src="http://staging.yaaracars.com/uae/assets/img/red-down.svg" alt=""></span></button>-->
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Car Version List -->
 <section class="yc-car-price-table variant pb-5">
     <div class="container">

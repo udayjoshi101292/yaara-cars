@@ -59,7 +59,7 @@ foreach($car_pirce as $bu) {
     $car_uri[] = site_url(' ')."/".$bu;
 }
 
-$brand_unique = [ site_url(' '), ...$filter_uri, ...$fuel_uri, ...$body_uri, ...$car_uri];
+$brand_unique = [ site_url(' '), ...$filter_uri, ...$fuel_uri, ...$body_uri, ...$car_uri,'https://uae.yaaracars.com/find-new-cars'];
 
 
 // sitemap one for blogs
