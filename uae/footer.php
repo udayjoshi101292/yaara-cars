@@ -143,16 +143,17 @@
                         <li><a href="#"><img src="<?php site_url(); ?>/assets/img/insta.svg" alt=""></a></li>
                         <li><a href="#"><img src="<?php site_url(); ?>/assets/img/youtube.svg" alt=""></a></li>
                         <li><a href="#"><img src="<?php site_url(); ?>/assets/img/linkedin.svg" alt=""></a></li>
-                    </ul>
+                        </ul>
                 </div>
-            </div>
+                </div>
             */ ?>
 
         </div>
         <!-- Footer Bottom End -->
-
+        
     </div>
- </footer>
+</footer>
+    <script src="<?php site_url(); ?>/assets/js/pass.js"></script>
 
      <!-- bootstrap -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
