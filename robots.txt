@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /staging.yaaracars.com/
+Disallow: /preprod.yaaracars.com/
+Disallow: /assets/img/
+Sitemap: https://www.yaaracars.com/sitemap.xml

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/main-category-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/make-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/model-all-variants-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/model-images-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/model-price-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/model-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/model-specs-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/variant-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ksa.yaaracars.com/make-prices-sitemap.xml</loc>
+		<lastmod>2024-08-28T17:49:28+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /assets/img/
+Sitemap: https://ksa.yaaracars.com/sitemap.xml
