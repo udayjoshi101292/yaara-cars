@@ -126,7 +126,7 @@ else {
 
 
 
-    IfCookieIsSetMoveToSite(CheckCookieExists);
+    // IfCookieIsSetMoveToSite(CheckCookieExists);
 
 
 }
